@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tao Lu | Maomao Hu</title>
-    <link>/author/tao-lu/</link>
-      <atom:link href="/author/tao-lu/index.xml" rel="self" type="application/rss+xml" />
+    <title>Tao Lu | Academic</title>
+    <link>https://maomaohu.net/author/tao-lu/</link>
+      <atom:link href="https://maomaohu.net/author/tao-lu/index.xml" rel="self" type="application/rss+xml" />
     <description>Tao Lu</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Maomao Hu</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://maomaohu.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Tao Lu</title>
-      <link>/author/tao-lu/</link>
+      <link>https://maomaohu.net/author/tao-lu/</link>
     </image>
     
     <item>
       <title>Performance analysis of absorption thermal energy storage for distributed energy systems</title>
-      <link>/publication/conference_paper/rn-941/</link>
+      <link>https://maomaohu.net/publication/conference_paper/rn-941/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/conference_paper/rn-941/</guid>
+      <guid>https://maomaohu.net/publication/conference_paper/rn-941/</guid>
       <description></description>
     </item>
     

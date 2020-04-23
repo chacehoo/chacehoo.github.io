@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jiayuan Wang | Maomao Hu</title>
-    <link>/author/jiayuan-wang/</link>
-      <atom:link href="/author/jiayuan-wang/index.xml" rel="self" type="application/rss+xml" />
+    <title>Jiayuan Wang | Academic</title>
+    <link>https://maomaohu.net/author/jiayuan-wang/</link>
+      <atom:link href="https://maomaohu.net/author/jiayuan-wang/index.xml" rel="self" type="application/rss+xml" />
     <description>Jiayuan Wang</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Maomao Hu</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://maomaohu.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Jiayuan Wang</title>
-      <link>/author/jiayuan-wang/</link>
+      <link>https://maomaohu.net/author/jiayuan-wang/</link>
     </image>
     
     <item>
       <title>A model-based control strategy to recover cooling energy from thermal mass in commercial buildings</title>
-      <link>/publication/journal_paper/rn-927/</link>
+      <link>https://maomaohu.net/publication/journal_paper/rn-927/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/journal_paper/rn-927/</guid>
+      <guid>https://maomaohu.net/publication/journal_paper/rn-927/</guid>
       <description></description>
     </item>
     
