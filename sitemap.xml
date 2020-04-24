@@ -3,7 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://maomaohu.net/tag/aggregation/</loc>
+    <lastmod>2020-03-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://maomaohu.net/project/3_amidine/</loc>
+    <lastmod>2020-03-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maomaohu.net/tag/building-clusters/</loc>
+    <lastmod>2020-03-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maomaohu.net/tag/building-energy-system/</loc>
     <lastmod>2020-03-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -13,7 +28,27 @@
   </url>
   
   <url>
+    <loc>https://maomaohu.net/tag/data-cleaning/</loc>
+    <lastmod>2020-03-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maomaohu.net/tag/data-clustering/</loc>
+    <lastmod>2020-03-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://maomaohu.net/tag/data-driven-modelling/</loc>
+    <lastmod>2020-03-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maomaohu.net/tag/demand-response/</loc>
+    <lastmod>2020-03-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maomaohu.net/tag/energy-flexibility/</loc>
     <lastmod>2020-03-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -29,6 +64,11 @@
   
   <url>
     <loc>https://maomaohu.net/tags/</loc>
+    <lastmod>2020-03-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maomaohu.net/tag/uncertainty/</loc>
     <lastmod>2020-03-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -78,12 +118,17 @@
   </url>
   
   <url>
-    <loc>https://maomaohu.net/tag/building-clusters/</loc>
+    <loc>https://maomaohu.net/tag/markov-chain/</loc>
     <lastmod>2019-12-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://maomaohu.net/tag/energy-flexibility/</loc>
+    <loc>https://maomaohu.net/tag/monte-carlo/</loc>
+    <lastmod>2019-12-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maomaohu.net/tag/occupancy-and-occupant-behavior/</loc>
     <lastmod>2019-12-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -93,8 +138,13 @@
   </url>
   
   <url>
-    <loc>https://maomaohu.net/tag/uncertainty/</loc>
-    <lastmod>2019-12-27T00:00:00+00:00</lastmod>
+    <loc>https://maomaohu.net/tag/air-conditioner/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maomaohu.net/tag/kalman-filter/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -110,6 +160,16 @@
   <url>
     <loc>https://maomaohu.net/tag/optimisation/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maomaohu.net/tag/real-time-pricing/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maomaohu.net/tag/floor-heating/</loc>
+    <lastmod>2019-02-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>

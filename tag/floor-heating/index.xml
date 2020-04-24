@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Floor heating | Maomao Hu</title>
+    <link>https://maomaohu.net/tag/floor-heating/</link>
+      <atom:link href="https://maomaohu.net/tag/floor-heating/index.xml" rel="self" type="application/rss+xml" />
+    <description>Floor heating</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Maomao Hu</copyright><lastBuildDate>Thu, 14 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://maomaohu.net/images/icon_hu1fba2d0b8dc8bfe246be87df8bc2bbf8_10050_512x512_fill_lanczos_center_2.png</url>
+      <title>Floor heating</title>
+      <link>https://maomaohu.net/tag/floor-heating/</link>
+    </image>
+    
+    <item>
+      <title>MPC of Floor Heating Systems in Denmark</title>
+      <link>https://maomaohu.net/project/1_mpc_floor/</link>
+      <pubDate>Thu, 14 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/project/1_mpc_floor/</guid>
+      <description>
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-fig-schematic-of-the-grey-box-rc-model-for-floor-heating-systems&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://maomaohu.net/project/1_mpc_floor/RC_floor_hu05495c42067aabfcf0155ad9aca991df_263899_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Fig. Schematic of the grey-box RC model for floor heating systems&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://maomaohu.net/project/1_mpc_floor/RC_floor_hu05495c42067aabfcf0155ad9aca991df_263899_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;2379&#34; height=&#34;1871&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Fig. Schematic of the grey-box RC model for floor heating systems
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-fig-flow-chart-of-online-model-predictive-control-for-floor-heating-systems&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://maomaohu.net/project/1_mpc_floor/MPC_scheme_hua67dd61a10cfbd2f196b5f3ce34c174c_407573_2000x2000_fit_q90_lanczos.jpg&#34; data-caption=&#34;Fig. Flow chart of online model predictive control for floor heating systems.&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://maomaohu.net/project/1_mpc_floor/MPC_scheme_hua67dd61a10cfbd2f196b5f3ce34c174c_407573_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;2304&#34; height=&#34;2104&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Fig. Flow chart of online model predictive control for floor heating systems.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;About&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font face=&#34;Roboto&#34; color=&#34;black&#34; size=&#34;4&#34;&gt; Floor heating (FH) system is a widely-used thermally active building system, which can take advantage of building thermal mass to shift energy demands to off-peak hours. Its ability of effective  utilization of low-temperature energy resources also helps to increase energy efficiency and reduce greenhouse gas emissions. However, control of FH systems remains a challenge due to the large thermal inertia of the pipe-embedded concrete floor. In the context of smart grids, the control issue becomes more complicated because the dynamic electricity prices need to be taken into consideration to achieve economic benefits and encourage demand response participation.&lt;/p&gt;
+&lt;p&gt;In this study, an advanced optimal control method, i.e., model predictive control (MPC), is developed for FH systems, which can simultaneously consider all the influential variables including weather conditions, occupancy and dynamic electricity prices. Considering the on-line computational efficiency, a control-oriented dynamic thermal model for a room integrated with FH system is developed and represented in a stochastic state-space form. An economic MPC controller, formulated as a mixed integer linear programming problem, is designed for FH systems. A TRNSYS-MATLAB co-simulation testbed is developed to test and compare different control methods under various operating conditions in terms of energy consumption, thermal comfort and operating costs.&lt;/p&gt;
+&lt;p&gt;Test results show that, compared to the conventional on-off controller, the MPC controller is able to use building thermal mass to optimally shift energy consumption to low-price periods, improve thermal comfort at the beginning of occupancy, reduce energy demand during peak periods, and save electricity costs for residential end-users. The weather conditions and electricity prices have influences on the start-up time and duration of preheating, energy flexibility potential and electricity cost savings of FH systems. &lt;/font&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Acknowledgement&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The presented work receives the support of the 
+&lt;a href=&#34;http://smart-cities-centre.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CITIES project&lt;/a&gt;, the SCA project, and the 
+&lt;a href=&#34;http://www.energylabnordhavn.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EnergyLab Nordhavn project&lt;/a&gt; in Denmark.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Related Publication&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://maomaohu.net/publication/journal_paper/rn-935/&#34;&gt;Maomao Hu, Fu Xiao, John Bagterp Jørgensen, Rongling Li (2019). Price-responsive model predictive control of floor heating systems for demand response using building thermal mass. Applied Thermal Engineering.&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,12 +5,20 @@
     <link>https://maomaohu.net/tag/uncertainty/</link>
       <atom:link href="https://maomaohu.net/tag/uncertainty/index.xml" rel="self" type="application/rss+xml" />
     <description>Uncertainty</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Maomao Hu</copyright><lastBuildDate>Fri, 27 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Maomao Hu</copyright><lastBuildDate>Mon, 16 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maomaohu.net/images/icon_hu1fba2d0b8dc8bfe246be87df8bc2bbf8_10050_512x512_fill_lanczos_center_2.png</url>
       <title>Uncertainty</title>
       <link>https://maomaohu.net/tag/uncertainty/</link>
     </image>
+    
+    <item>
+      <title>AMiDine</title>
+      <link>https://maomaohu.net/project/3_amidine/</link>
+      <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/project/3_amidine/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Quantifying Uncertainty in Aggregate Energy Flexibility of Building Clusters</title>
