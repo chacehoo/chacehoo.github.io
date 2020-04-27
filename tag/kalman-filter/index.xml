@@ -91,13 +91,7 @@
 
 &lt;/figure&gt;
 
-
-
-
-
-
-  
-  
+&lt;p&gt;&lt;strong&gt;Demo Video: How MPC works? Receding horizon optimization&lt;/strong&gt;&lt;/p&gt;
 
 
 
@@ -108,26 +102,14 @@
 
 
 
-
-&lt;figure id=&#34;figure-demo-video-how-mpc-works-receding-horizon-optimization&#34;&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://maomaohu.net/project/0_mpc_ac/3_hud8134cb8fa589d7fa08924892a393c9b_5720212_2000x2000_fit_lanczos.gif&#34; data-caption=&#34;Demo video: How MPC works? Receding horizon optimization.&#34;&gt;
-
-
-  &lt;img data-src=&#34;https://maomaohu.net/project/0_mpc_ac/3_hud8134cb8fa589d7fa08924892a393c9b_5720212_2000x2000_fit_lanczos.gif&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1142&#34; height=&#34;480&#34;&gt;
-&lt;/a&gt;
 
 
   
-  
-  &lt;figcaption&gt;
-    Demo video: How MPC works? Receding horizon optimization.
-  &lt;/figcaption&gt;
 
 
-&lt;/figure&gt;
-
+&lt;video controls &gt;
+  &lt;source src=&#34;MPC_video.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
 &lt;p&gt;&lt;strong&gt;About&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;font face=&#34;Roboto&#34; color=&#34;black&#34; size=&#34;4&#34;&gt;In the context of smart grids, residential air conditioners, as the major contributors to home electricity bills and loads on electrical grids, need to be not only energy-efficient, but also grid-responsive to relieve power supply-demand imbalance. Existing demand response control strategies for residential air conditioners focus on single-speed type and mainly adopt temperature set point reset to respond to hourly day-ahead electricity prices. This study represents the first attempt to directly control the operating frequency of inverter air conditioners in response to high-granularity electricity price signals, i.e., 5-minute real-time electricity prices, using model predictive control method.&lt;/p&gt;
 &lt;p&gt;A simplified room thermal model in the stochastic state-space representation and performance maps of an inverter air conditioner are developed and integrated for predicting the coupled thermal response of an air-conditioned room. A demand response-enabled model predictive controller is designed based on the coupled model to optimally control the operating frequency of the inverter air conditioner while taking account of all the influential variables including weather conditions, occupancy, and 5-min real-time electricity prices. A Kalman filter is adopted to estimate the unmeasurable variables and remove the noises in measurements. A TRNSYS-MATLAB co-simulation testbed is developed to test the thermal and energy performances of the model predictive controller.&lt;/p&gt;
