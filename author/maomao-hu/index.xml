@@ -5,108 +5,12 @@
     <link>https://maomaohu.net/author/maomao-hu/</link>
       <atom:link href="https://maomaohu.net/author/maomao-hu/index.xml" rel="self" type="application/rss+xml" />
     <description>Maomao Hu</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Maomao Hu</copyright><lastBuildDate>Fri, 11 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Maomao Hu</copyright>
     <image>
-      <url>https://maomaohu.net/images/icon_hu1fba2d0b8dc8bfe246be87df8bc2bbf8_10050_512x512_fill_lanczos_center_2.png</url>
+      <url>https://maomaohu.net/author/maomao-hu/avatar_hu85d3e6962a8c1ab2a72bf40e3454fe74_568151_270x270_fill_q90_lanczos_center.jpg</url>
       <title>Maomao Hu</title>
       <link>https://maomaohu.net/author/maomao-hu/</link>
     </image>
-    
-    <item>
-      <title>Development of an ANN-based building energy model for information-poor buildings using transfer learning</title>
-      <link>https://maomaohu.net/publication/journal_paper/paper_9/</link>
-      <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://maomaohu.net/publication/journal_paper/paper_9/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Identification of simplified energy performance models of variable-speed air conditioners using likelihood ratio test method</title>
-      <link>https://maomaohu.net/publication/journal_paper/rn-1376/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://maomaohu.net/publication/journal_paper/rn-1376/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Quantifying uncertainty in the aggregate energy flexibility of high-rise residential building clusters considering stochastic occupancy and occupant behavior</title>
-      <link>https://maomaohu.net/publication/journal_paper/rn-1406/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://maomaohu.net/publication/journal_paper/rn-1406/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A model-based control strategy to recover cooling energy from thermal mass in commercial buildings</title>
-      <link>https://maomaohu.net/publication/journal_paper/rn-927/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://maomaohu.net/publication/journal_paper/rn-927/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Frequency control of air conditioners in response to real-time dynamic electricity prices in smart grids</title>
-      <link>https://maomaohu.net/publication/journal_paper/rn-939/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://maomaohu.net/publication/journal_paper/rn-939/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Performance analysis of absorption thermal energy storage for distributed energy systems</title>
-      <link>https://maomaohu.net/publication/conference_paper/rn-941/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://maomaohu.net/publication/conference_paper/rn-941/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Price-responsive model predictive control of floor heating systems for demand response using building thermal mass</title>
-      <link>https://maomaohu.net/publication/journal_paper/rn-935/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://maomaohu.net/publication/journal_paper/rn-935/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Model Predictive Control of Inverter Air Conditioners Responding to Real-Time Electricity Prices in Smart Grids</title>
-      <link>https://maomaohu.net/publication/conference_paper/rn-938/</link>
-      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>https://maomaohu.net/publication/conference_paper/rn-938/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Price-responsive model-based optimal demand response control of inverter air conditioners using genetic algorithm</title>
-      <link>https://maomaohu.net/publication/journal_paper/rn-931/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://maomaohu.net/publication/journal_paper/rn-931/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Model-based optimal load control of inverter-driven air conditioners responding to dynamic electricity pricing</title>
-      <link>https://maomaohu.net/publication/conference_paper/rn-936/</link>
-      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>https://maomaohu.net/publication/conference_paper/rn-936/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Investigation of the Demand Response Potentials of Residential Air Conditioners Using Grey-box Room Thermal Model</title>
-      <link>https://maomaohu.net/publication/conference_paper/rn-937/</link>
-      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>https://maomaohu.net/publication/conference_paper/rn-937/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Investigation of demand response potentials of residential air conditioners in smart grids using grey-box room thermal model</title>
-      <link>https://maomaohu.net/publication/journal_paper/rn-930/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://maomaohu.net/publication/journal_paper/rn-930/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
