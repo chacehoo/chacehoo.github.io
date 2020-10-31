@@ -17,7 +17,7 @@
       <link>https://maomaohu.net/software/ifeel/ifeel/</link>
       <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://maomaohu.net/software/ifeel/ifeel/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;ifeel_logo.png&#34; alt=&#34;Illustration of IFEEL process&#34;&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;ifeel_logo.png&#34; alt=&#34;IFEEL logo&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;A python package for &lt;strong&gt;Interpretable Feature Extraction of Electricity Loads&lt;/strong&gt; (IFEEL).&lt;/li&gt;
 &lt;li&gt;IFEEL has a similar pronunciation to the Eiffel Tower 🗼 so you will find two &amp;ldquo;Eiffel&amp;rdquo; electricity towers in the IFEEL logo.&lt;/li&gt;
