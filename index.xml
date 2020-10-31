@@ -17,8 +17,7 @@
       <link>https://maomaohu.net/ifeel/</link>
       <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://maomaohu.net/ifeel/</guid>
-      <description>&lt;p&gt;![Illustration of IFEEL process](/Users/chace/OneDrive - Nexus365/0_PycharmProjects/MyPackage/IFEEL/Image/logo.png)&lt;/p&gt;
-&lt;h1 id=&#34;interpretable-feature-extraction-of-electricity-loads-ifeel&#34;&gt;Interpretable Feature Extraction of Electricity Loads (IFEEL)&lt;/h1&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;ifeel_logo.png&#34; alt=&#34;Illustration of IFEEL process&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;A python package for &lt;strong&gt;Interpretable Feature Extraction of Electricity Loads&lt;/strong&gt; (IFEEL).&lt;/li&gt;
 &lt;li&gt;IFEEL has a similar pronunciation to the Eiffel Tower 🗼 so you will find two &amp;ldquo;Eiffel&amp;rdquo; electricity towers in the IFEEL logo.&lt;/li&gt;
@@ -27,9 +26,7 @@
 &lt;a href=&#34;https://pypi.org/project/ifeel/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt; 🔗&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;-illustration&#34;&gt;📌 Illustration:&lt;/h2&gt;
-&lt;p&gt;![Illustration of IFEEL process](/Users/chace/OneDrive - Nexus365/0_PycharmProjects/MyPackage/IFEEL/Image/FEEL.png)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: If the picture fails to load, please click 
-&lt;a href=&#34;https://github.com/chacehoo/IFEEL/tree/master/OneDrive%20-%20Nexus365/0_PycharmProjects/MyPackage/IFEEL&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;ifeel_illustration.png&#34; alt=&#34;Illustration of IFEEL process&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;-installation&#34;&gt;⚙️ Installation:&lt;/h2&gt;
 &lt;p&gt;You can use &lt;code&gt;pip&lt;/code&gt;  to easily install IFEEL with:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;pip install ifeel&lt;/code&gt;&lt;/p&gt;
