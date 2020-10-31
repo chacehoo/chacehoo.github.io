@@ -234,7 +234,7 @@
   
   <meta property="og:site_name" content="Maomao Hu">
   <meta property="og:url" content="https://maomaohu.net/ifeel/">
-  <meta property="og:title" content="IFEEL | Maomao Hu">
+  <meta property="og:title" content="IFEEL-Interpretable Feature Extraction of Electricity Loads | Maomao Hu">
   <meta property="og:description" content="A Python package"><meta property="og:image" content="https://maomaohu.net/images/icon_hu1fba2d0b8dc8bfe246be87df8bc2bbf8_10050_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://maomaohu.net/images/icon_hu1fba2d0b8dc8bfe246be87df8bc2bbf8_10050_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
@@ -260,7 +260,7 @@
 
 
 
-  <title>IFEEL | Maomao Hu</title>
+  <title>IFEEL-Interpretable Feature Extraction of Electricity Loads | Maomao Hu</title>
 
 </head>
 
@@ -593,7 +593,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>IFEEL</h1>
+  <h1>IFEEL-Interpretable Feature Extraction of Electricity Loads</h1>
 
   
 
@@ -644,7 +644,75 @@
   <div class="article-container">
 
     <div class="article-style">
-      
+      <p>![Illustration of IFEEL process](/Users/chace/OneDrive - Nexus365/0_PycharmProjects/MyPackage/IFEEL/Image/logo.png)</p>
+<h1 id="interpretable-feature-extraction-of-electricity-loads-ifeel">Interpretable Feature Extraction of Electricity Loads (IFEEL)</h1>
+<ul>
+<li>A python package for <strong>Interpretable Feature Extraction of Electricity Loads</strong> (IFEEL).</li>
+<li>IFEEL has a similar pronunciation to the Eiffel Tower 🗼 so you will find two &ldquo;Eiffel&rdquo; electricity towers in the IFEEL logo.</li>
+<li>Description of IFEEL can be found on <strong>GitHub</strong> 
+<a href="https://github.com/chacehoo/IFEEL/tree/master/OneDrive%20-%20Nexus365/0_PycharmProjects/MyPackage/IFEEL" target="_blank" rel="noopener">🔗</a> (<em>Recommended, no image loading issue</em>) or <strong>PyPI</strong> 
+<a href="https://pypi.org/project/ifeel/" target="_blank" rel="noopener"> 🔗</a></li>
+</ul>
+<h2 id="-illustration">📌 Illustration:</h2>
+<p>![Illustration of IFEEL process](/Users/chace/OneDrive - Nexus365/0_PycharmProjects/MyPackage/IFEEL/Image/FEEL.png)</p>
+<p><strong>Note</strong>: If the picture fails to load, please click 
+<a href="https://github.com/chacehoo/IFEEL/tree/master/OneDrive%20-%20Nexus365/0_PycharmProjects/MyPackage/IFEEL" target="_blank" rel="noopener">here</a>.</p>
+<h2 id="-installation">⚙️ Installation:</h2>
+<p>You can use <code>pip</code>  to easily install IFEEL with:</p>
+<p><code>pip install ifeel</code></p>
+<p>More info about <code>pip</code> can be found 
+<a href="https://pip.pypa.io/en/stable/" target="_blank" rel="noopener">here</a> .</p>
+<h2 id="-developer-info">🤖 Developer info:</h2>
+<ul>
+<li>
+<p><strong>Package title</strong>: Interpretable Feature Extraction of Electricity Load (IFEEL)</p>
+</li>
+<li>
+<p><strong>Authors</strong>: 
+<a href="https://maomaohu.net/" target="_blank" rel="noopener">Maomao Hu</a>, 
+<a href="https://eng.ox.ac.uk/people/dongjiao-ge/" target="_blank" rel="noopener">Dongjiao Ge</a>, 
+<a href="https://eng.ox.ac.uk/people/david-wallom/" target="_blank" rel="noopener">David Wallom</a></p>
+</li>
+<li>
+<p><strong>Organization</strong>: 
+<a href="https://www.oerc.ox.ac.uk/" target="_blank" rel="noopener">Oxford e-Research Center</a>, Department of Engineering Science, University of Oxford</p>
+</li>
+<li>
+<p><strong>Contact info</strong>: <a href="mailto:maomao.hu@eng.ox.ac.uk">maomao.hu@eng.ox.ac.uk</a></p>
+</li>
+<li>
+<p><strong>Development time</strong>: Oct 2020</p>
+</li>
+<li>
+<p><strong>Acknowledgement</strong>: This work was financially supported by the UK Engineering and Physical Sciences Research Council (EPSRC) under grant (EP/S030131/1) of 
+<a href="https://www.amidine.net/" target="_blank" rel="noopener">AMIDINE</a>. We also would like to thank the help from 
+<a href="https://www.strath.ac.uk/staff/stephenbrucedr/" target="_blank" rel="noopener">Bruce Stephen</a>, 
+<a href="http://www.jethrobrowell.com/" target="_blank" rel="noopener">Jethro Browell</a>, 
+<a href="https://www.strath.ac.uk/staff/telfordrorymr/" target="_blank" rel="noopener">Rory Telford</a>, 
+<a href="https://www.strath.ac.uk/staff/gallowaystuartdr/" target="_blank" rel="noopener">Stuart Galloway</a>, and 
+<a href="https://pureportal.strath.ac.uk/en/persons/ciaran-gilbert" target="_blank" rel="noopener">Ciaran Gilbert</a> from the University of Strathclyde.</p>
+</li>
+</ul>
+<h2 id="-about-ifeel">💬 About IFEEL:</h2>
+<p>(1) This Python package (i.e., IFEEL) aims to help energy data analysts to readily extract interpretable features of daily electricity profiles from a physical perspective. The extracted features can be applied for further feature-based machine learning purposes, including feature-based PCA, clustering, classification, and regression.</p>
+<p>(2) Two PY files (.py) are included in the IFEEL package, including <em>ifeel_transformation.py</em> and <em>ifeel_extraction.py</em>.</p>
+<p>(3) Two types of features can be extracted by using this package: 13 global features (GFs) and 8 peak-period features (PFs). Detailed description of all features can be found in Ref [1] or the Demo file in the installed IFEEL package.</p>
+<p>(4) The global features are extracted based on raw time-series data, while the peak-period features are extracted based on symbolic representation of time series. The feature extraction process is performed by calling the functions in <em>ifeel_extraction.py</em>.</p>
+<p>(5) For fast peak-period feature extraction, Symbolic Aggregate approXimation (SAX) representation is first used to transform the time-series numerical patterns into alphabetical words. The feature transformation process is performed by calling the functions in <em>ifeel_transformation.py</em>. More details about SAX approach can be found in Ref [2] and Ref [3].</p>
+<h2 id="-notes">🔈 Notes:</h2>
+<p>(1) To successfully run the IFEEL, the following Python data analysis libraries need to be installed in advance: 
+<a href="https://numpy.org/" target="_blank" rel="noopener">Numpy</a>, 
+<a href="https://www.scipy.org/" target="_blank" rel="noopener">Scipy</a>, and 
+<a href="https://pandas.pydata.org/" target="_blank" rel="noopener">Pandas</a>.</p>
+<p>(2) A <strong>Demo</strong> can be found in the installed IFEEL package or 
+<a href="https://github.com/chacehoo/IFEEL/blob/master/OneDrive%20-%20Nexus365/0_PycharmProjects/MyPackage/IFEEL/IFEEL/Demo.py" target="_blank" rel="noopener">here</a>. Three datasets at different time intervals can be downloaded 
+<a href="https://github.com/chacehoo/IFEEL/tree/master/OneDrive%20-%20Nexus365/0_PycharmProjects/MyPackage/IFEEL/Test_Data" target="_blank" rel="noopener">here</a>, and tested in the Demo.</p>
+<p>(3) The <strong>Demo</strong> has been tested on Python 3.7.7.</p>
+<h2 id="-references">📚 References</h2>
+<p>[1] Hu M, Ge D, Telford R, Stephen B, Wallom, D. Classification and characterization of intra-day load curves of PV and Non-PV households using interpretable feature extraction and feature-based clustering. (<em>In preparation</em>)</p>
+<p>[2] Lin J, Keogh E, Wei L, Lonardi S. Experiencing SAX: a novel symbolic representation of time series. <em>Data Mining and Knowledge Discovery</em>. 2007;15:107-44.</p>
+<p>[3] Keogh E, Lin J, Fu A. HOT SAX: efficiently finding the most unusual time series subsequence.  <em>5TH IEEE International Conference on Data Mining (ICDM&rsquo;05)</em>. 2005. p8.</p>
+
     </div>
 
     
