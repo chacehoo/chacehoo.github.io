@@ -14,9 +14,9 @@
     
     <item>
       <title>IFEEL-Interpretable Feature Extraction of Electricity Loads</title>
-      <link>https://maomaohu.net/software/ifeel/ifeel/</link>
+      <link>https://maomaohu.net/software/ifeel/</link>
       <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://maomaohu.net/software/ifeel/ifeel/</guid>
+      <guid>https://maomaohu.net/software/ifeel/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;ifeel_logo.png&#34; alt=&#34;IFEEL logo&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;A python package for &lt;strong&gt;Interpretable Feature Extraction of Electricity Loads&lt;/strong&gt; (IFEEL).&lt;/li&gt;
