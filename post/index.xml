@@ -5,7 +5,7 @@
     <link>https://maomaohu.net/post/</link>
       <atom:link href="https://maomaohu.net/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Maomao Hu</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Maomao Hu</copyright><lastBuildDate>Thu, 29 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maomaohu.net/images/icon_hu1fba2d0b8dc8bfe246be87df8bc2bbf8_10050_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
@@ -15,9 +15,10 @@
     <item>
       <title>New paper published in *Renewable and Sustainable Energy Reviews*!</title>
       <link>https://maomaohu.net/post/post_1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://maomaohu.net/post/post_1/</guid>
-      <description>&lt;p&gt;I am pleased to share our recent review article published in &lt;em&gt;Renewable and Sustainable Energy Reviews&lt;/em&gt; on Coordination and Negotiation Techniques for Energy Flexibility in Microgrids. Glad to see my last piece of work at PolyU coming out.&lt;/p&gt;
+      <description>&lt;p&gt;I am pleased to share that our recent review article &lt;strong&gt;
+&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S1364032120305372?via%3Dihub&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Neighborhood-level coordination and negotiation techniques for managing demand-side flexibility in residential microgrids&lt;/a&gt;&lt;/strong&gt; was published in &lt;em&gt;Renewable and Sustainable Energy Reviews&lt;/em&gt;. Glad to see my last piece of work at PolyU coming out.&lt;/p&gt;
 </description>
     </item>
     
