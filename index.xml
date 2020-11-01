@@ -35,7 +35,7 @@
       <link>https://maomaohu.net/post/post_2/</link>
       <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
       <guid>https://maomaohu.net/post/post_2/</guid>
-      <description>&lt;p&gt;Our recent research paper &amp;ldquo;&lt;strong&gt;Development of an ANN-based Building Energy Model for Information-poor Buildings Using Transfer Learning&lt;/strong&gt;&amp;rdquo; was published in &lt;em&gt;Building Simulation&lt;/em&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;Our recent research paper entitled &amp;ldquo;&lt;strong&gt;Development of an ANN-based Building Energy Model for Information-poor Buildings Using Transfer Learning&lt;/strong&gt;&amp;rdquo; was published in &lt;em&gt;Building Simulation&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;The full paper can be found 
 &lt;a href=&#34;https://link.springer.com/article/10.1007/s12273-020-0711-5&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
@@ -127,9 +127,10 @@
       <link>https://maomaohu.net/post/post_1/</link>
       <pubDate>Tue, 25 Aug 2020 00:00:00 +0000</pubDate>
       <guid>https://maomaohu.net/post/post_1/</guid>
-      <description>&lt;p&gt;I am pleased to share that our recent review article &lt;strong&gt;
+      <description>&lt;p&gt;Our recent review article entitled &lt;strong&gt;
 &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S1364032120305372?via%3Dihub&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Neighborhood-level coordination and negotiation techniques for managing demand-side flexibility in residential microgrids&lt;/a&gt;&lt;/strong&gt; was published in &lt;em&gt;Renewable and Sustainable Energy Reviews&lt;/em&gt;. Glad to see my last piece of work at PolyU coming out.&lt;/p&gt;
-&lt;p&gt;Residential microgrid is a dynamic and complex cyber-physical system, which consists of multiple cooperative, non-cooperative and even conflicting entities. Harmonised coordination, not merely unorganised cooperation, among cooperative entities and negotiation among non-cooperative entities based on information sharing are needed to achieve the neighbourhood-level optimal solutions in a residential microgrid. Typical architectures for coordination and negotiation are classified into centralised, decentralised, hierarchical distributed, and non-hierarchical distributed architecture. Major coordination and negotiation techniques, including multi-agent system, optimisation and game theory, are reviewed and summarised.&lt;/p&gt;
+&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
+&lt;p&gt;The management of demand-side flexibility plays a key role in reliable integration of intermittent renewable energy sources into residential microgrids. Residential microgrid is a dynamic and complex cyber-physical system, which consists of multiple cooperative, non-cooperative and even conflicting entities. Random and separate demand-side management of the multiple entities may have detrimental effects on the grid reliability like the peak “rebound” issue and on the economic benefits for both utilities and consumers. Harmonized coordination, not merely unorganized cooperation, among cooperative entities and negotiation among non-cooperative entities based on information sharing are therefore needed to achieve the neighborhood-level optimal solutions in a residential microgrid. This paper comprehensively reviews the state-of-the-art classification, technologies, architectures, and techniques for neighborhood-level coordination and negotiation in residential microgrids. Various types of coordination and negotiation behaviors are first categorized. The technologies, i.e., demand-side flexible resources involved in coordination and negotiation, are then summarized and introduced, including flexible loads, storage, and distributed generations. The typical architectures for coordination and negotiation are then classified into centralized, decentralized, hierarchical distributed, and non-hierarchical distributed architecture. Last, the major coordination and negotiation techniques, including multi-agent system, optimization and game theory, are reviewed and summarized. The challenges and opportunities for each technique are identified and critically discussed.&lt;/p&gt;
 </description>
     </item>
     
