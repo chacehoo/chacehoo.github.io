@@ -24,30 +24,9 @@
     </item>
     
     <item>
-      <title>Development of an ANN-based building energy model for information-poor buildings using transfer learning</title>
-      <link>https://maomaohu.net/publication/journal_paper/paper_9/</link>
-      <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://maomaohu.net/publication/journal_paper/paper_9/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>New paper published in *Building Simulation*!</title>
-      <link>https://maomaohu.net/post/post_2/</link>
-      <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://maomaohu.net/post/post_2/</guid>
-      <description>&lt;p&gt;Our recent research paper entitled &amp;ldquo;&lt;strong&gt;Development of an ANN-based Building Energy Model for Information-poor Buildings Using Transfer Learning&lt;/strong&gt;&amp;rdquo; was published in &lt;em&gt;Building Simulation&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;The full paper can be found 
-&lt;a href=&#34;https://link.springer.com/article/10.1007/s12273-020-0711-5&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
-&lt;p&gt;Accurate building energy prediction is vital to develop optimal control strategies to enhance building energy efficiency and energy flexibility. In recent years, the data-driven approach based on machine learning algorithms has been widely adopted for building energy prediction due to the availability of massive data in building automation systems (BASs), which automatically collect and store real-time building operational data. For new buildings and most existing buildings without installing advanced BASs, there is a lack of sufficient data to train data-driven predictive models. Transfer learning is a promising method to develop accurate and reliable data-driven building energy prediction models with limited training data by taking advantage of the rich data/knowledge obtained from other buildings. Few studies focused on the influences of source building datasets, pre-training data volume, and training data volume on the performance of the transfer learning method. The present study aims to develop a transfer learning-based ANN model for one-hour ahead building energy prediction to fill this research gap. Around 400 non-residential buildings’ data from the open-source Building Genome Project are used to test the proposed method. Extensive analysis demonstrates that transfer learning can effectively improve the accuracy of BPNN-based building energy models for information-poor buildings with very limited training data. The most influential building features which influence the effectiveness of transfer learning are found to be building usage and industry. The research outcomes can provide guidance for implementation of transfer learning, especially in selecting appropriate source buildings and datasets for developing accurate building energy prediction models.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>IFEEL-Interpretable Feature Extraction of Electricity Loads</title>
       <link>https://maomaohu.net/software/ifeel/</link>
-      <pubDate>Tue, 25 Aug 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://maomaohu.net/software/ifeel/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;ifeel_logo.png&#34; alt=&#34;IFEEL logo&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -120,6 +99,27 @@
 &lt;p&gt;[1] Hu M, Ge D, Telford R, Stephen B, Wallom, D. Classification and characterization of intra-day load curves of PV and Non-PV households using interpretable feature extraction and feature-based clustering. (&lt;em&gt;In preparation&lt;/em&gt;)&lt;/p&gt;
 &lt;p&gt;[2] Lin J, Keogh E, Wei L, Lonardi S. Experiencing SAX: a novel symbolic representation of time series. &lt;em&gt;Data Mining and Knowledge Discovery&lt;/em&gt;. 2007;15:107-44.&lt;/p&gt;
 &lt;p&gt;[3] Keogh E, Lin J, Fu A. HOT SAX: efficiently finding the most unusual time series subsequence.  &lt;em&gt;5TH IEEE International Conference on Data Mining (ICDM&amp;rsquo;05)&lt;/em&gt;. 2005. p8.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Development of an ANN-based building energy model for information-poor buildings using transfer learning</title>
+      <link>https://maomaohu.net/publication/journal_paper/paper_9/</link>
+      <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/publication/journal_paper/paper_9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New paper published in *Building Simulation*!</title>
+      <link>https://maomaohu.net/post/post_2/</link>
+      <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/post/post_2/</guid>
+      <description>&lt;p&gt;Our recent research paper entitled &amp;ldquo;&lt;strong&gt;Development of an ANN-based Building Energy Model for Information-poor Buildings Using Transfer Learning&lt;/strong&gt;&amp;rdquo; was published in &lt;em&gt;Building Simulation&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The full paper can be found 
+&lt;a href=&#34;https://link.springer.com/article/10.1007/s12273-020-0711-5&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
+&lt;p&gt;Accurate building energy prediction is vital to develop optimal control strategies to enhance building energy efficiency and energy flexibility. In recent years, the data-driven approach based on machine learning algorithms has been widely adopted for building energy prediction due to the availability of massive data in building automation systems (BASs), which automatically collect and store real-time building operational data. For new buildings and most existing buildings without installing advanced BASs, there is a lack of sufficient data to train data-driven predictive models. Transfer learning is a promising method to develop accurate and reliable data-driven building energy prediction models with limited training data by taking advantage of the rich data/knowledge obtained from other buildings. Few studies focused on the influences of source building datasets, pre-training data volume, and training data volume on the performance of the transfer learning method. The present study aims to develop a transfer learning-based ANN model for one-hour ahead building energy prediction to fill this research gap. Around 400 non-residential buildings’ data from the open-source Building Genome Project are used to test the proposed method. Extensive analysis demonstrates that transfer learning can effectively improve the accuracy of BPNN-based building energy models for information-poor buildings with very limited training data. The most influential building features which influence the effectiveness of transfer learning are found to be building usage and industry. The research outcomes can provide guidance for implementation of transfer learning, especially in selecting appropriate source buildings and datasets for developing accurate building energy prediction models.&lt;/p&gt;
 </description>
     </item>
     
