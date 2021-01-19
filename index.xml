@@ -5,12 +5,28 @@
     <link>https://maomaohu.net/</link>
       <atom:link href="https://maomaohu.net/index.xml" rel="self" type="application/rss+xml" />
     <description>Maomao Hu</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020 Maomao Hu</copyright><lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2021 Maomao Hu</copyright><lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maomaohu.net/images/icon_hu1fba2d0b8dc8bfe246be87df8bc2bbf8_10050_512x512_fill_lanczos_center_2.png</url>
       <title>Maomao Hu</title>
       <link>https://maomaohu.net/</link>
     </image>
+    
+    <item>
+      <title>Development of an ANN-based building energy model for information-poor buildings using transfer learning</title>
+      <link>https://maomaohu.net/publication/journal_paper/paper_9/</link>
+      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/publication/journal_paper/paper_9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neighborhood-level coordination and negotiation techniques for managing demand-side flexibility in residential microgrids</title>
+      <link>https://maomaohu.net/publication/journal_paper/paper_008/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/publication/journal_paper/paper_008/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Dec 2020 | Glad to share that I was recently appointed as a Reviewer Board member of the jounal of *Science and Technology for the Built Environment* .</title>
@@ -123,14 +139,6 @@
     </item>
     
     <item>
-      <title>Development of an ANN-based building energy model for information-poor buildings using transfer learning</title>
-      <link>https://maomaohu.net/publication/journal_paper/paper_9/</link>
-      <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://maomaohu.net/publication/journal_paper/paper_9/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Sep 2020 | Our new paper entitled &#34;Development of an ANN-based Building Energy Model for Information-poor Buildings Using Transfer Learning&#34; was published in *Building Simulation*!</title>
       <link>https://maomaohu.net/post/post_2/</link>
       <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
@@ -153,14 +161,6 @@
 &lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
 &lt;p&gt;The management of demand-side flexibility plays a key role in reliable integration of intermittent renewable energy sources into residential microgrids. Residential microgrid is a dynamic and complex cyber-physical system, which consists of multiple cooperative, non-cooperative and even conflicting entities. Random and separate demand-side management of the multiple entities may have detrimental effects on the grid reliability like the peak “rebound” issue and on the economic benefits for both utilities and consumers. Harmonized coordination, not merely unorganized cooperation, among cooperative entities and negotiation among non-cooperative entities based on information sharing are therefore needed to achieve the neighborhood-level optimal solutions in a residential microgrid. This paper comprehensively reviews the state-of-the-art classification, technologies, architectures, and techniques for neighborhood-level coordination and negotiation in residential microgrids. Various types of coordination and negotiation behaviors are first categorized. The technologies, i.e., demand-side flexible resources involved in coordination and negotiation, are then summarized and introduced, including flexible loads, storage, and distributed generations. The typical architectures for coordination and negotiation are then classified into centralized, decentralized, hierarchical distributed, and non-hierarchical distributed architecture. Last, the major coordination and negotiation techniques, including multi-agent system, optimization and game theory, are reviewed and summarized. The challenges and opportunities for each technique are identified and critically discussed.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Neighborhood-level coordination and negotiation techniques for managing demand-side flexibility in residential microgrids</title>
-      <link>https://maomaohu.net/publication/journal_paper/paper_008/</link>
-      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://maomaohu.net/publication/journal_paper/paper_008/</guid>
-      <description></description>
     </item>
     
     <item>
