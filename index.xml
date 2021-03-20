@@ -21,6 +21,17 @@
     </item>
     
     <item>
+      <title>Jan 2021 | Our R package named PHOVAFER (PHOtoVoltAic FindER) was released.</title>
+      <link>https://maomaohu.net/post/post_6/</link>
+      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/post/post_6/</guid>
+      <description>&lt;p&gt;“PHOtoVoltAic FindER” (phovafer) is developed for identifying the solar photovoltaic (PV) customers among the regular consumers on a  low-voltage distribution network. It contains the R functions for data representation, feature extraction, and PV users’ classification using the extracted features.&lt;/p&gt;
+&lt;p&gt;The PHOVAFER Docs can be found 
+&lt;a href=&#34;https://maomaohu.net/software/phovafer/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>PHOVAFER - PHOtoVoltAic FindER</title>
       <link>https://maomaohu.net/software/phovafer/</link>
       <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
@@ -203,17 +214,6 @@
       <description>&lt;p&gt;Since March 2020, I joins the Energy and Environmental Informatics group in Department of Engineering Science at University of Oxford. I works with Professor 
 &lt;a href=&#34;https://eng.ox.ac.uk/people/david-wallom/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;David Wallom&lt;/a&gt; as a postdoctoral researcher for Project 
 &lt;a href=&#34;https://www.amidine.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AMIDiNe&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Jan 2021 | Our R package named PHOVAFER (PHOtoVoltAic FindER) was released.</title>
-      <link>https://maomaohu.net/post/post_6/</link>
-      <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://maomaohu.net/post/post_6/</guid>
-      <description>&lt;p&gt;“PHOtoVoltAic FindER” (phovafer) is developed for identifying the solar photovoltaic (PV) customers among the regular consumers on a  low-voltage distribution network. It contains the R functions for data representation, feature extraction, and PV users’ classification using the extracted features.&lt;/p&gt;
-&lt;p&gt;The PHOVAFER Docs can be found 
-&lt;a href=&#34;https://maomaohu.net/software/phovafer/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
