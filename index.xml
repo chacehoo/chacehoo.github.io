@@ -21,6 +21,19 @@
     </item>
     
     <item>
+      <title>PHOVAFER - PHOtoVoltAic FindER</title>
+      <link>https://maomaohu.net/software/phovafer/</link>
+      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/software/phovafer/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;“PHOtoVoltAic FindER” (phovafer) is developed for identifying the solar photovoltaic (PV) users among the regular consumers on a  low-voltage distribution network. It contains the R functions for data representation, feature extraction, and PV users’ classification using the extracted features.&lt;/li&gt;
+&lt;li&gt;⚙️&lt;strong&gt;Installation:&lt;/strong&gt; &lt;a href=&#34;https://github.com/A-Giant-Panda/phovafer&#34;&gt;https://github.com/A-Giant-Panda/phovafer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📚&lt;strong&gt;Docs:&lt;/strong&gt; &lt;a href=&#34;https://a-giant-panda.github.io/phovafer/&#34;&gt;https://a-giant-panda.github.io/phovafer/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Neighborhood-level coordination and negotiation techniques for managing demand-side flexibility in residential microgrids</title>
       <link>https://maomaohu.net/publication/journal_paper/paper_008/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>

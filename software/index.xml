@@ -5,12 +5,25 @@
     <link>https://maomaohu.net/software/</link>
       <atom:link href="https://maomaohu.net/software/index.xml" rel="self" type="application/rss+xml" />
     <description>Softwares</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2021 Maomao Hu</copyright><lastBuildDate>Thu, 29 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2021 Maomao Hu</copyright><lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maomaohu.net/images/icon_hu1fba2d0b8dc8bfe246be87df8bc2bbf8_10050_512x512_fill_lanczos_center_2.png</url>
       <title>Softwares</title>
       <link>https://maomaohu.net/software/</link>
     </image>
+    
+    <item>
+      <title>PHOVAFER - PHOtoVoltAic FindER</title>
+      <link>https://maomaohu.net/software/phovafer/</link>
+      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/software/phovafer/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;“PHOtoVoltAic FindER” (phovafer) is developed for identifying the solar photovoltaic (PV) users among the regular consumers on a  low-voltage distribution network. It contains the R functions for data representation, feature extraction, and PV users’ classification using the extracted features.&lt;/li&gt;
+&lt;li&gt;⚙️&lt;strong&gt;Installation:&lt;/strong&gt; &lt;a href=&#34;https://github.com/A-Giant-Panda/phovafer&#34;&gt;https://github.com/A-Giant-Panda/phovafer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📚&lt;strong&gt;Docs:&lt;/strong&gt; &lt;a href=&#34;https://a-giant-panda.github.io/phovafer/&#34;&gt;https://a-giant-panda.github.io/phovafer/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>IFEEL-Interpretable Feature Extraction of Electricity Loads</title>
