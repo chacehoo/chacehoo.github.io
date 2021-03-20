@@ -18,6 +18,7 @@
       <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://maomaohu.net/software/phovafer/</guid>
       <description>&lt;h1 id=&#34;-about&#34;&gt;⭐ About&lt;/h1&gt;
+&lt;hr&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;“PHOtoVoltAic FindER” (phovafer) is developed for identifying the solar photovoltaic (PV) users among the regular consumers on a  low-voltage distribution network. It contains the R functions for data representation, feature extraction, and PV users’ classification using the extracted features.&lt;/p&gt;
@@ -27,8 +28,10 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;-installation&#34;&gt;⚙️ Installation&lt;/h1&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/A-Giant-Panda/phovafer&#34;&gt;https://github.com/A-Giant-Panda/phovafer&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;-docs&#34;&gt;📚 Docs&lt;/h1&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;a href=&#34;https://a-giant-panda.github.io/phovafer/&#34;&gt;https://a-giant-panda.github.io/phovafer/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>

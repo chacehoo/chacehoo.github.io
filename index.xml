@@ -26,6 +26,7 @@
       <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://maomaohu.net/software/phovafer/</guid>
       <description>&lt;h1 id=&#34;-about&#34;&gt;⭐ About&lt;/h1&gt;
+&lt;hr&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;“PHOtoVoltAic FindER” (phovafer) is developed for identifying the solar photovoltaic (PV) users among the regular consumers on a  low-voltage distribution network. It contains the R functions for data representation, feature extraction, and PV users’ classification using the extracted features.&lt;/p&gt;
@@ -35,8 +36,10 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;-installation&#34;&gt;⚙️ Installation&lt;/h1&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/A-Giant-Panda/phovafer&#34;&gt;https://github.com/A-Giant-Panda/phovafer&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;-docs&#34;&gt;📚 Docs&lt;/h1&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;a href=&#34;https://a-giant-panda.github.io/phovafer/&#34;&gt;https://a-giant-panda.github.io/phovafer/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
@@ -145,6 +148,17 @@
 &lt;p&gt;[1] Hu M, Ge D, Telford R, Stephen B, Wallom, D. Classification and characterization of intra-day load curves of PV and Non-PV households using interpretable feature extraction and feature-based clustering. (&lt;em&gt;In preparation&lt;/em&gt;)&lt;/p&gt;
 &lt;p&gt;[2] Lin J, Keogh E, Wei L, Lonardi S. Experiencing SAX: a novel symbolic representation of time series. &lt;em&gt;Data Mining and Knowledge Discovery&lt;/em&gt;. 2007;15:107-44.&lt;/p&gt;
 &lt;p&gt;[3] Keogh E, Lin J, Fu A. HOT SAX: efficiently finding the most unusual time series subsequence.  &lt;em&gt;5TH IEEE International Conference on Data Mining (ICDM&amp;rsquo;05)&lt;/em&gt;. 2005. p8.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Jan 2021 | Our R package named PHOVAFER (PHOtoVoltAic FindER) was released.</title>
+      <link>https://maomaohu.net/post/post_6/</link>
+      <pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/post/post_6/</guid>
+      <description>&lt;p&gt;“PHOtoVoltAic FindER” (phovafer) is developed for identifying the solar photovoltaic (PV) customers among the regular consumers on a  low-voltage distribution network. It contains the R functions for data representation, feature extraction, and PV users’ classification using the extracted features.&lt;/p&gt;
+&lt;p&gt;The PHOVAFER Docs can be found 
+&lt;a href=&#34;https://maomaohu.net/software/phovafer/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
