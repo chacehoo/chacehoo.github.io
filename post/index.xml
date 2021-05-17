@@ -5,12 +5,21 @@
     <link>https://maomaohu.net/post/</link>
       <atom:link href="https://maomaohu.net/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2021 Maomao Hu</copyright><lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2021 Maomao Hu</copyright><lastBuildDate>Thu, 15 Apr 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maomaohu.net/images/icon_hu1fba2d0b8dc8bfe246be87df8bc2bbf8_10050_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
       <link>https://maomaohu.net/post/</link>
     </image>
+    
+    <item>
+      <title>Apr 2021 | A talk was given in the Dept. of Built Environment and Enery Application Engineering, Hunan University on &#34;Data-driven Descriptive, Predictive, and Prescriptive Analytics of Building and Urban Energy Systems&#34;.</title>
+      <link>https://maomaohu.net/post/post_7/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/post/post_7/</guid>
+      <description>&lt;p&gt;A talk was given in the Dept. of Built Environment and Enery Application Engineering, Hunan University on &amp;ldquo;Data-driven Descriptive, Predictive, and Prescriptive Analytics of Building and Urban Energy Systems&amp;rdquo;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Jan 2021 | Our R package named PHOVAFER (PHOtoVoltAic FindER) was released.</title>
