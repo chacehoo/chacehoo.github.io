@@ -5,12 +5,28 @@
     <link>https://maomaohu.net/post/</link>
       <atom:link href="https://maomaohu.net/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2021 Maomao Hu</copyright><lastBuildDate>Thu, 15 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2021 Maomao Hu</copyright><lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maomaohu.net/images/icon_hu1fba2d0b8dc8bfe246be87df8bc2bbf8_10050_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
       <link>https://maomaohu.net/post/</link>
     </image>
+    
+    <item>
+      <title>May 2021 | I am now a particitant in both IEA EBC 81 and IEA EBC 82 projects.</title>
+      <link>https://maomaohu.net/post/post_8/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/post/post_8/</guid>
+      <description>&lt;p&gt;Recently, I&amp;rsquo;ve succesfully applied and participated in two IEA EBC (International Energy Agency, Energy in Buildings and Communities) ongoing projects:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;IEA ANNEX 81&lt;/strong&gt; 
+&lt;a href=&#34;https://annex81.iea-ebc.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Data-Driven Smart Buildings&lt;/a&gt; (2020-2024)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IEA ANNEX 82&lt;/strong&gt; 
+&lt;a href=&#34;https://annex82.iea-ebc.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Energy Flexible Buildings Towards Resilient Low Carbon Energy Systems&lt;/a&gt; (2020-2024)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks for having me in the community!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Apr 2021 | A talk was given in the Dept. of Built Environment and Enery Application Engineering, Hunan University on &#34;Data-driven Descriptive, Predictive, and Prescriptive Analytics of Building and Urban Energy Systems&#34;.</title>
