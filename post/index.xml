@@ -5,12 +5,26 @@
     <link>https://maomaohu.net/post/</link>
       <atom:link href="https://maomaohu.net/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2021 Maomao Hu</copyright><lastBuildDate>Mon, 22 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2022 Maomao Hu</copyright><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maomaohu.net/images/icon_hu1fba2d0b8dc8bfe246be87df8bc2bbf8_10050_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
       <link>https://maomaohu.net/post/</link>
     </image>
+    
+    <item>
+      <title>Jan 2022 | Our new paper entitled &#34;Probabilistic electrical load forecasting for buildings using Bayesian deep neural networks&#34; was published in *Journal of Building Engineering*!</title>
+      <link>https://maomaohu.net/post/post_13/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/post/post_13/</guid>
+      <description>&lt;p&gt;Our recent research paper entitled &amp;ldquo;&lt;strong&gt;Probabilistic electrical load forecasting for buildings using Bayesian deep neural networks&lt;/strong&gt;&amp;rdquo; was published in &lt;em&gt;Journal of Building Engineering&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Many thanks to Dr. Lei Xu for leading this collaboration.&lt;/p&gt;
+&lt;p&gt;The full paper can be found 
+&lt;a href=&#34;https://www.sciencedirect.com/science/article/abs/pii/S2352710221017113&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
+&lt;p&gt;Deep learning techniques are increasingly applied in building electrical load analysis thanks to the enrichment of information-intensive sensory data. However, uncertainty is seldom considered among existing deep learning models. This study proposes three Bayesian deep neural network models for probabilistic building electrical load forecasting. Three prevalent deep neural networks (recurrent neural network (RNN), long short-term memory (LSTM), and gated recurrent unit (GRU)) are utilized for model development. In each model, the dropout technique is implemented as a variational Bayesian approximation to quantify two types of model uncertainties: aleatoric and epistemic uncertainty. Performances of the proposed models are evaluated using real data. The results showed that all the proposed three models achieved satisfactory performances and the Bayesian LSTM (BLSTM) model achieved the best performance with up to 15.4% mean absolute percentage error reduction than the baseline model. It was also found that the weather variables were not necessary inputs for Bayesian deep neural network models. The impacts of the input time lags and forecasting horizons on load forecasting accuracies were also investigated. It was found that the BLSTM model could derive decent model performances with only 10 h lagged electrical loads and achieve satisfactory accuracies for the 1-day ahead load forecasting.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Nov 2021 | New journey in Dept. of Energy Resources Engineering at Stanford University!</title>
