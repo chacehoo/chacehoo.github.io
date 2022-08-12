@@ -1,437 +1,287 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://maomaohu.net/publication-type/2/</loc>
-    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-08-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://maomaohu.net/authors/</loc>
-    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/author/bin-zou/</loc>
+    <lastmod>2022-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/author/jingyu-cao/</loc>
+    <lastmod>2022-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/author/jinqing-peng/</loc>
+    <lastmod>2022-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/publication/</loc>
+    <lastmod>2022-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/author/maomao-hu/</loc>
+    <lastmod>2022-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/</loc>
+    <lastmod>2022-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/publication_types/</loc>
+    <lastmod>2022-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/author/rongxin-yin/</loc>
+    <lastmod>2022-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/publication/journal_paper/paper_12/</loc>
+    <lastmod>2022-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/author/zhihao-jiang/</loc>
+    <lastmod>2022-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/post/post_15/</loc>
+    <lastmod>2022-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/post/</loc>
+    <lastmod>2022-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/post/post_14/</loc>
+    <lastmod>2022-02-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://maomaohu.net/author/cheng-fan/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/post/post_13/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://maomaohu.net/publication/</loc>
-    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/author/lei-xu/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://maomaohu.net/author/maomao-hu/</loc>
-    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://maomaohu.net/</loc>
-    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://maomaohu.net/post/</loc>
-    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/publication/journal_paper/paper_11/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://maomaohu.net/publication_types/</loc>
-    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/tag/building-clusters/</loc>
     <lastmod>2021-11-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/tag/building-energy-system/</loc>
     <lastmod>2021-11-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/project/4_cooler/</loc>
     <lastmod>2021-11-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/tag/data-analytics/</loc>
     <lastmod>2021-11-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/tag/data-driven-modelling/</loc>
     <lastmod>2021-11-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/tag/demand-response/</loc>
     <lastmod>2021-11-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/tag/energy-flexibility/</loc>
     <lastmod>2021-11-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/post/post_12/</loc>
     <lastmod>2021-11-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/project/</loc>
     <lastmod>2021-11-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/tags/</loc>
     <lastmod>2021-11-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/tag/uncertainty/</loc>
     <lastmod>2021-11-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/post/post_11/</loc>
     <lastmod>2021-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/author/bruce-stephen/</loc>
     <lastmod>2021-09-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/publication/journal_paper/paper_10/</loc>
     <lastmod>2021-09-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/author/david-c.h.-wallom/</loc>
     <lastmod>2021-09-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/author/dongjiao-ge/</loc>
     <lastmod>2021-09-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/author/rory-telford/</loc>
     <lastmod>2021-09-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/post/post_10/</loc>
     <lastmod>2021-08-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/post/post_9/</loc>
     <lastmod>2021-08-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/post/post_8/</loc>
     <lastmod>2021-05-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/post/post_7/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/author/ao-li/</loc>
     <lastmod>2021-01-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/publication/journal_paper/paper_9/</loc>
     <lastmod>2021-01-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/author/fu-xiao/</loc>
     <lastmod>2021-01-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/post/post_6/</loc>
     <lastmod>2021-01-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/software/phovafer/</loc>
     <lastmod>2021-01-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/software/</loc>
     <lastmod>2021-01-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/publication/journal_paper/paper_008/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/author/shengwei-wang/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/post/post_5/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/post/post_4/</loc>
     <lastmod>2020-11-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/software/ifeel/</loc>
     <lastmod>2020-10-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/post/post_3/</loc>
     <lastmod>2020-10-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/post/post_2/</loc>
     <lastmod>2020-09-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/post/post_1/</loc>
     <lastmod>2020-08-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/tag/aggregation/</loc>
     <lastmod>2020-03-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/project/3_amidine/</loc>
     <lastmod>2020-03-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/tag/data-cleaning/</loc>
     <lastmod>2020-03-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/tag/data-clustering/</loc>
     <lastmod>2020-03-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/post/post_0/</loc>
     <lastmod>2020-03-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/author/howard-cheung/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/publication/journal_paper/rn-1376/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/publication/journal_paper/rn-1406/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/tag/markov-chain/</loc>
     <lastmod>2019-12-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/tag/monte-carlo/</loc>
     <lastmod>2019-12-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/tag/occupancy-and-occupant-behavior/</loc>
     <lastmod>2019-12-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/project/2_uncertainty/</loc>
     <lastmod>2019-12-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/tag/air-conditioner/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/tag/kalman-filter/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/tag/mpc/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/project/0_mpc_ac/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/tag/optimisation/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/tag/real-time-pricing/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/tag/floor-heating/</loc>
     <lastmod>2019-02-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/project/1_mpc_floor/</loc>
     <lastmod>2019-02-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/publication-type/1/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/publication/journal_paper/rn-927/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/author/borui-cui/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/author/dian-ce-gao/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/publication/journal_paper/rn-939/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/author/jiayuan-wang/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/author/john-bagterp-j%C3%B8rgensen/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/author/kui-shan/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/author/lingshi-wang/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/publication/conference_paper/rn-941/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/publication/journal_paper/rn-935/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/author/rongling-li/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/author/tao-lu/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/publication/conference_paper/rn-938/</loc>
     <lastmod>2018-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/publication/journal_paper/rn-931/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/publication/conference_paper/rn-936/</loc>
     <lastmod>2017-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/publication/conference_paper/rn-937/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/publication/journal_paper/rn-930/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/author/maomao-hu/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://maomaohu.net/talk/</loc>
   </url>
-  
 </urlset>

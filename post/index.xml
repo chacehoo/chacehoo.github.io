@@ -5,12 +5,43 @@
     <link>https://maomaohu.net/post/</link>
       <atom:link href="https://maomaohu.net/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2022 Maomao Hu</copyright><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2022 Maomao Hu</copyright><lastBuildDate>Mon, 07 Mar 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://maomaohu.net/images/icon_hu1fba2d0b8dc8bfe246be87df8bc2bbf8_10050_512x512_fill_lanczos_center_2.png</url>
+      <url>https://maomaohu.net/images/icon_hu1fba2d0b8dc8bfe246be87df8bc2bbf8_10050_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://maomaohu.net/post/</link>
     </image>
+    
+    <item>
+      <title>Mar 2022 | A talk was given at ERE Graduate Seminar at Stanford.</title>
+      <link>https://maomaohu.net/post/post_15/</link>
+      <pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/post/post_15/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;ERE Seminar - Maomao Hu: &amp;ldquo;Data-driven Descriptive, Predictive, and Prescriptive Analytics of Building and Urban Energy Systems&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;WHEN: Monday, March 7 2022, 12:15 pm&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;SPONSOR:Energy Resources Engineering&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Today’s building and urban energy systems are not only energy-intensive but also data-intensive due to the advances in information and communications technology. How can we extract actionable information and knowledge from large volumes of operational data using advanced data analytics? More importantly, how can the extracted information be further used for data-driven modelling (grey/black-box) and advanced model-based control to make building and urban energy systems low-carbon, energy-efficient, energy-flexible, and resilient against climate-induced extreme weather events? This talk aims to unpack these questions and spark reflection on the topic of data analytics-based techniques for building and urban energy systems.&lt;/p&gt;
+&lt;h2 id=&#34;bio&#34;&gt;Bio&lt;/h2&gt;
+&lt;p&gt;Dr. Maomao Hu is a postdoctoral researcher in the Department of Energy Resources Engineering at Stanford University since November 2021. Prior to joining Stanford, he was a postdoc in the Department of Engineering Science at the University of Oxford for two years. He received his PhD degree in Building Environment and Energy Engineering from the Hong Kong Polytechnic University in 2019. In 2018, he studied as a guest PhD student in the Department of Applied Mathematics and Computer Science at the Technical University of Denmark. His research interests include data analytics, data-driven modelling, numerical optimization, and model predictive control of the building and urban energy systems for GHG emission reduction, energy efficiency, energy flexibility, and energy resiliency. He has been actively contributing to international collaborations, including the ongoing IEA EBC Annex 81 (Data-Driven Smart Buildings) and Annex 82 (Energy Flexible Buildings Towards Resilient Low Carbon Energy Systems).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Feb 2022 | Maomao Hu was profiled by the 85th Anniversary Special Issue of PolyU Excel x Impact Magazine.</title>
+      <link>https://maomaohu.net/post/post_14/</link>
+      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/post/post_14/</guid>
+      <description>&lt;p&gt;Maomao Hu was profiled by the 
+&lt;a href=&#34;https://www.polyu.edu.hk/publications/excelximpact/issue/202112/education/polyu-phd-graduates-shine-in-academia&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;85th Anniversary Special Issue of PolyU Excel x Impact Magazine&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Jan 2022 | Our new paper entitled &#34;Probabilistic electrical load forecasting for buildings using Bayesian deep neural networks&#34; was published in *Journal of Building Engineering*!</title>

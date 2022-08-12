@@ -7,7 +7,7 @@
     <description>Softwares</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2022 Maomao Hu</copyright><lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://maomaohu.net/images/icon_hu1fba2d0b8dc8bfe246be87df8bc2bbf8_10050_512x512_fill_lanczos_center_2.png</url>
+      <url>https://maomaohu.net/images/icon_hu1fba2d0b8dc8bfe246be87df8bc2bbf8_10050_512x512_fill_lanczos_center_3.png</url>
       <title>Softwares</title>
       <link>https://maomaohu.net/software/</link>
     </image>
@@ -29,10 +29,12 @@
 &lt;/ul&gt;
 &lt;h1 id=&#34;-installation&#34;&gt;⚙️ Installation&lt;/h1&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/A-Giant-Panda/phovafer&#34;&gt;https://github.com/A-Giant-Panda/phovafer&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://github.com/A-Giant-Panda/phovafer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/A-Giant-Panda/phovafer&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;-docs&#34;&gt;📚 Docs&lt;/h1&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;a href=&#34;https://a-giant-panda.github.io/phovafer/&#34;&gt;https://a-giant-panda.github.io/phovafer/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://a-giant-panda.github.io/phovafer/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://a-giant-panda.github.io/phovafer/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -75,7 +77,8 @@
 &lt;a href=&#34;https://www.oerc.ox.ac.uk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Oxford e-Research Center&lt;/a&gt;, Department of Engineering Science, University of Oxford&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Contact info&lt;/strong&gt;: &lt;a href=&#34;mailto:maomao.hu@eng.ox.ac.uk&#34;&gt;maomao.hu@eng.ox.ac.uk&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Contact info&lt;/strong&gt;: 
+&lt;a href=&#34;mailto:maomao.hu@eng.ox.ac.uk&#34;&gt;maomao.hu@eng.ox.ac.uk&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Development time&lt;/strong&gt;: Oct 2020&lt;/p&gt;
@@ -111,7 +114,7 @@
 &lt;hr&gt;
 &lt;p&gt;[1] Hu M, Ge D, Telford R, Stephen B, Wallom D. Classification and characterization of intra-day load curves of PV and non-PV households using interpretable feature extraction and feature-based clustering. &lt;em&gt;Sustainable Cities and Society&lt;/em&gt;. 2021;75:103380.&lt;/p&gt;
 &lt;p&gt;[2] Lin J, Keogh E, Wei L, Lonardi S. Experiencing SAX: a novel symbolic representation of time series. &lt;em&gt;Data Mining and Knowledge Discovery&lt;/em&gt;. 2007;15:107-44.&lt;/p&gt;
-&lt;p&gt;[3] Keogh E, Lin J, Fu A. HOT SAX: efficiently finding the most unusual time series subsequence.  &lt;em&gt;5TH IEEE International Conference on Data Mining (ICDM&amp;rsquo;05)&lt;/em&gt;. 2005. p8.&lt;/p&gt;
+&lt;p&gt;[3] Keogh E, Lin J, Fu A. HOT SAX: efficiently finding the most unusual time series subsequence.  &lt;em&gt;5TH IEEE International Conference on Data Mining (ICDM&#39;05)&lt;/em&gt;. 2005. p8.&lt;/p&gt;
 </description>
     </item>
     
