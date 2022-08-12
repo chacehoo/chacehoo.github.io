@@ -5,12 +5,27 @@
     <link>https://maomaohu.net/post/</link>
       <atom:link href="https://maomaohu.net/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2022 Maomao Hu</copyright><lastBuildDate>Mon, 07 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2022 Maomao Hu</copyright><lastBuildDate>Fri, 12 Aug 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maomaohu.net/images/icon_hu1fba2d0b8dc8bfe246be87df8bc2bbf8_10050_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://maomaohu.net/post/</link>
     </image>
+    
+    <item>
+      <title>Aug 2022 | New paper entitled &#34;Stochastic modelling of flexible load characteristics of split-type air conditioners using grey-box modelling and random forest method&#34; was published in *Energy and Buildings*!</title>
+      <link>https://maomaohu.net/post/post_16_paper/</link>
+      <pubDate>Fri, 12 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/post/post_16_paper/</guid>
+      <description>&lt;p&gt;Our recent research paper entitled &amp;ldquo;&lt;strong&gt;Stochastic modelling of flexible load characteristics of split-type air conditioners using grey-box modelling and random forest method&lt;/strong&gt;&amp;rdquo; was published in &lt;em&gt;Energy and Buildings&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Many thanks to Zhihao and Prof. Jinqing Peng for leading this collaboration.&lt;/p&gt;
+&lt;p&gt;The full paper can be found 
+&lt;a href=&#34;https://doi.org/10.1016/j.enbuild.2022.112370&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
+&lt;p&gt;Split-type air conditioners (ACs) are the major contributors to the total electricity use and peak power demand in residential buildings due to their high penetration. Accurate prediction of their energy consumption plays a significant role in demand side management (DSM), because it can help exploit the demand response (DR) potential
+of these ACs fully. However, the existing studies on the load characteristics modelling of split-type ACs are still not comprehensive, especially in the consideration of occupant behavior and appliance characteristics. To solve this problem, this study has developed a novel flexible load characteristics model by combining the stochastic method, grey-box modelling (i.e., equivalent thermal parameter (ETP) model) and random forest method. The stochastic method can help capture the dynamic occupants’ energy-related behaviors considering various family structures. Random forest can address the difficulties in simulating the power characteristics of variable-speed ACs under various operating conditions. With the prediction error of 2.8%, the proposed model can effectively characterize the energy performance of split-type ACs at both individual and aggregate levels. To better show the load flexibility of ACs, an investigation on DR potential of split-type ACs was also carried out by resetting temperature setpoints. The result showed that the maximum DR potentials at the scope of 1000 aggregated households are 394.54 kWh and 323.82 kWh on weekdays and weekends, respectively. The developed flexible load characteristics model of ACs can be used by utility companies for DR potential assessment and model-based DR control for a single household or building clusters.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Mar 2022 | A talk was given at ERE Graduate Seminar at Stanford.</title>
