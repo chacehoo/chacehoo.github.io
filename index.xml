@@ -25,15 +25,19 @@
       <link>https://maomaohu.net/post/post_18_paper/</link>
       <pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate>
       <guid>https://maomaohu.net/post/post_18_paper/</guid>
-      <description>&lt;p&gt;Why does Building X have higher forecast accuracy than Building Y? What is the major factor contributing to the high forecast accuracy of Building X? DATA or ALGORITHMS? Regarding DATA, what building load characteristics affect the forecast accuracy and how can we quantify this influential factor? Regarding ALGORITHMS, what algorithms are more likely to outperform others in the field of building load forecasting? Do deep learning models outperform conventional &amp;ldquo;shallow&amp;rdquo; machine learning models? What model is the feasible model for benchmarking?&lt;/p&gt;
-&lt;p&gt;To shed some light on these questions and improve the RELIABILITY and INTERPRETABILITY of ML techniques, we examined the impacts of building load dispersion level on its best load forecasting accuracy. This was accomplished by comparing the performances of 11 different prediction models, including “shallow” machine learning and deep learning techniques, over 9 weeks of operation for 56 British non-domestic buildings. Two key takeaways are:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;1. Each building has its best achievable forecasting performance and most importantly, it is largely influenced by its load dispersion level. In our study, we proposed novel metrics to quantify the dispersion level of building intraday load profiles.
-
-2. There is not a panacea-like individual model for all building load forecasting problems. A complex model structure does not guarantee a higher forecasting performance. We find that conventional “shallow” ML models still outperform the increasingly popular deep learning models for time-series load forecasting. We also demonstrate that the naive persistent model is not naive at all after a long period of testing and it is recommended to be used as the benchmarking model in the building load forecasting problem.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Thrilled to see my last piece of work at Oxford finally coming out. Many thanks to our co-authors without whom it would not be possible to put together this work: Bruce Stephen, Jethro Browell, Stephen Haben, and David Wallom.&lt;/p&gt;
-&lt;p&gt;The full paper can be found 
+      <description>&lt;p&gt;The full paper can be found 
 &lt;a href=&#34;https://doi.org/10.1016/j.enbuild.2023.112896&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Why does Building X have higher forecast accuracy than Building Y? What is the major factor contributing to the high forecast accuracy of Building X? DATA or ALGORITHMS? Regarding DATA, what building load characteristics affect the forecast accuracy and how can we quantify this influential factor? Regarding ALGORITHMS, what algorithms are more likely to outperform others in the field of building load forecasting? Do deep learning models outperform conventional &amp;ldquo;shallow&amp;rdquo; machine learning models? What model is the feasible model for benchmarking?&lt;/p&gt;
+&lt;p&gt;To shed some light on these questions and improve the RELIABILITY and INTERPRETABILITY of ML techniques, we examined the impacts of building load dispersion level on its best load forecasting accuracy. This was accomplished by comparing the performances of 11 different prediction models, including “shallow” machine learning and deep learning techniques, over 9 weeks of operation for 56 British non-domestic buildings. Two key takeaways are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Each building has its best achievable forecasting performance and most importantly, it is largely influenced by its load dispersion level. In our study, we proposed novel metrics to quantify the dispersion level of building intraday load profiles.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;There is not a panacea-like individual model for all building load forecasting problems. A complex model structure does not guarantee a higher forecasting performance. We find that conventional “shallow” ML models still outperform the increasingly popular deep learning models for time-series load forecasting. We also demonstrate that the naive persistent model is not naive at all after a long period of testing and it is recommended to be used as the benchmarking model in the building load forecasting problem.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thrilled to see my last piece of work at Oxford finally coming out. Many thanks to our co-authors without whom it would not be possible to put together this work: Bruce Stephen, Jethro Browell, Stephen Haben, and David Wallom.&lt;/p&gt;
 </description>
     </item>
     
