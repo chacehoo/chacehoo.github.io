@@ -5,12 +5,35 @@
     <link>https://maomaohu.net/</link>
       <atom:link href="https://maomaohu.net/index.xml" rel="self" type="application/rss+xml" />
     <description>Maomao Hu</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2023 Maomao Hu</copyright><lastBuildDate>Tue, 25 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2023 Maomao Hu</copyright><lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maomaohu.net/images/icon_hu1fba2d0b8dc8bfe246be87df8bc2bbf8_10050_512x512_fill_lanczos_center_3.png</url>
       <title>Maomao Hu</title>
       <link>https://maomaohu.net/</link>
     </image>
+    
+    <item>
+      <title>July 2023 | A talk was given on 2023 International Summer School on Exploring Pathways for Low-Carbon Buildings, University of Shanghai for Science and Technology, Shanghai, China.</title>
+      <link>https://maomaohu.net/post/post_21_talk/</link>
+      <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/post/post_21_talk/</guid>
+      <description>&lt;p&gt;A talk was given on 2023 International Summer School on Exploring Pathways for Low-Carbon Buildings, hosted by the University of Shanghai for Science and Technology, Shanghai, China. The talk was entitled &amp;ldquo;Decarbonization of Building and Urban Energy Systems: A Multiscale Data-driven Approach&amp;rdquo;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>July 2023 | New paper entitled &#34;Empirical Exploration of Zone-by-zone Energy Flexibility - a Non-intrusive Load Disaggregation Approach for Commercial Buildings&#34; was published in *Energy and buildings*.</title>
+      <link>https://maomaohu.net/post/post_20_paper/</link>
+      <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/post/post_20_paper/</guid>
+      <description>&lt;p&gt;The full paper can be found 
+&lt;a href=&#34;https://doi.org/10.1016/j.enbuild.2023.113339&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Excited to share our latest research on empirical exploration of zone-by-zone energy flexibility in commercial buildings. Coauthored with Jacques de Chalendar and Ram Rajagopal, our study combines repetitive demand response experimentation in multiple buildings with an experimental-data-driven non-intrusive load disaggregation approach.&lt;/p&gt;
+&lt;p&gt;The core idea revolves around developing a ‘virtual’ zonal power meter, providing high-granular insights into room-level energy use and energy flexibility, backed by real-world experimental data.&lt;/p&gt;
+&lt;p&gt;Among the key findings, we discovered that a small number of rooms accounted for a significant portion of energy use and energy flexibility, and surprisingly, the most energy-intensive rooms were not necessarily the most energy-flexible ones. For the three tested buildings, the top 30% of most energy-flexible zones provided around 80% of the total energy flexibility.&lt;/p&gt;
+&lt;p&gt;The tools we developed are poised to empower electric grid or district energy system operators to view the controlled energy-flexible entities as a fleet of zones rather than a fleet of buildings, unlocking the potential for targeted demand flexibility strategies that balance zone-by-zone energy reduction with zone-by-zone costs to occupants.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Empirical Exploration of Zone-by-zone Energy Flexibility: a Non-intrusive Load Disaggregation Approach for Commercial Buildings</title>
