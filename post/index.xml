@@ -5,12 +5,21 @@
     <link>https://maomaohu.net/post/</link>
       <atom:link href="https://maomaohu.net/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2023 Maomao Hu</copyright><lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2023 Maomao Hu</copyright><lastBuildDate>Fri, 18 Aug 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maomaohu.net/images/icon_hu1fba2d0b8dc8bfe246be87df8bc2bbf8_10050_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://maomaohu.net/post/</link>
     </image>
+    
+    <item>
+      <title>August 2023 | A talk was given to the Department of the Built Environment, National University of Singapore.</title>
+      <link>https://maomaohu.net/post/post_23_talk/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/post/post_23_talk/</guid>
+      <description>&lt;p&gt;A talk was given to the Department of the Built Environment, National University of Singapore, Singapore. The talk was entitled &amp;ldquo;Decarbonization of Building and Urban Energy Systems: A Multiscale Data-driven Approach&amp;rdquo;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>July 2023 | A talk was given on 2023 International Summer School on Exploring Pathways for Low-Carbon Buildings, University of Shanghai for Science and Technology, Shanghai, China.</title>
