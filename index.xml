@@ -19,14 +19,18 @@
       <guid>https://maomaohu.net/join/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;nus_engineering.png&#34; alt=&#34;NUS engineering&#34;&gt;&lt;/p&gt;
 &lt;p&gt;The National University of Singapore (NUS) is Singapore’s flagship university, which offers a global approach to education, research and entrepreneurship. The Institute holds an outstanding reputation in the fields of engineering, science, business, and law. Globally, NUS was &lt;span style=&#34;color:#EF7C00&#34;&gt;&lt;strong&gt;#8&lt;/strong&gt;&lt;/span&gt; in the QS World University Rankings 2024, &lt;span style=&#34;color:#EF7C00&#34;&gt;&lt;strong&gt;#19&lt;/strong&gt;&lt;/span&gt; in the Times Higher Education (THE) World University Rankings 2024, &lt;span style=&#34;color:#EF7C00&#34;&gt;&lt;strong&gt;#26&lt;/strong&gt;&lt;/span&gt; in the US News 2022-2023 Best Global Universities Rankings. NUS’s engineering programs are ranked &lt;span style=&#34;color:#EF7C00&#34;&gt;&lt;strong&gt;#8&lt;/strong&gt;&lt;/span&gt; in the world in the latest THE World University Rankings 2023 by Subject. NUS‘s program of Built Environment is ranked &lt;span style=&#34;color:#EF7C00&#34;&gt;&lt;strong&gt;#7&lt;/strong&gt;&lt;/span&gt; in the QS World University Rankings by Subject 2023.&lt;/p&gt;
-&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of contents&lt;/h2&gt;
+&lt;h2 id=&#34;table-of-contents&#34;&gt;&lt;strong&gt;Table of contents&lt;/strong&gt;&lt;/h2&gt;
+&lt;hr&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;a href=&#34;#phd&#34;&gt;Ph.D. Students&lt;/a&gt;
-a. 
-&lt;a href=&#34;#phd_requirements&#34;&gt;PhD Requirements&lt;/a&gt;
-b. 
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;#phd_requirements&#34;&gt;PhD Requirements&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
 &lt;a href=&#34;#how_to_apply&#34;&gt;How to Apply&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
 &lt;li&gt;
 &lt;a href=&#34;#postdoc&#34;&gt;Postdoctoral Researchers&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
@@ -36,6 +40,14 @@ b.
 &lt;hr&gt;
 &lt;p&gt;Our &lt;span style=&#34;color:#EF7C00&#34;&gt;&lt;strong&gt;Building Informatics and Operations Research (BIOR)&lt;/strong&gt;&lt;/span&gt; Lab in the Department of the Built Environment at NUS warmly invites applications from students with backgrounds in Architectural Engineering (i.e., HVAC Engineering),  Thermal Engineering (e.g., heat and mass transfer, thermodynamics, etc.), Mechanical Engineering, Electrical Engineering, or Applied Mathematics. We are currently looking for &lt;span style=&#34;color:#EF7C00&#34;&gt;&lt;strong&gt;2-3&lt;/strong&gt;&lt;/span&gt; Ph.D. students to join our team &lt;span style=&#34;color:#EF7C00&#34;&gt;&lt;strong&gt;starting from January 2024 or later&lt;/strong&gt;&lt;/span&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;requirements-a-namephd_requirementsa&#34;&gt;Requirements &lt;a name=&#34;phd_requirements&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id=&#34;general-requirment&#34;&gt;General requirment&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Graduate Record Examination (GRE) with minimum scores of 320 (Verbal &amp;amp; Quantitative Total) and 3.5 (Analytical)&lt;/li&gt;
+&lt;li&gt;TOEFL score of 85 for Internet Based Test (IBT); or IELTS (Academic) score of 6.0.
+(Note: Please check &lt;strong&gt;here&lt;/strong&gt; 
+&lt;a href=&#34;https://cde.nus.edu.sg/graduate/graduate-programmes-by-research/admission-requirement-2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🔗&lt;/a&gt; for more information on general requirements for PhD admission, including the validity period for GRE/TOEFL/IELTS)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;applicants-meeting-any-one-or-more-of-the-following-criteria-will-be-prioritized&#34;&gt;Applicants meeting any one or more of the following criteria will be prioritized:&lt;/h4&gt;
 &lt;h3 id=&#34;how-to-apply--a-namehow_to_applya&#34;&gt;How to Apply  &lt;a name=&#34;how_to_apply&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Prospective students should send an email with the subject line &lt;code&gt;Prospective_PhD_{First Name}_{Family Name}&lt;/code&gt; to the email address &lt;span style=&#34;color:#EF7C00&#34;&gt;
 &lt;a href=&#34;mailto:maomaohu@stanford.edu&#34;&gt;maomaohu@stanford.edu&lt;/a&gt;&lt;/span&gt; for inquiries. The email should be written in English and include the following:&lt;/p&gt;
