@@ -5,12 +5,37 @@
     <link>https://maomaohu.net/</link>
       <atom:link href="https://maomaohu.net/index.xml" rel="self" type="application/rss+xml" />
     <description>Maomao Hu</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2023 Maomao Hu</copyright><lastBuildDate>Mon, 02 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2023 Maomao Hu</copyright><lastBuildDate>Wed, 11 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maomaohu.net/images/icon_hu1fba2d0b8dc8bfe246be87df8bc2bbf8_10050_512x512_fill_lanczos_center_3.png</url>
       <title>Maomao Hu</title>
       <link>https://maomaohu.net/</link>
     </image>
+    
+    <item>
+      <title>Join Us!</title>
+      <link>https://maomaohu.net/software/ifeel/</link>
+      <pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/software/ifeel/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;nus_engineering.png&#34; alt=&#34;NUS engineering&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Department of the Built Environment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;--to-phd-applicants&#34;&gt;🎓  &lt;strong&gt;To Ph.D. Applicants&lt;/strong&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;We welcome Ph.D. applicants who are interested in X, X, and related fields, as well as industry professionals:&lt;/p&gt;
+&lt;h3 id=&#34;requirements&#34;&gt;Requirements&lt;/h3&gt;
+&lt;h3 id=&#34;how-to-apply&#34;&gt;How to Apply&lt;/h3&gt;
+&lt;h2 id=&#34;-undergraduate-students&#34;&gt;🎓 &lt;strong&gt;Undergraduate Students&lt;/strong&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-graduate-students&#34;&gt;🎓 &lt;strong&gt;Graduate Students&lt;/strong&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;postdoctoral-researchers&#34;&gt;&lt;strong&gt;Postdoctoral Researchers&lt;/strong&gt;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;visiting-studentsscholars&#34;&gt;&lt;strong&gt;Visiting Students/Scholars&lt;/strong&gt;&lt;/h2&gt;
+&lt;hr&gt;
+</description>
+    </item>
     
     <item>
       <title>Oct 2023 | A talk was given to the ZERO Institute, Department of Engineering Science, University of Oxford, UK.</title>
@@ -383,9 +408,9 @@ of these ACs fully. However, the existing studies on the load characteristics mo
     
     <item>
       <title>IFEEL-Interpretable Feature Extraction of Electricity Loads</title>
-      <link>https://maomaohu.net/software/ifeel/</link>
+      <link>https://maomaohu.net/join/</link>
       <pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://maomaohu.net/software/ifeel/</guid>
+      <guid>https://maomaohu.net/join/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;ifeel_logo.png&#34; alt=&#34;IFEEL logo&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;A python package for &lt;strong&gt;Interpretable Feature Extraction of Electricity Loads&lt;/strong&gt; (IFEEL).&lt;/li&gt;
