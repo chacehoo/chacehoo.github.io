@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://maomaohu.net/</loc>
+    <lastmod>2023-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/post/post_24_talk/</loc>
+    <lastmod>2023-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/post/</loc>
+    <lastmod>2023-10-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://maomaohu.net/publication-type/2/</loc>
     <lastmod>2023-08-24T00:00:00+00:00</lastmod>
   </url><url>
@@ -15,9 +24,6 @@
     <lastmod>2023-08-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maomaohu.net/author/maomao-hu/</loc>
-    <lastmod>2023-08-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://maomaohu.net/</loc>
     <lastmod>2023-08-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maomaohu.net/publication/journal_paper/paper_16/</loc>
@@ -36,9 +42,6 @@
     <lastmod>2023-08-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maomaohu.net/post/post_23_talk/</loc>
-    <lastmod>2023-08-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://maomaohu.net/post/</loc>
     <lastmod>2023-08-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maomaohu.net/post/post_22_talk/</loc>
