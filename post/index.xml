@@ -5,12 +5,24 @@
     <link>https://maomaohu.net/post/</link>
       <atom:link href="https://maomaohu.net/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2023 Maomao Hu</copyright><lastBuildDate>Mon, 02 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2023 Maomao Hu</copyright><lastBuildDate>Thu, 05 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maomaohu.net/images/icon_hu1fba2d0b8dc8bfe246be87df8bc2bbf8_10050_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://maomaohu.net/post/</link>
     </image>
+    
+    <item>
+      <title>Oct. 2023 | New paper entitled &#34;Developing energy flexibility in clusters of buildings - a critical analysis of barriers from planning to operation&#34; was published in *Energy and buildings*.</title>
+      <link>https://maomaohu.net/post/post_25_paper/</link>
+      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/post/post_25_paper/</guid>
+      <description>&lt;p&gt;The full paper can be found 
+&lt;a href=&#34;https://doi.org/10.1016/j.enbuild.2023.113608&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Many thanks to Jérôme and Rui for the leadership and making it happen. This paper is a good contribution to our 
+&lt;a href=&#34;https://annex82.iea-ebc.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IEA EBC Annex 82&lt;/a&gt; project.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Oct 2023 | A talk was given to the ZERO Institute, Department of Engineering Science, University of Oxford, UK.</title>
