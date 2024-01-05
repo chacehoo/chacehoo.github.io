@@ -4,6 +4,8 @@
   <url>
     <loc>https://maomaohu.net/contact/contact/</loc>
   </url><url>
+    <loc>https://maomaohu.net/project/selected_projects/</loc>
+  </url><url>
     <loc>https://maomaohu.net/join/</loc>
     <lastmod>2023-10-11T00:00:00+00:00</lastmod>
   </url><url>
@@ -82,7 +84,37 @@
     <loc>https://maomaohu.net/publication/journal_paper/paper_11/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://maomaohu.net/project/</loc>
+    <lastmod>2021-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/tag/building-clusters/</loc>
+    <lastmod>2021-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/tag/building-energy-system/</loc>
+    <lastmod>2021-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/project/4_cooler/</loc>
+    <lastmod>2021-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/tag/data-analytics/</loc>
+    <lastmod>2021-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/tag/data-driven-modelling/</loc>
+    <lastmod>2021-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/tag/demand-response/</loc>
+    <lastmod>2021-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/tag/energy-flexibility/</loc>
+    <lastmod>2021-11-22T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://maomaohu.net/post/post_12/</loc>
+    <lastmod>2021-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/tags/</loc>
+    <lastmod>2021-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/tag/uncertainty/</loc>
     <lastmod>2021-11-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maomaohu.net/post/post_11/</loc>
@@ -136,6 +168,18 @@
     <loc>https://maomaohu.net/post/post_1/</loc>
     <lastmod>2020-08-25T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://maomaohu.net/tag/aggregation/</loc>
+    <lastmod>2020-03-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/project/3_amidine/</loc>
+    <lastmod>2020-03-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/tag/data-cleaning/</loc>
+    <lastmod>2020-03-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/tag/data-clustering/</loc>
+    <lastmod>2020-03-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://maomaohu.net/post/post_0/</loc>
     <lastmod>2020-03-16T00:00:00+00:00</lastmod>
   </url><url>
@@ -144,6 +188,42 @@
   </url><url>
     <loc>https://maomaohu.net/publication/journal_paper/rn-1406/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/tag/markov-chain/</loc>
+    <lastmod>2019-12-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/tag/monte-carlo/</loc>
+    <lastmod>2019-12-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/tag/occupancy-and-occupant-behavior/</loc>
+    <lastmod>2019-12-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/project/2_uncertainty/</loc>
+    <lastmod>2019-12-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/tag/air-conditioner/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/tag/kalman-filter/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/tag/mpc/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/project/0_mpc_ac/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/tag/optimisation/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/tag/real-time-pricing/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/tag/floor-heating/</loc>
+    <lastmod>2019-02-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/project/1_mpc_floor/</loc>
+    <lastmod>2019-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maomaohu.net/publication-type/1/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
@@ -177,8 +257,6 @@
   </url><url>
     <loc>https://maomaohu.net/people/</loc>
   </url><url>
-    <loc>https://maomaohu.net/project/</loc>
-  </url><url>
     <loc>https://maomaohu.net/research/</loc>
   </url><url>
     <loc>https://maomaohu.net/author/</loc>
@@ -188,7 +266,5 @@
     <loc>https://maomaohu.net/contact/</loc>
   </url><url>
     <loc>https://maomaohu.net/author/maomao-hu/</loc>
-  </url><url>
-    <loc>https://maomaohu.net/tags/</loc>
   </url>
 </urlset>
