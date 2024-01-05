@@ -4,7 +4,7 @@
   <url>
     <loc>https://maomaohu.net/contact/contact/</loc>
   </url><url>
-    <loc>https://maomaohu.net/project/project/</loc>
+    <loc>https://maomaohu.net/projects/project/</loc>
   </url><url>
     <loc>https://maomaohu.net/join/</loc>
     <lastmod>2023-10-11T00:00:00+00:00</lastmod>
@@ -84,9 +84,6 @@
     <loc>https://maomaohu.net/publication/journal_paper/paper_11/</loc>
     <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maomaohu.net/project/</loc>
-    <lastmod>2021-11-22T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://maomaohu.net/tag/building-clusters/</loc>
     <lastmod>2021-11-22T00:00:00+00:00</lastmod>
   </url><url>
@@ -109,6 +106,9 @@
     <lastmod>2021-11-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maomaohu.net/post/post_12/</loc>
+    <lastmod>2021-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/project/</loc>
     <lastmod>2021-11-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maomaohu.net/tags/</loc>
@@ -256,6 +256,8 @@
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maomaohu.net/people/</loc>
+  </url><url>
+    <loc>https://maomaohu.net/projects/</loc>
   </url><url>
     <loc>https://maomaohu.net/research/</loc>
   </url><url>
