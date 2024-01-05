@@ -21,14 +21,6 @@
     </item>
     
     <item>
-      <title>Selected Projects</title>
-      <link>https://maomaohu.net/projects/project/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://maomaohu.net/projects/project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Join Us!</title>
       <link>https://maomaohu.net/join/</link>
       <pubDate>Wed, 11 Oct 2023 00:00:00 +0000</pubDate>
@@ -1021,6 +1013,14 @@ of these ACs fully. However, the existing studies on the load characteristics mo
       <link>https://maomaohu.net/people/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://maomaohu.net/people/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://maomaohu.net/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/projects/</guid>
       <description></description>
     </item>
     
