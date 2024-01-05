@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Maomao Hu | BIOR Lab</title>
-    <link>https://maomaohu.net/author/maomao-hu/</link>
-      <atom:link href="https://maomaohu.net/author/maomao-hu/index.xml" rel="self" type="application/rss+xml" />
-    <description>Maomao Hu</description>
+    <title>Author | BIOR Lab</title>
+    <link>https://maomaohu.net/author/</link>
+      <atom:link href="https://maomaohu.net/author/index.xml" rel="self" type="application/rss+xml" />
+    <description>Author</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020-2024 Maomao Hu</copyright>
     <image>
       <url>https://maomaohu.net/images/icon_hu1fba2d0b8dc8bfe246be87df8bc2bbf8_10050_512x512_fill_lanczos_center_3.png</url>
-      <title>Maomao Hu</title>
-      <link>https://maomaohu.net/author/maomao-hu/</link>
+      <title>Author</title>
+      <link>https://maomaohu.net/author/</link>
     </image>
     
   </channel>
