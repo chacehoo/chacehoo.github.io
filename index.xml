@@ -413,82 +413,9 @@ of these ACs fully. However, the existing studies on the load characteristics mo
     </item>
     
     <item>
-      <title>Development of an ANN-based building energy model for information-poor buildings using transfer learning</title>
-      <link>https://maomaohu.net/publication/journal_paper/paper_9/</link>
-      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://maomaohu.net/publication/journal_paper/paper_9/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jan 2021 | Our R package named PHOVAFER (PHOtoVoltAic FindER) was released.</title>
-      <link>https://maomaohu.net/post/post_6/</link>
-      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://maomaohu.net/post/post_6/</guid>
-      <description>&lt;p&gt;“PHOtoVoltAic FindER” (phovafer) is developed for identifying the solar photovoltaic (PV) customers among regular customers on a  low-voltage distribution network. It contains the R functions for data representation, feature extraction, and PV users’ classification using the extracted features.&lt;/p&gt;
-&lt;p&gt;PHOVAFER Docs can be found 
-&lt;a href=&#34;https://maomaohu.net/software/phovafer/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>PHOVAFER - PHOtoVoltAic FindER</title>
-      <link>https://maomaohu.net/software/phovafer/</link>
-      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://maomaohu.net/software/phovafer/</guid>
-      <description>&lt;h1 id=&#34;-about&#34;&gt;⭐ About&lt;/h1&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;“PHOtoVoltAic FindER” (phovafer) is developed for identifying the solar photovoltaic (PV) users among the regular consumers on a  low-voltage distribution network. It contains the R functions for data representation, feature extraction, and PV users’ classification using the extracted features.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;This package is developed for the project &amp;ldquo;Analytical Middleware for Informed Distribution Networks (AMIDiNe)&amp;rdquo; (EPSRC: EP/S030131/1). The developers would like to thank for the help from Bruce Stephen, Jethro Browell, Rory Telford, Stuart Galloway, and Ciaran Gilbert from the University of Strathclyde.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;-installation&#34;&gt;⚙️ Installation&lt;/h1&gt;
-&lt;hr&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://github.com/A-Giant-Panda/phovafer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/A-Giant-Panda/phovafer&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;-docs&#34;&gt;📚 Docs&lt;/h1&gt;
-&lt;hr&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://a-giant-panda.github.io/phovafer/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://a-giant-panda.github.io/phovafer/&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Neighborhood-level coordination and negotiation techniques for managing demand-side flexibility in residential microgrids</title>
-      <link>https://maomaohu.net/publication/journal_paper/paper_008/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://maomaohu.net/publication/journal_paper/paper_008/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dec 2020 | Glad to share that I was recently appointed as a Reviewer Board member of the jounal of *Science and Technology for the Built Environment* .</title>
-      <link>https://maomaohu.net/post/post_5/</link>
-      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://maomaohu.net/post/post_5/</guid>
-      <description>&lt;p&gt;Recently Dr. Hu was appointed as a member of the Reviewer Board of the journal of 
-&lt;a href=&#34;https://www.tandfonline.com/action/journalInformation?show=editorialBoard&amp;amp;journalCode=uhvc21&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Science and Technology for the Built Environment (STBE)&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Nov 2020 | A talk was given at the China-UK Workshop on “Integrating Sustainable Technologies into the Design Strategies of New Communities or Regeneration Projects” funded by Newton Fund.</title>
-      <link>https://maomaohu.net/post/post_4/</link>
-      <pubDate>Sat, 07 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://maomaohu.net/post/post_4/</guid>
-      <description>&lt;p&gt;A talk entitled &amp;ldquo;Classification and Characterization of Smart Meter Data Using Interpretable Feature Extraction and Feature-based Clustering&amp;rdquo; was given by Dr. Hu at the China-UK Workshop on 
-&lt;a href=&#34;https://www.ucl.ac.uk/bartlett/environmental-design/research-projects/2020/nov/integrating-sustainable-technologies-design-strategies-new-communities-or&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;“Integrating Sustainable Technologies into the Design Strategies of New Communities or Regeneration Projects”&lt;/a&gt; funded by NSFC China and the British Council Newton Fund.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>IFEEL-Interpretable Feature Extraction of Electricity Loads</title>
       <link>https://maomaohu.net/software/ifeel/</link>
-      <pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://maomaohu.net/software/ifeel/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;ifeel_logo.png&#34; alt=&#34;IFEEL logo&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -562,6 +489,79 @@ of these ACs fully. However, the existing studies on the load characteristics mo
 &lt;p&gt;[1] Hu M, Ge D, Telford R, Stephen B, Wallom D. Classification and characterization of intra-day load curves of PV and non-PV households using interpretable feature extraction and feature-based clustering. &lt;em&gt;Sustainable Cities and Society&lt;/em&gt;. 2021;75:103380.&lt;/p&gt;
 &lt;p&gt;[2] Lin J, Keogh E, Wei L, Lonardi S. Experiencing SAX: a novel symbolic representation of time series. &lt;em&gt;Data Mining and Knowledge Discovery&lt;/em&gt;. 2007;15:107-44.&lt;/p&gt;
 &lt;p&gt;[3] Keogh E, Lin J, Fu A. HOT SAX: efficiently finding the most unusual time series subsequence.  &lt;em&gt;5TH IEEE International Conference on Data Mining (ICDM&#39;05)&lt;/em&gt;. 2005. p8.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Development of an ANN-based building energy model for information-poor buildings using transfer learning</title>
+      <link>https://maomaohu.net/publication/journal_paper/paper_9/</link>
+      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/publication/journal_paper/paper_9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jan 2021 | Our R package named PHOVAFER (PHOtoVoltAic FindER) was released.</title>
+      <link>https://maomaohu.net/post/post_6/</link>
+      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/post/post_6/</guid>
+      <description>&lt;p&gt;“PHOtoVoltAic FindER” (phovafer) is developed for identifying the solar photovoltaic (PV) customers among regular customers on a  low-voltage distribution network. It contains the R functions for data representation, feature extraction, and PV users’ classification using the extracted features.&lt;/p&gt;
+&lt;p&gt;PHOVAFER Docs can be found 
+&lt;a href=&#34;https://maomaohu.net/software/phovafer/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PHOVAFER - PHOtoVoltAic FindER</title>
+      <link>https://maomaohu.net/software/phovafer/</link>
+      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/software/phovafer/</guid>
+      <description>&lt;h1 id=&#34;-about&#34;&gt;⭐ About&lt;/h1&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;“PHOtoVoltAic FindER” (phovafer) is developed for identifying the solar photovoltaic (PV) users among the regular consumers on a  low-voltage distribution network. It contains the R functions for data representation, feature extraction, and PV users’ classification using the extracted features.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;This package is developed for the project &amp;ldquo;Analytical Middleware for Informed Distribution Networks (AMIDiNe)&amp;rdquo; (EPSRC: EP/S030131/1). The developers would like to thank for the help from Bruce Stephen, Jethro Browell, Rory Telford, Stuart Galloway, and Ciaran Gilbert from the University of Strathclyde.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;-installation&#34;&gt;⚙️ Installation&lt;/h1&gt;
+&lt;hr&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://github.com/A-Giant-Panda/phovafer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/A-Giant-Panda/phovafer&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;-docs&#34;&gt;📚 Docs&lt;/h1&gt;
+&lt;hr&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://a-giant-panda.github.io/phovafer/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://a-giant-panda.github.io/phovafer/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Neighborhood-level coordination and negotiation techniques for managing demand-side flexibility in residential microgrids</title>
+      <link>https://maomaohu.net/publication/journal_paper/paper_008/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/publication/journal_paper/paper_008/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dec 2020 | Glad to share that I was recently appointed as a Reviewer Board member of the jounal of *Science and Technology for the Built Environment* .</title>
+      <link>https://maomaohu.net/post/post_5/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/post/post_5/</guid>
+      <description>&lt;p&gt;Recently Dr. Hu was appointed as a member of the Reviewer Board of the journal of 
+&lt;a href=&#34;https://www.tandfonline.com/action/journalInformation?show=editorialBoard&amp;amp;journalCode=uhvc21&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Science and Technology for the Built Environment (STBE)&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nov 2020 | A talk was given at the China-UK Workshop on “Integrating Sustainable Technologies into the Design Strategies of New Communities or Regeneration Projects” funded by Newton Fund.</title>
+      <link>https://maomaohu.net/post/post_4/</link>
+      <pubDate>Sat, 07 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/post/post_4/</guid>
+      <description>&lt;p&gt;A talk entitled &amp;ldquo;Classification and Characterization of Smart Meter Data Using Interpretable Feature Extraction and Feature-based Clustering&amp;rdquo; was given by Dr. Hu at the China-UK Workshop on 
+&lt;a href=&#34;https://www.ucl.ac.uk/bartlett/environmental-design/research-projects/2020/nov/integrating-sustainable-technologies-design-strategies-new-communities-or&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;“Integrating Sustainable Technologies into the Design Strategies of New Communities or Regeneration Projects”&lt;/a&gt; funded by NSFC China and the British Council Newton Fund.&lt;/p&gt;
 </description>
     </item>
     

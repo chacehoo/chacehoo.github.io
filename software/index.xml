@@ -5,7 +5,7 @@
     <link>https://maomaohu.net/software/</link>
       <atom:link href="https://maomaohu.net/software/index.xml" rel="self" type="application/rss+xml" />
     <description>Softwares</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020-2024 Maomao Hu</copyright><lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020-2024 Maomao Hu</copyright><lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maomaohu.net/images/icon_hu1fba2d0b8dc8bfe246be87df8bc2bbf8_10050_512x512_fill_lanczos_center_3.png</url>
       <title>Softwares</title>
@@ -13,35 +13,9 @@
     </image>
     
     <item>
-      <title>PHOVAFER - PHOtoVoltAic FindER</title>
-      <link>https://maomaohu.net/software/phovafer/</link>
-      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://maomaohu.net/software/phovafer/</guid>
-      <description>&lt;h1 id=&#34;-about&#34;&gt;⭐ About&lt;/h1&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;“PHOtoVoltAic FindER” (phovafer) is developed for identifying the solar photovoltaic (PV) users among the regular consumers on a  low-voltage distribution network. It contains the R functions for data representation, feature extraction, and PV users’ classification using the extracted features.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;This package is developed for the project &amp;ldquo;Analytical Middleware for Informed Distribution Networks (AMIDiNe)&amp;rdquo; (EPSRC: EP/S030131/1). The developers would like to thank for the help from Bruce Stephen, Jethro Browell, Rory Telford, Stuart Galloway, and Ciaran Gilbert from the University of Strathclyde.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;-installation&#34;&gt;⚙️ Installation&lt;/h1&gt;
-&lt;hr&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://github.com/A-Giant-Panda/phovafer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/A-Giant-Panda/phovafer&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;-docs&#34;&gt;📚 Docs&lt;/h1&gt;
-&lt;hr&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://a-giant-panda.github.io/phovafer/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://a-giant-panda.github.io/phovafer/&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>IFEEL-Interpretable Feature Extraction of Electricity Loads</title>
       <link>https://maomaohu.net/software/ifeel/</link>
-      <pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://maomaohu.net/software/ifeel/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;ifeel_logo.png&#34; alt=&#34;IFEEL logo&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -115,6 +89,32 @@
 &lt;p&gt;[1] Hu M, Ge D, Telford R, Stephen B, Wallom D. Classification and characterization of intra-day load curves of PV and non-PV households using interpretable feature extraction and feature-based clustering. &lt;em&gt;Sustainable Cities and Society&lt;/em&gt;. 2021;75:103380.&lt;/p&gt;
 &lt;p&gt;[2] Lin J, Keogh E, Wei L, Lonardi S. Experiencing SAX: a novel symbolic representation of time series. &lt;em&gt;Data Mining and Knowledge Discovery&lt;/em&gt;. 2007;15:107-44.&lt;/p&gt;
 &lt;p&gt;[3] Keogh E, Lin J, Fu A. HOT SAX: efficiently finding the most unusual time series subsequence.  &lt;em&gt;5TH IEEE International Conference on Data Mining (ICDM&#39;05)&lt;/em&gt;. 2005. p8.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PHOVAFER - PHOtoVoltAic FindER</title>
+      <link>https://maomaohu.net/software/phovafer/</link>
+      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/software/phovafer/</guid>
+      <description>&lt;h1 id=&#34;-about&#34;&gt;⭐ About&lt;/h1&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;“PHOtoVoltAic FindER” (phovafer) is developed for identifying the solar photovoltaic (PV) users among the regular consumers on a  low-voltage distribution network. It contains the R functions for data representation, feature extraction, and PV users’ classification using the extracted features.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;This package is developed for the project &amp;ldquo;Analytical Middleware for Informed Distribution Networks (AMIDiNe)&amp;rdquo; (EPSRC: EP/S030131/1). The developers would like to thank for the help from Bruce Stephen, Jethro Browell, Rory Telford, Stuart Galloway, and Ciaran Gilbert from the University of Strathclyde.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;-installation&#34;&gt;⚙️ Installation&lt;/h1&gt;
+&lt;hr&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://github.com/A-Giant-Panda/phovafer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/A-Giant-Panda/phovafer&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;-docs&#34;&gt;📚 Docs&lt;/h1&gt;
+&lt;hr&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://a-giant-panda.github.io/phovafer/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://a-giant-panda.github.io/phovafer/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
