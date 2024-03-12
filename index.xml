@@ -346,86 +346,6 @@ of these ACs fully. However, the existing studies on the load characteristics mo
     </item>
     
     <item>
-      <title>IFEEL-Interpretable Feature Extraction of Electricity Loads</title>
-      <link>https://maomaohu.net/software/ifeel/</link>
-      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://maomaohu.net/software/ifeel/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;ifeel_logo.png&#34; alt=&#34;IFEEL logo&#34;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;A python package for &lt;strong&gt;Interpretable Feature Extraction of Electricity Loads&lt;/strong&gt; (IFEEL).&lt;/li&gt;
-&lt;li&gt;IFEEL has a similar pronunciation to the Eiffel Tower 🗼 so you will find two &amp;ldquo;Eiffel&amp;rdquo; electricity towers in the IFEEL logo.&lt;/li&gt;
-&lt;li&gt;Description of IFEEL can be found on &lt;strong&gt;GitHub&lt;/strong&gt; 
-&lt;a href=&#34;https://github.com/chacehoo/IFEEL&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🔗&lt;/a&gt; (&lt;em&gt;Recommended, no image loading issue&lt;/em&gt;) or &lt;strong&gt;PyPI&lt;/strong&gt; 
-&lt;a href=&#34;https://pypi.org/project/ifeel/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;🔗&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;--illustration&#34;&gt;📌  &lt;strong&gt;Illustration&lt;/strong&gt;&lt;/h2&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img src=&#34;ifeel_illustration.png&#34; alt=&#34;Illustration of IFEEL process&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;-installation&#34;&gt;⚙️ &lt;strong&gt;Installation&lt;/strong&gt;&lt;/h2&gt;
-&lt;hr&gt;
-&lt;p&gt;You can use &lt;code&gt;pip&lt;/code&gt;  to easily install IFEEL with:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;pip install ifeel&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;More info about &lt;code&gt;pip&lt;/code&gt; can be found 
-&lt;a href=&#34;https://pip.pypa.io/en/stable/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; .&lt;/p&gt;
-&lt;h2 id=&#34;-developer-info&#34;&gt;🤖 &lt;strong&gt;Developer info&lt;/strong&gt;&lt;/h2&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Package title&lt;/strong&gt;: Interpretable Feature Extraction of Electricity Load (IFEEL)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Authors&lt;/strong&gt;: 
-&lt;a href=&#34;https://maomaohu.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Maomao Hu&lt;/a&gt;, 
-&lt;a href=&#34;https://eng.ox.ac.uk/people/dongjiao-ge/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dongjiao Ge&lt;/a&gt;, 
-&lt;a href=&#34;https://eng.ox.ac.uk/people/david-wallom/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;David Wallom&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Organization&lt;/strong&gt;: 
-&lt;a href=&#34;https://www.oerc.ox.ac.uk/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Oxford e-Research Center&lt;/a&gt;, Department of Engineering Science, University of Oxford&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Contact info&lt;/strong&gt;: 
-&lt;a href=&#34;mailto:maomao.hu@eng.ox.ac.uk&#34;&gt;maomao.hu@eng.ox.ac.uk&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Development time&lt;/strong&gt;: Oct 2020&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Acknowledgement&lt;/strong&gt;: This work was financially supported by the UK Engineering and Physical Sciences Research Council (EPSRC) under grant (EP/S030131/1) of 
-&lt;a href=&#34;https://www.amidine.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AMIDINE&lt;/a&gt;. We also would like to thank the help from 
-&lt;a href=&#34;https://www.strath.ac.uk/staff/stephenbrucedr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bruce Stephen&lt;/a&gt;, 
-&lt;a href=&#34;http://www.jethrobrowell.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jethro Browell&lt;/a&gt;, 
-&lt;a href=&#34;https://www.strath.ac.uk/staff/telfordrorymr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rory Telford&lt;/a&gt;, 
-&lt;a href=&#34;https://www.strath.ac.uk/staff/gallowaystuartdr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stuart Galloway&lt;/a&gt;, and 
-&lt;a href=&#34;https://pureportal.strath.ac.uk/en/persons/ciaran-gilbert&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ciaran Gilbert&lt;/a&gt; from the University of Strathclyde.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;-about-ifeel&#34;&gt;💬 &lt;strong&gt;About IFEEL&lt;/strong&gt;&lt;/h2&gt;
-&lt;hr&gt;
-&lt;p&gt;(1) This Python package (i.e., IFEEL) aims to help energy data analysts to readily extract interpretable features of daily electricity profiles from a physical perspective. The extracted features can be applied for further feature-based machine learning purposes, including feature-based PCA, clustering, classification, and regression.&lt;/p&gt;
-&lt;p&gt;(2) Two PY files (.py) are included in the IFEEL package, including &lt;em&gt;ifeel_transformation.py&lt;/em&gt; and &lt;em&gt;ifeel_extraction.py&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;(3) Two types of features, including 13 global features (GFs) and 8 peak-period features (PFs), can be extracted by using this package. Detailed description of all features can be found in Ref [1] or the Demo file in the installed IFEEL package.&lt;/p&gt;
-&lt;p&gt;(4) GFs are extracted based on raw time-series data, while PFs are extracted based on symbolic representation of time series data. GFs and PFs can be obtained by using &lt;code&gt;IFEEL.ifeel_extraction.feature_global&lt;/code&gt; and &lt;code&gt;IFEEL.ifeel_extraction.feature_peak_period&lt;/code&gt;, respectively.&lt;/p&gt;
-&lt;p&gt;(5) For fast peak-period feature extraction, Symbolic Aggregate approXimation (SAX) representation is first used to transform the time-series numerical patterns into alphabetical words. The feature transformation process is performed by calling &lt;code&gt;IFEEL.ifeel_transformation.feature_transformation&lt;/code&gt;. More details about SAX approach can be found in Ref [2] and Ref [3].&lt;/p&gt;
-&lt;h2 id=&#34;-notes&#34;&gt;🔈 &lt;strong&gt;Notes&lt;/strong&gt;&lt;/h2&gt;
-&lt;hr&gt;
-&lt;p&gt;(1) To successfully run the IFEEL, the following Python data analysis libraries need to be installed in advance: 
-&lt;a href=&#34;https://numpy.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Numpy&lt;/a&gt;, 
-&lt;a href=&#34;https://www.scipy.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Scipy&lt;/a&gt;, and 
-&lt;a href=&#34;https://pandas.pydata.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pandas&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;(2) A &lt;strong&gt;Demo&lt;/strong&gt; can be found in the installed IFEEL package or 
-&lt;a href=&#34;https://github.com/chacehoo/IFEEL/blob/main/IFEEL/Demo.py&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. Three datasets at different time intervals can be downloaded 
-&lt;a href=&#34;https://github.com/chacehoo/IFEEL/tree/main/Test_Data&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;, and tested in the Demo.&lt;/p&gt;
-&lt;p&gt;(3) The &lt;strong&gt;Demo&lt;/strong&gt; has been tested on Python 3.7.7.&lt;/p&gt;
-&lt;h2 id=&#34;-references&#34;&gt;📚 &lt;strong&gt;References&lt;/strong&gt;&lt;/h2&gt;
-&lt;hr&gt;
-&lt;p&gt;[1] Hu M, Ge D, Telford R, Stephen B, Wallom D. Classification and characterization of intra-day load curves of PV and non-PV households using interpretable feature extraction and feature-based clustering. &lt;em&gt;Sustainable Cities and Society&lt;/em&gt;. 2021;75:103380.&lt;/p&gt;
-&lt;p&gt;[2] Lin J, Keogh E, Wei L, Lonardi S. Experiencing SAX: a novel symbolic representation of time series. &lt;em&gt;Data Mining and Knowledge Discovery&lt;/em&gt;. 2007;15:107-44.&lt;/p&gt;
-&lt;p&gt;[3] Keogh E, Lin J, Fu A. HOT SAX: efficiently finding the most unusual time series subsequence.  &lt;em&gt;5TH IEEE International Conference on Data Mining (ICDM&#39;05)&lt;/em&gt;. 2005. p8.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Development of an ANN-based building energy model for information-poor buildings using transfer learning</title>
       <link>https://maomaohu.net/publication/journal_paper/paper_9/</link>
       <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
@@ -441,32 +361,6 @@ of these ACs fully. However, the existing studies on the load characteristics mo
       <description>&lt;p&gt;“PHOtoVoltAic FindER” (phovafer) is developed for identifying the solar photovoltaic (PV) customers among regular customers on a  low-voltage distribution network. It contains the R functions for data representation, feature extraction, and PV users’ classification using the extracted features.&lt;/p&gt;
 &lt;p&gt;PHOVAFER Docs can be found 
 &lt;a href=&#34;https://maomaohu.net/software/phovafer/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>PHOVAFER - PHOtoVoltAic FindER</title>
-      <link>https://maomaohu.net/software/phovafer/</link>
-      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://maomaohu.net/software/phovafer/</guid>
-      <description>&lt;h1 id=&#34;-about&#34;&gt;⭐ About&lt;/h1&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;“PHOtoVoltAic FindER” (phovafer) is developed for identifying the solar photovoltaic (PV) users among the regular consumers on a  low-voltage distribution network. It contains the R functions for data representation, feature extraction, and PV users’ classification using the extracted features.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;This package is developed for the project &amp;ldquo;Analytical Middleware for Informed Distribution Networks (AMIDiNe)&amp;rdquo; (EPSRC: EP/S030131/1). The developers would like to thank for the help from Bruce Stephen, Jethro Browell, Rory Telford, Stuart Galloway, and Ciaran Gilbert from the University of Strathclyde.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;-installation&#34;&gt;⚙️ Installation&lt;/h1&gt;
-&lt;hr&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://github.com/A-Giant-Panda/phovafer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/A-Giant-Panda/phovafer&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;-docs&#34;&gt;📚 Docs&lt;/h1&gt;
-&lt;hr&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://a-giant-panda.github.io/phovafer/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://a-giant-panda.github.io/phovafer/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -978,6 +872,14 @@ of these ACs fully. However, the existing studies on the load characteristics mo
       <link>https://maomaohu.net/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://maomaohu.net/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://maomaohu.net/software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/software/</guid>
       <description></description>
     </item>
     
