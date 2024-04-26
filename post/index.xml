@@ -5,12 +5,32 @@
     <link>https://maomaohu.net/post/</link>
       <atom:link href="https://maomaohu.net/post/index.xml" rel="self" type="application/rss+xml" />
     <description>News and Updates</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020-2024 Maomao Hu</copyright><lastBuildDate>Mon, 08 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020-2024 Maomao Hu</copyright><lastBuildDate>Fri, 26 Apr 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maomaohu.net/images/logo.svg</url>
       <title>News and Updates</title>
       <link>https://maomaohu.net/post/</link>
     </image>
+    
+    <item>
+      <title>April 2024 | Dr. Hu serves on the Scientific Committee of ASim 2024.</title>
+      <link>https://maomaohu.net/post/post_28_service/</link>
+      <pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/post/post_28_service/</guid>
+      <description>&lt;p&gt;Dr. Hu serves on the Scientific Committee of the 
+&lt;a href=&#34;https://www.asim2024.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;5th Asia Conference of International Building Performance Simulation Association 2024 (ASim 2024)&lt;/a&gt;, Osaka, Japan, December 8-10, 2024.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>April 2024 | Dr. Hu serves on the Technical Committee of ACM SAFE-ENERGY Workshop 2024.</title>
+      <link>https://maomaohu.net/post/post_27_service/</link>
+      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/post/post_27_service/</guid>
+      <description>&lt;p&gt;Dr. Hu serves on the Technical Committee of the 
+&lt;a href=&#34;https://safe-energy-workshop.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;1st ACM International Workshop on Trust-worthy ML for energy systems (SAFE-ENERGY Workshop 2024)&lt;/a&gt;, Singapore, June 4-7, 2024.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Jan 2024 | The BIOR Lab launched at National University of Singapore!</title>
