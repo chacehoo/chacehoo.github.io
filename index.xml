@@ -5,7 +5,7 @@
     <link>https://maomaohu.net/</link>
       <atom:link href="https://maomaohu.net/index.xml" rel="self" type="application/rss+xml" />
     <description>BIOR Lab | Maomao Hu</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020-2024 Maomao Hu</copyright><lastBuildDate>Mon, 20 May 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020-2024 Maomao Hu</copyright><lastBuildDate>Tue, 04 Jun 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maomaohu.net/images/logo.svg</url>
       <title>BIOR Lab | Maomao Hu</title>
@@ -18,6 +18,17 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://maomaohu.net/contact/contact/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>June 2024 | Dr. Hu gave a keynote talk at the 1st ACM International Workshop on Trust-worthy ML for energy systems (SAFE-ENERGY Workshop 2024).</title>
+      <link>https://maomaohu.net/post/post_30_keynote/</link>
+      <pubDate>Tue, 04 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/post/post_30_keynote/</guid>
+      <description>&lt;p&gt;Dr. Hu gave a keynote talk at the 
+&lt;a href=&#34;https://safe-energy-workshop.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;1st ACM International Workshop on Trust-worthy ML for energy systems (SAFE-ENERGY Workshop 2024)&lt;/a&gt;. The workshop was held in conjunction with 
+&lt;a href=&#34;https://energy.acm.org/conferences/eenergy/2024/index.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;e-Energy’24&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
