@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Softwares | BIOR Lab | Maomao Hu</title>
+    <title>Software | BIOR Lab | Maomao Hu</title>
     <link>https://maomaohu.net/software/</link>
       <atom:link href="https://maomaohu.net/software/index.xml" rel="self" type="application/rss+xml" />
-    <description>Softwares</description>
+    <description>Software</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020-2024 BIOR Lab</copyright><lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maomaohu.net/images/logo.svg</url>
-      <title>Softwares</title>
+      <title>Software</title>
       <link>https://maomaohu.net/software/</link>
     </image>
     
