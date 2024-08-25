@@ -284,8 +284,6 @@
   </url><url>
     <loc>https://maomaohu.net/research/</loc>
   </url><url>
-    <loc>https://maomaohu.net/teaching/</loc>
-  </url><url>
     <loc>https://maomaohu.net/author/</loc>
   </url><url>
     <loc>https://maomaohu.net/categories/</loc>
@@ -299,6 +297,8 @@
     <loc>https://maomaohu.net/author/maomao-hu/</loc>
   </url><url>
     <loc>https://maomaohu.net/author/qi-li/</loc>
+  </url><url>
+    <loc>https://maomaohu.net/teaching/</loc>
   </url><url>
     <loc>https://maomaohu.net/author/wolfram/</loc>
   </url>
