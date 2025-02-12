@@ -5,7 +5,7 @@
     <link>https://maomaohu.net/post/</link>
       <atom:link href="https://maomaohu.net/post/index.xml" rel="self" type="application/rss+xml" />
     <description>News and Updates</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020-2025 BIOR Lab</copyright><lastBuildDate>Sun, 12 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020-2025 BIOR Lab</copyright><lastBuildDate>Mon, 10 Feb 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maomaohu.net/images/logo.svg</url>
       <title>News and Updates</title>
@@ -13,16 +13,20 @@
     </image>
     
     <item>
-      <title>January 2025 | Welcoming new group members - Gaoyuan, Nico, and Qinhuan</title>
-      <link>https://maomaohu.net/post/post_39_new_members/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://maomaohu.net/post/post_39_new_members/</guid>
-      <description>&lt;p&gt;
-&lt;a href=&#34;https://maomaohu.net/author/gaoyuan-wang/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gaoyuan&lt;/a&gt; and 
-&lt;a href=&#34;https://maomaohu.net/author/qinhuan-liu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Qinhuan&lt;/a&gt; join our team as PhD students starting from Jan. 2025.&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://maomaohu.net/author/nico-yannik-fuchs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Nico&lt;/a&gt; joins our team as a visiting PhD student from RWTH Aachen University, Germany.&lt;/p&gt;
-&lt;p&gt;Great to have you all join our BIOR lab, Gaoyuan, Qinhuan, and Nico!&lt;/p&gt;
+      <title>Feb 2025 | Our BIOR lab hosted Prof. Henrik Madsen from DTU Compute for an engaging guest lecture.</title>
+      <link>https://maomaohu.net/post/post_39_seminar/</link>
+      <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/post/post_39_seminar/</guid>
+      <description>&lt;p&gt;It was a great pleasure to host Professor Henrik Madsen from DTU at our department for an insightful seminar on data-driven digital twins and grey-box modeling.&lt;/p&gt;
+&lt;p&gt;A big thank you to Madsen for his inspiring talk and to everyone who attended!&lt;/p&gt;
+&lt;figure style=&#34;text-align: center;&#34;&gt;
+  &lt;img src=&#34;https://maomaohu.net/img/Henrik_NUS.jpg&#34;&gt;
+  &lt;figcaption&gt;&lt;strong&gt;Scenes from the seminar&lt;/strong&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure style=&#34;text-align: center;&#34;&gt;
+  &lt;img src=&#34;https://maomaohu.net/img/Flyer_Henrik.jpg&#34;&gt;
+  &lt;figcaption&gt;&lt;strong&gt;Seminar flyer&lt;/strong&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
 </description>
     </item>
     
