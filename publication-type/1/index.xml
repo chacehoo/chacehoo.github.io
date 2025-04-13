@@ -5,12 +5,28 @@
     <link>https://maomaohu.net/publication-type/1/</link>
       <atom:link href="https://maomaohu.net/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2025 BIOR Lab</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2025 BIOR Lab</copyright><lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maomaohu.net/images/logo.svg</url>
       <title>1</title>
       <link>https://maomaohu.net/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>IDENTIFYING SUITABLE THERMAL RESPONSE MODELS FOR DEMAND RESPONSE MANAGEMENT IN MULTI-ZONE COMMERCIAL BUILDINGS</title>
+      <link>https://maomaohu.net/publication/conference_paper/paper_6/</link>
+      <pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/publication/conference_paper/paper_6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Renewable microgrids covering the heat and electricity needs of industrial parks</title>
+      <link>https://maomaohu.net/publication/conference_paper/paper_5/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/publication/conference_paper/paper_5/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Performance analysis of absorption thermal energy storage for distributed energy systems</title>

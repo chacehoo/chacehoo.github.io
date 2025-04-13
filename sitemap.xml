@@ -4,10 +4,22 @@
   <url>
     <loc>https://maomaohu.net/contact/contact/</loc>
   </url><url>
-    <loc>https://maomaohu.net/post/post_42_host/</loc>
-    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+    <loc>https://maomaohu.net/publication-type/2/</loc>
+    <lastmod>2025-04-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/publication/journal_paper/paper_18/</loc>
+    <lastmod>2025-04-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/publication/</loc>
+    <lastmod>2025-04-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maomaohu.net/</loc>
+    <lastmod>2025-04-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/publication_types/</loc>
+    <lastmod>2025-04-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/post/post_42_host/</loc>
     <lastmod>2025-04-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maomaohu.net/post/</loc>
@@ -30,6 +42,12 @@
   </url><url>
     <loc>https://maomaohu.net/post/post_36_wechat_official/</loc>
     <lastmod>2024-12-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/publication-type/1/</loc>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/publication/conference_paper/paper_6/</loc>
+    <lastmod>2024-12-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maomaohu.net/post/post_35_new_members/</loc>
     <lastmod>2024-11-11T00:00:00+00:00</lastmod>
@@ -57,18 +75,6 @@
   </url><url>
     <loc>https://maomaohu.net/post/post_27_service/</loc>
     <lastmod>2024-04-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://maomaohu.net/publication-type/2/</loc>
-    <lastmod>2024-04-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://maomaohu.net/publication/journal_paper/paper_18/</loc>
-    <lastmod>2024-04-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://maomaohu.net/publication/</loc>
-    <lastmod>2024-04-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://maomaohu.net/publication_types/</loc>
-    <lastmod>2024-04-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maomaohu.net/post/post_26/</loc>
     <lastmod>2024-01-08T00:00:00+00:00</lastmod>
@@ -120,6 +126,9 @@
   </url><url>
     <loc>https://maomaohu.net/publication/journal_paper/paper_12/</loc>
     <lastmod>2022-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maomaohu.net/publication/conference_paper/paper_5/</loc>
+    <lastmod>2022-08-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maomaohu.net/post/post_15/</loc>
     <lastmod>2022-03-07T00:00:00+00:00</lastmod>
@@ -273,9 +282,6 @@
   </url><url>
     <loc>https://maomaohu.net/project/1_mpc_floor/</loc>
     <lastmod>2019-02-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://maomaohu.net/publication-type/1/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maomaohu.net/publication/journal_paper/rn-927/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
