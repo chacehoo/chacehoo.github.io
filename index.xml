@@ -1194,10 +1194,16 @@ of these ACs fully. However, the existing studies on the load characteristics mo
       <link>https://maomaohu.net/fun/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://maomaohu.net/fun/</guid>
-      <description>&lt;figure style=&#34;text-align: center;&#34;&gt;
-  &lt;img src=&#34;https://maomaohu.net/img/Group_retreat_March_2025.jpg&#34;&gt;
-  &lt;figcaption style=&#34;text-align: right;&#34;&gt;Group retreat at East Coast Park, March, 2025&lt;/figcaption&gt;
-&lt;/figure&gt;</description>
+      <description>&lt;div style=&#34;display: flex; justify-content: center; gap: 20px;&#34;&gt;
+  &lt;figure style=&#34;flex: 1; text-align: center;&#34;&gt;
+    &lt;img src=&#34;https://maomaohu.net/img/Group_retreat_March_2025.jpg&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;figcaption style=&#34;text-align: right;&#34;&gt;Group retreat at East Coast Park, March, 2025&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;figure style=&#34;flex: 1; text-align: center;&#34;&gt;
+    &lt;img src=&#34;https://maomaohu.net/img/Farewell_lunch_for_Nico.PNG&#34; style=&#34;max-width: 100%;&#34;&gt;
+    &lt;figcaption style=&#34;text-align: right;&#34;&gt;Farewell lunch for Nico, April, 2025&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;</description>
     </item>
     
     <item>
