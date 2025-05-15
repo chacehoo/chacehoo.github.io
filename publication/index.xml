@@ -5,12 +5,20 @@
     <link>https://maomaohu.net/publication/</link>
       <atom:link href="https://maomaohu.net/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Journal/Conference Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2025 BIOR Lab</copyright><lastBuildDate>Sat, 12 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2025 BIOR Lab</copyright><lastBuildDate>Thu, 08 May 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maomaohu.net/img/publications_first_sight.jpg</url>
       <title>Journal/Conference Publications</title>
       <link>https://maomaohu.net/publication/</link>
     </image>
+    
+    <item>
+      <title>Public sentiment analysis of data center energy consumption using social media data and large language models</title>
+      <link>https://maomaohu.net/publication/journal_paper/paper_19/</link>
+      <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/publication/journal_paper/paper_19/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Challenges of large-scale facade PV systems in dense urban environments in China</title>
