@@ -5,7 +5,7 @@
     <link>https://maomaohu.net/</link>
       <atom:link href="https://maomaohu.net/index.xml" rel="self" type="application/rss+xml" />
     <description>Maomao Hu | National University of Singapore</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2025 BIOR Lab</copyright><lastBuildDate>Sun, 18 May 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2025 BIOR Lab</copyright><lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maomaohu.net/images/logo.svg</url>
       <title>Maomao Hu | National University of Singapore</title>
@@ -18,6 +18,45 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://maomaohu.net/contact/contact/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>May 2025 | We are recruiting two postdoctoral research fellows on multi-scale energy systems.</title>
+      <link>https://maomaohu.net/post/post_47_recruitment/</link>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/post/post_47_recruitment/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Position&lt;/strong&gt;: Postdoctoral Research Fellow (Multi-Scale Energy Systems)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Job Description&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;The Building Informatics and Operations Research (BIOR) Lab at the National University of Singapore (NUS) is looking for two outstanding and highly motivated Postdoctoral Research Fellows to work on optimization, control, and learning of multi-scale energy systems (from building- through district- to urban-scale) for energy flexibility and climate resiliency. The postdoctoral research fellows will be advised by Assistant Professor Maomao Hu from the Department of the Built Environment, College of Design and Engineering, NUS.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;With minimum supervision, perform research and analyses in the areas of optimization, control, and learning of multi-scale energy systems.&lt;/li&gt;
+&lt;li&gt;Develop open-source modeling tools for multi-scale energy systems integrated with renewables, EVs, heat pumps, and battery storage systems for energy performance analysis and advanced control algorithm testing.&lt;/li&gt;
+&lt;li&gt;Develop theory and optimization techniques for the optimal design and operation of building clusters for demand flexibility and climate resiliency.&lt;/li&gt;
+&lt;li&gt;Develop Data-enabled Predictive Control algorithms for optimal control of multi-scale energy systems.&lt;/li&gt;
+&lt;li&gt;Publish scientific papers in high-impact journals and present findings at seminars and conferences.&lt;/li&gt;
+&lt;li&gt;Work closely with Postdocs, PhD students, and Research Assistants within the research group and the Centre for Digital Building Technology.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Required Qualifications and Skills&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PhD in Civil, Electrical, Mechanical, Architectural Engineering, or other related fields with sufficient training in optimization, control, and learning.&lt;/li&gt;
+&lt;li&gt;Demonstrated experience in modeling and analysis of multi-scale energy systems.&lt;/li&gt;
+&lt;li&gt;A demonstrated track record in optimization, control, and learning of multi-scale energy systems.&lt;/li&gt;
+&lt;li&gt;Proficiency in statistical fundamentals and programming languages (e.g., Python, R, or MATLAB).&lt;/li&gt;
+&lt;li&gt;Strong oral and written communication skills, including the ability to efficiently organize technical information for publication and presentation.&lt;/li&gt;
+&lt;li&gt;Demonstrated interpersonal skills, including experience collaborating with a diverse interdisciplinary research team.&lt;/li&gt;
+&lt;li&gt;Skills in data acquisition and database management (AWS or equivalent), version control tools, and object-oriented modeling language (Modelica) are desired.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;How to Apply&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;For first consideration, please submit the following application materials 
+&lt;a href=&#34;https://careers.nus.edu.sg/job/Postdoctoral-Research-Fellow-%28Multi-Scale-Energy-Systems%29/28972-en_GB/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;online&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Curriculum Vitae&lt;/li&gt;
+&lt;li&gt;Cover Letter describing your research interests and the relevance of your background&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Applications will receive full consideration until the positions are filled and only shortlisted applicants will be contacted. For enquiries, please contact Assistant Professor Maomao Hu at 
+&lt;a href=&#34;mailto:maomaohu@nus.edu.sg&#34;&gt;maomaohu@nus.edu.sg&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
