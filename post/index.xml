@@ -5,12 +5,23 @@
     <link>https://maomaohu.net/post/</link>
       <atom:link href="https://maomaohu.net/post/index.xml" rel="self" type="application/rss+xml" />
     <description>News and Updates</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2025 BIOR Lab</copyright><lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2025 BIOR Lab</copyright><lastBuildDate>Sat, 31 May 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maomaohu.net/images/logo.svg</url>
       <title>News and Updates</title>
       <link>https://maomaohu.net/post/</link>
     </image>
+    
+    <item>
+      <title>June 2025 | Welcoming Rezky to join our group.</title>
+      <link>https://maomaohu.net/post/post_48_new_members/</link>
+      <pubDate>Sat, 31 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/post/post_48_new_members/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;https://maomaohu.net/author/rezky-mahesa-nanda/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rezky&lt;/a&gt; joins our team as a PhD student starting from June 2025.&lt;/p&gt;
+&lt;p&gt;Great to have you join our BIOR lab, Rezky!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>May 2025 | We are recruiting two postdoctoral research fellows on multi-scale energy systems.</title>
