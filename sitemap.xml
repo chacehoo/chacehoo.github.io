@@ -358,6 +358,8 @@
   </url><url>
     <loc>https://maomaohu.net/opening/</loc>
   </url><url>
+    <loc>https://maomaohu.net/author/linus/</loc>
+  </url><url>
     <loc>https://maomaohu.net/author/maomao-hu/</loc>
   </url><url>
     <loc>https://maomaohu.net/author/mikhyle-mat-nooh/</loc>
@@ -383,5 +385,7 @@
     <loc>https://maomaohu.net/people/</loc>
   </url><url>
     <loc>https://maomaohu.net/testbeds/</loc>
+  </url><url>
+    <loc>https://maomaohu.net/author/wolfram/</loc>
   </url>
 </urlset>
