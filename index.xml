@@ -5,7 +5,7 @@
     <link>https://maomaohu.net/</link>
       <atom:link href="https://maomaohu.net/index.xml" rel="self" type="application/rss+xml" />
     <description>Maomao Hu | National University of Singapore</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2025 BIOR Lab</copyright><lastBuildDate>Tue, 10 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2025 BIOR Lab</copyright><lastBuildDate>Sat, 26 Jul 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maomaohu.net/images/logo.svg</url>
       <title>Maomao Hu | National University of Singapore</title>
@@ -18,6 +18,17 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://maomaohu.net/contact/contact/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>July 2025 | Dr. Hu gave a talk at the 2025 INFORMS International Meeting.</title>
+      <link>https://maomaohu.net/post/post_50_conference/</link>
+      <pubDate>Sat, 26 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/post/post_50_conference/</guid>
+      <description>&lt;p&gt;Dr. Hu attended the 
+&lt;a href=&#34;https://meetings.informs.org/wordpress/2025international/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2025 INFORMS International Meeting&lt;/a&gt; in Singapore, July 20-23 2025. INFORMS (Institute for Operations Research and the Management Sciences) is the largest professional association for the decision and data sciences.&lt;/p&gt;
+&lt;p&gt;He was invited to present a talk titled &amp;ldquo;Making Modern Buildings Grid-Responsive Using Data, Optimization, and Control&amp;rdquo; in the session &amp;ldquo;Advances in Optimization for Resilient and Data-Driven Power Systems.&amp;rdquo;&lt;/p&gt;
+</description>
     </item>
     
     <item>
