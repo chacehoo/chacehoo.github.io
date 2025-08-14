@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Liangcai Xu | Maomao Hu | National University of Singapore</title>
+    <link>https://maomaohu.net/author/liangcai-xu/</link>
+      <atom:link href="https://maomaohu.net/author/liangcai-xu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Liangcai Xu</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2025 BIOR Lab</copyright>
+    <image>
+      <url>https://maomaohu.net/images/logo.svg</url>
+      <title>Liangcai Xu</title>
+      <link>https://maomaohu.net/author/liangcai-xu/</link>
+    </image>
+    
+  </channel>
+</rss>
