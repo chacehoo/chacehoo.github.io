@@ -5,7 +5,7 @@
     <link>https://maomaohu.net/</link>
       <atom:link href="https://maomaohu.net/index.xml" rel="self" type="application/rss+xml" />
     <description>Maomao Hu | National University of Singapore</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2025 BIOR Lab</copyright><lastBuildDate>Sat, 23 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2025 BIOR Lab</copyright><lastBuildDate>Sun, 07 Sep 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maomaohu.net/images/logo.svg</url>
       <title>Maomao Hu | National University of Singapore</title>
@@ -18,6 +18,35 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://maomaohu.net/contact/contact/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Sep. 2025 | Our lab members share research at Building Simulation 2025 and UNSW–Tsinghua workshop in Australia!</title>
+      <link>https://maomaohu.net/post/post_53_conference/</link>
+      <pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/post/post_53_conference/</guid>
+      <description>&lt;p&gt;Our BIOR lab members had a fruitful week in Australia attending 
+&lt;a href=&#34;https://bs2025.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Building Simulation 2025&lt;/a&gt;, 24-27 August 2025, in Brisbane and the UNSW–Tsinghua University joint workshop in Sydney.&lt;/p&gt;
+&lt;p&gt;Extremely proud of our current and past lab members - Muhammad Hafeez Saeed, Chengshen ZHANG, Xiaohan Shen, and Pengyu Jie - for delivering excellent presentations on a wide range of topics at the BS conference. Their works covered PINN-based building cluster modeling, urban wind–thermal environment simulation, optimal design of ventilation corridors, and optimal control of adaptive façades using DL surrogate models.&lt;/p&gt;
+&lt;p&gt;Dr. Hu also presented the joint work with QI LI on “Urban Spatial Microclimate Prediction with Morphological Map-based Ensemble Deep Learning Method”.&lt;/p&gt;
+&lt;p&gt;At the joint workshop hosted by UNSW and Tsinghua University on Climate-Resilient Buildings and Cities, Dr. Hu was honored to be invited to give a talk on “Living Labs: Empirical Exploration of Energy Efficiency and Flexibility in Campus Buildings”. Many thanks to Lan Ding for the invitation and thoughtful arrangements.&lt;/p&gt;
+&lt;p&gt;It was always wonderful to catch up with old friends, meet new colleagues, and exchange research ideas. Great experience in Australia!!&lt;/p&gt;
+&lt;figure style=&#34;text-align: center;&#34;&gt;
+  &lt;img src=&#34;https://maomaohu.net/img/BS_1.jpg&#34;&gt;
+&lt;/figure&gt;
+&lt;figure style=&#34;text-align: center;&#34;&gt;
+  &lt;img src=&#34;https://maomaohu.net/img/BS_2.jpg&#34;&gt;
+&lt;/figure&gt;
+&lt;figure style=&#34;text-align: center;&#34;&gt;
+  &lt;img src=&#34;https://maomaohu.net/img/BS_3.jpg&#34;&gt;
+&lt;/figure&gt;
+&lt;figure style=&#34;text-align: center;&#34;&gt;
+  &lt;img src=&#34;https://maomaohu.net/img/BS_4.jpg&#34;&gt;
+&lt;/figure&gt;
+&lt;figure style=&#34;text-align: center;&#34;&gt;
+  &lt;img src=&#34;https://maomaohu.net/img/BS_5.jpg&#34;&gt;
+&lt;/figure&gt;
+</description>
     </item>
     
     <item>
@@ -222,6 +251,20 @@
     </item>
     
     <item>
+      <title>Apr. 2025 | Great to host the team from the Faculty of Architecture and Urban Planning, Chongqing University.</title>
+      <link>https://maomaohu.net/post/post_54_host/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/post/post_54_host/</guid>
+      <description>&lt;p&gt;Great to host the team from the Faculty of Architecture and Urban Planning, Chongqing University at NUS!&lt;/p&gt;
+&lt;p&gt;Prof. Chi Feng and colleagues from Chongqing University, along with 24 students, visited the IDEAS Lab led by Prof. Adrian Chong and our BIOR Lab. It was a fantastic day of knowledge exchange, student presentations, and discussions on sustainable and smart building technologies.&lt;/p&gt;
+&lt;p&gt;This visit truly strengthened our academic ties. Looking forward to more meaningful collaborations ahead!&lt;/p&gt;
+&lt;figure style=&#34;text-align: center;&#34;&gt;
+  &lt;img src=&#34;https://maomaohu.net/img/Chongqing_University_Visit.png&#34;&gt;
+&lt;/figure&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Apr. 2025 | Dr. Hu gave a talk at the Conference on AI and Data Innovation for Sustainability and Infrastructure.</title>
       <link>https://maomaohu.net/post/post_41_conference/</link>
       <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
@@ -231,35 +274,6 @@
 &lt;p&gt;He was invited to deliver a talk on the panel of AI and Data Analytics for Infrastructure, Buildings and Communities.&lt;/p&gt;
 &lt;figure style=&#34;text-align: center;&#34;&gt;
   &lt;img src=&#34;https://maomaohu.net/img/AI_Newcastle.jpg&#34;&gt;
-&lt;/figure&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Sep. 2025 | Our lab members share research at Building Simulation 2025 and UNSW–Tsinghua workshop in Australia!</title>
-      <link>https://maomaohu.net/post/post_53_conference/</link>
-      <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://maomaohu.net/post/post_53_conference/</guid>
-      <description>&lt;p&gt;Our BIOR lab members had a fruitful week in Australia attending 
-&lt;a href=&#34;https://bs2025.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Building Simulation 2025&lt;/a&gt;, 24-27 August 2025, in Brisbane and the UNSW–Tsinghua University joint workshop in Sydney.&lt;/p&gt;
-&lt;p&gt;Extremely proud of our current and past lab members - Muhammad Hafeez Saeed, Chengshen ZHANG, Xiaohan Shen, and Pengyu Jie - for delivering excellent presentations on a wide range of topics at the BS conference. Their works covered PINN-based building cluster modeling, urban wind–thermal environment simulation, optimal design of ventilation corridors, and optimal control of adaptive façades using DL surrogate models.&lt;/p&gt;
-&lt;p&gt;Dr. Hu also presented the joint work with QI LI on “Urban Spatial Microclimate Prediction with Morphological Map-based Ensemble Deep Learning Method”.&lt;/p&gt;
-&lt;p&gt;At the joint workshop hosted by UNSW and Tsinghua University on Climate-Resilient Buildings and Cities, Dr. Hu was honored to be invited to give a talk on “Living Labs: Empirical Exploration of Energy Efficiency and Flexibility in Campus Buildings”. Many thanks to Lan Ding for the invitation and thoughtful arrangements.&lt;/p&gt;
-&lt;p&gt;It was always wonderful to catch up with old friends, meet new colleagues, and exchange research ideas. Great experience in Australia!!&lt;/p&gt;
-&lt;figure style=&#34;text-align: center;&#34;&gt;
-  &lt;img src=&#34;https://maomaohu.net/img/BS_1.jpg&#34;&gt;
-&lt;/figure&gt;
-&lt;figure style=&#34;text-align: center;&#34;&gt;
-  &lt;img src=&#34;https://maomaohu.net/img/BS_2.jpg&#34;&gt;
-&lt;/figure&gt;
-&lt;figure style=&#34;text-align: center;&#34;&gt;
-  &lt;img src=&#34;https://maomaohu.net/img/BS_3.jpg&#34;&gt;
-&lt;/figure&gt;
-&lt;figure style=&#34;text-align: center;&#34;&gt;
-  &lt;img src=&#34;https://maomaohu.net/img/BS_4.jpg&#34;&gt;
-&lt;/figure&gt;
-&lt;figure style=&#34;text-align: center;&#34;&gt;
-  &lt;img src=&#34;https://maomaohu.net/img/BS_5.jpg&#34;&gt;
 &lt;/figure&gt;
 </description>
     </item>
