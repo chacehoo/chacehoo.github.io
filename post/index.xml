@@ -5,12 +5,34 @@
     <link>https://maomaohu.net/post/</link>
       <atom:link href="https://maomaohu.net/post/index.xml" rel="self" type="application/rss+xml" />
     <description>News and Updates</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2025 BIOR Lab</copyright><lastBuildDate>Sun, 07 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2025 BIOR Lab</copyright><lastBuildDate>Thu, 18 Sep 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maomaohu.net/images/logo.svg</url>
       <title>News and Updates</title>
       <link>https://maomaohu.net/post/</link>
     </image>
+    
+    <item>
+      <title>Sep 2025 | Dr. Hu visited the BAEDA lab at the Politecnico di Torino, Italy.</title>
+      <link>https://maomaohu.net/post/post_55_visit/</link>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/post/post_55_visit/</guid>
+      <description>&lt;p&gt;Dr. Hu visited the Politecnico di Torino 🇮🇹 last week for Roberto Chiosa’s PhD oral defense. Huge congratulations to him and to his advisors Alfonso Capozzoli and Marco Savino Piscitelli. It was a great honor to join Bing Dong, Fabio Favoino, Virginia Gori, and Clayton Miller as co-examiners.&lt;/p&gt;
+&lt;p&gt;Dr. Hu also had the chance to give a talk at the joint workshop “Future Pathways for Grid-Interactive Buildings and Flexibility” together with Bing and Virginia. They had great discussions on the challenges and opportunities in grid-responsive building energy systems from advanced control strategies to their integration with future energy systems with a focus on portability, transferability, and interoperability.&lt;/p&gt;
+&lt;p&gt;Another highlight was meeting the talented PhD students at the 
+&lt;a href=&#34;http://www.baeda.polito.it/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BAEDA Lab&lt;/a&gt;. Impressed by their impactful work on a wide range of topics, such as ontology-based graph knowledge for buildings, double-skin façades, urban-scale digital twins, and DRL for HVAC systems.&lt;/p&gt;
+&lt;p&gt;Many thanks again to Alfonso Capozzoli and Marco Savino Piscitelli for making this trip possible and sooooo memorable, including the great coffee and pizza!&lt;/p&gt;
+&lt;figure style=&#34;text-align: center;&#34;&gt;
+  &lt;img src=&#34;https://maomaohu.net/img/Turin_1.JPG&#34;&gt;
+&lt;/figure&gt;
+&lt;figure style=&#34;text-align: center;&#34;&gt;
+  &lt;img src=&#34;https://maomaohu.net/img/Turin_2.JPG&#34;&gt;
+&lt;/figure&gt;
+&lt;figure style=&#34;text-align: center;&#34;&gt;
+  &lt;img src=&#34;https://maomaohu.net/img/Turin_3.JPG&#34;&gt;
+&lt;/figure&gt;
+</description>
+    </item>
     
     <item>
       <title>Sep. 2025 | Great to host Pieter de Wilde from Lund University as well as Alfonso Capozzoli and Marco Savino Piscitelli from the Polytechnic University of Turin at NUS.</title>
