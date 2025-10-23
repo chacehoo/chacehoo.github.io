@@ -1259,7 +1259,6 @@
     </div>
     <div class="col-12 col-lg-8">
       <p><img src="NUS.png" alt="NUS LOGO"></p>
-<p><img src="nus-vertical.jpg" alt="NUS LOGO VERTICAL"></p>
 <div class="link-row">
   <a class="link-pill" href="https://cde.nus.edu.sg/">College of Design and Engineering &#8250;</a>
   <a class="link-pill" href="https://cde.nus.edu.sg/dbe/">Department of Built Environment &#8250;</a>
@@ -1267,9 +1266,10 @@
 </div>
 <style>
 .link-row{
-  display:flex;
-  column-gap:60px;            /* spacing between the two links */
-  align-items:baseline;        /* keeps text on the same baseline */
+  display: flex;
+  flex-direction: column; /* stack links vertically */
+  row-gap: 20px;          /* space between rows */
+  align-items: flex-start; /* align links to the left */
 }
 
 /* one place to control the look */
