@@ -1259,36 +1259,40 @@
     </div>
     <div class="col-12 col-lg-8">
       <div class="link-row">
-  <a class="link-pill" href="https://www.nus.edu.sg/">National University of Singapore &#8250;</a>
-  <a class="link-pill" href="https://cde.nus.edu.sg/">College of Design and Engineering &#8250;</a>
-  <a class="link-pill" href="https://cde.nus.edu.sg/dbe/">Department of Built Environment &#8250;</a>
-  <a class="link-pill" href="https://cde.nus.edu.sg/dbe/centre-for-digital-building-technology/">Center for Digital Building Technology (CDBT) &#8250;</a>
-  <a class="link-pill" href="https://ai.nus.edu.sg/">NUS Artificial Intelligence Institute &#8250;</a>
-  <a class="link-pill" href="https://iora.nus.edu.sg/">NUS Institute of Operations Research and Analytics (IORA) &#8250;</a>
-  <a class="link-pill" href="https://esi.nus.edu.sg/">NUS Energy Studies Institute (ESI) &#8250;</a>
-  <a class="link-pill" href="https://www.seris.nus.edu.sg/">NUS Solar Energy Research Institute of Singapore (SERIS) &#8250;</a>
+  <a class="link-pill" href="https://www.nus.edu.sg/">National University of Singapore</a>
+  <a class="link-pill" href="https://cde.nus.edu.sg/">College of Design and Engineering</a>
+  <a class="link-pill" href="https://cde.nus.edu.sg/dbe/">Department of Built Environment</a>
+  <a class="link-pill" href="https://cde.nus.edu.sg/dbe/centre-for-digital-building-technology/">Center for Digital Building Technology (CDBT)</a>
+  <a class="link-pill" href="https://ai.nus.edu.sg/">NUS AI Institute</a>
+  <a class="link-pill" href="https://iora.nus.edu.sg/">NUS Institute of Operations Research and Analytics (IORA)</a>
+  <a class="link-pill" href="https://esi.nus.edu.sg/">NUS Energy Studies Institute (ESI)</a>
+  <a class="link-pill" href="https://www.seris.nus.edu.sg/">NUS Solar Energy Research Institute of Singapore (SERIS)</a>
 </div>
 <style>
-.link-row{
+.link-row {
   display: flex;
-  flex-direction: column; /* stack links vertically */
-  row-gap: 20px;          /* space between rows */
-  align-items: flex-start; /* align links to the left */
+  flex-direction: column; /* stack vertically */
+  row-gap: 16px;          /* spacing between buttons */
+  align-items: flex-start;
 }
 
-/* one place to control the look */
-.link-row .link-pill{
-  display:inline-block;
-  margin:0; padding:0;
-  font-weight:400;
-  font-size:20px;              /* same size for both */
-  line-height:1;               /* consistent height */
-  color:#EF7C00;
-  text-decoration:none;
-  white-space:nowrap;          /* prevent wrapping */
+.link-row .link-pill {
+  display: inline-block;
+  padding: 12px 18px;
+  font-weight: 500;
+  font-size: 18px;
+  color: white;                   /* text color */
+  background-color: #003D7C;      /* NUS blue */
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  width: fit-content;             /* keeps box just wide enough for text */
 }
 
-.link-row .link-pill:hover{ text-decoration:underline; }
+.link-row .link-pill:hover {
+  background-color: #cc6600;      /* slightly darker orange on hover */
+  transform: translateY(-2px);
+}
 
 .typed-cursor { display: none !important; }
 </style>
