@@ -5,12 +5,29 @@
     <link>https://maomaohu.net/post/</link>
       <atom:link href="https://maomaohu.net/post/index.xml" rel="self" type="application/rss+xml" />
     <description>News and Updates</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2025 BIOR Lab</copyright><lastBuildDate>Tue, 07 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2025 BIOR Lab</copyright><lastBuildDate>Tue, 18 Nov 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maomaohu.net/images/logo.svg</url>
       <title>News and Updates</title>
       <link>https://maomaohu.net/post/</link>
     </image>
+    
+    <item>
+      <title>Nov 2025 | Dr. Hu visited the Department of Building Science at Tsinghua University.</title>
+      <link>https://maomaohu.net/post/post_58_visit/</link>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/post/post_58_visit/</guid>
+      <description>&lt;p&gt;Dr. Hu visited the Department of Building Science at Tsinghua University on 11 November. During the visit, he delivered a talk titled “Decarbonization of Building and Urban Energy Systems: A Multiscale Data-driven Approach,” sharing insights on how data-driven methods can support deep decarbonization across multiple spatial scales.&lt;/p&gt;
+&lt;p&gt;He also had engaging discussions with faculty members and students on topics such as UBEM, LLMs, Energy resilience, etc.&lt;/p&gt;
+&lt;p&gt;Many thanks to Prof. Da Yan for the warm hospitality and meaningful exchanges.&lt;/p&gt;
+&lt;figure style=&#34;text-align: center;&#34;&gt;
+  &lt;img src=&#34;https://maomaohu.net/img/Tsinghua_1.jpeg&#34;&gt;
+&lt;/figure&gt;
+&lt;figure style=&#34;text-align: center;&#34;&gt;
+  &lt;img src=&#34;https://maomaohu.net/img/Tsinghua_2.jpeg&#34;&gt;
+&lt;/figure&gt;
+</description>
+    </item>
     
     <item>
       <title>Oct 2025 | Dr. Hu serves on the organizing committees of three international conferences - Asim 2026, Indoor Air 2026, and ACM BuildSys 2026</title>
