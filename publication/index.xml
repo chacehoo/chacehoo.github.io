@@ -5,12 +5,20 @@
     <link>https://maomaohu.net/publication/</link>
       <atom:link href="https://maomaohu.net/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2026 BIOR Lab</copyright><lastBuildDate>Fri, 21 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2026 BIOR Lab</copyright><lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maomaohu.net/img/publications_first_sight.jpg</url>
       <title>Publications</title>
       <link>https://maomaohu.net/publication/</link>
     </image>
+    
+    <item>
+      <title>Characterization and modeling of building dynamic thermal responses to demand response strategies using large-scale in-situ measurements</title>
+      <link>https://maomaohu.net/publication/j25/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/publication/j25/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>An ex-post analysis framework for assessing the effectiveness and driving factors of green building certification adoption: A case study of Singapore</title>
