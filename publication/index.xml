@@ -5,12 +5,44 @@
     <link>https://maomaohu.net/publication/</link>
       <atom:link href="https://maomaohu.net/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2026 BIOR Lab</copyright><lastBuildDate>Tue, 17 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2026 BIOR Lab</copyright><lastBuildDate>Thu, 02 Apr 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maomaohu.net/img/publications_first_sight.jpg</url>
       <title>Publications</title>
       <link>https://maomaohu.net/publication/</link>
     </image>
+    
+    <item>
+      <title>Proactive grid investment enables V2G for 100% adoption of electric vehicles in urban areas</title>
+      <link>https://maomaohu.net/publication/j30/</link>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/publication/j30/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BIPVs as an energy-resilient pathway for decarbonizing high-density island cities</title>
+      <link>https://maomaohu.net/publication/j29/</link>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/publication/j29/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Integrated parametric design of ventilation corridors and urban form for enhanced urban ventilation performance</title>
+      <link>https://maomaohu.net/publication/j28/</link>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/publication/j28/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Double-layer multi-objective optimization for combined cooling and waste heat recovery systems in data centers</title>
+      <link>https://maomaohu.net/publication/j31/</link>
+      <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/publication/j31/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>WRF-based hybrid model for high-resolution prediction of urban thermal-wind environments under present and future climate scenarios</title>
