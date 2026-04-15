@@ -5,12 +5,36 @@
     <link>https://maomaohu.net/publication-type/1/</link>
       <atom:link href="https://maomaohu.net/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2026 BIOR Lab</copyright><lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2026 BIOR Lab</copyright><lastBuildDate>Fri, 15 Aug 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maomaohu.net/images/logo.svg</url>
       <title>1</title>
       <link>https://maomaohu.net/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>Deep Learning-Based Surrogate Modelling for Optimal Control of Climate-Responsive Adaptive Facade Systems</title>
+      <link>https://maomaohu.net/publication/c7/</link>
+      <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/publication/c7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>High-resolution downscaling simulation of urban wind-thermal environments: An interpretable machine learning analysis of urban morphology</title>
+      <link>https://maomaohu.net/publication/c8/</link>
+      <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/publication/c8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Urban Spatial Microclimate Prediction with Morphological Map-Based Ensemble Deep Learning Method</title>
+      <link>https://maomaohu.net/publication/c9/</link>
+      <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/publication/c9/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>IDENTIFYING SUITABLE THERMAL RESPONSE MODELS FOR DEMAND RESPONSE MANAGEMENT IN MULTI-ZONE COMMERCIAL BUILDINGS</title>
@@ -57,14 +81,6 @@
       <link>https://maomaohu.net/publication/c2/</link>
       <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
       <guid>https://maomaohu.net/publication/c2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deep Learning-Based Surrogate Modelling for Optimal Control of Climate-Responsive Adaptive Facade Systems</title>
-      <link>https://maomaohu.net/publication/c7/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://maomaohu.net/publication/c7/</guid>
       <description></description>
     </item>
     
