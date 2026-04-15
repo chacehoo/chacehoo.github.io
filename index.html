@@ -1271,40 +1271,117 @@
         <h1 style="text-align: center; font-weight: 700;">Links</h1>
         
       </div>
-      <div class="link-row">
-  <a class="link-text" href="https://www.nus.edu.sg/" target="_blank" rel="noopener">National University of Singapore ↗</a>
-  <a class="link-text" href="https://cde.nus.edu.sg/" target="_blank" rel="noopener">College of Design and Engineering ↗</a>
-  <a class="link-text" href="https://cde.nus.edu.sg/dbe/" target="_blank" rel="noopener">Department of Built Environment ↗</a>
-  <a class="link-text" href="https://cde.nus.edu.sg/dbe/centre-for-digital-building-technology/" target="_blank" rel="noopener">Center for Digital Building Technology (CDBT) ↗</a>
-  <a class="link-text" href="https://ai.nus.edu.sg/" target="_blank" rel="noopener">NUS Artificial Intelligence Institute ↗</a>
-  <a class="link-text" href="https://iora.nus.edu.sg/" target="_blank" rel="noopener">NUS Institute of Operations Research and Analytics (IORA) ↗</a>
-  <a class="link-text" href="https://esi.nus.edu.sg/" target="_blank" rel="noopener">NUS Energy Studies Institute (ESI) ↗</a>
-  <a class="link-text" href="https://www.seris.nus.edu.sg/" target="_blank" rel="noopener">NUS Solar Energy Research Institute of Singapore (SERIS) ↗</a>
+      <div class="links-layout">
+  <div class="links-brand">
+    <div class="brand-title">
+      <span class="brand-nus">NUS</span><span class="brand-divider">|</span><span class="brand-lab">BIOR Lab</span>
+    </div>
+    <div class="brand-address">
+      4 Architecture Drive, #03-04,<br>
+      Singapore, 117566
+    </div>
+  </div>
+  <div class="links-columns">
+    <div class="links-col">
+      <a class="link-text" href="https://www.nus.edu.sg/" target="_blank" rel="noopener">National University of Singapore</a>
+      <a class="link-text" href="https://cde.nus.edu.sg/" target="_blank" rel="noopener">College of Design and Engineering</a>
+      <a class="link-text" href="https://cde.nus.edu.sg/dbe/" target="_blank" rel="noopener">Department of Built Environment</a>
+      <a class="link-text" href="https://cde.nus.edu.sg/dbe/centre-for-digital-building-technology/" target="_blank" rel="noopener">Center for Digital Building Technology (CDBT)</a>
+    </div>
+    <div class="links-col">
+       <a class="link-text" href="https://ai.nus.edu.sg/" target="_blank" rel="noopener">NUS Artificial Intelligence Institute</a>
+      <a class="link-text" href="https://esi.nus.edu.sg/" target="_blank" rel="noopener">NUS Energy Studies Institute (ESI)</a>
+      <a class="link-text" href="https://iora.nus.edu.sg/" target="_blank" rel="noopener">NUS Institute of Operations Research and Analytics (IORA)</a>
+      <a class="link-text" href="https://www.seris.nus.edu.sg/" target="_blank" rel="noopener">NUS Solar Energy Research Institute of Singapore (SERIS)</a>
+    </div>
+  </div>
 </div>
 <style>
-.link-row {
+.links-layout {
   display: grid;
-  grid-template-columns: repeat(2, minmax(280px, 1fr));
-  column-gap: 80px;
-  row-gap: 20px;
+  grid-template-columns: 1.1fr 1.9fr;
+  column-gap: 100px;
   align-items: start;
 }
 
-.link-row .link-text {
+.links-brand {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 260px;
+}
+
+.brand-title {
+  font-size: 42px;
+  line-height: 1.15;
+  margin-bottom: 48px;
+}
+
+.brand-nus {
+  color: #003D7C;
+  font-weight: 700;
+}
+
+.brand-divider {
+  margin: 0 8px;
+  color: #333333;
+  font-weight: 400;
+}
+
+.brand-lab {
+  color: #333333;
+  font-weight: 400;
+}
+
+.brand-address {
+  color: #333333;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.links-columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(260px, 1fr));
+  column-gap: 80px;
+  row-gap: 18px;
+  align-items: start;
+}
+
+.links-col {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.link-text {
   display: block;
-  color: #003D7C;   /* NUS blue */
+  color: #003D7C;
   text-decoration: none;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
+  text-align: left;
 }
 
-.link-row .link-text:hover {
+.link-text:hover {
   text-decoration: underline;
 }
 
-@media (max-width: 768px) {
-  .link-row {
+@media (max-width: 900px) {
+  .links-layout {
+    grid-template-columns: 1fr;
+    row-gap: 36px;
+  }
+
+  .links-brand {
+    min-height: auto;
+  }
+
+  .brand-title {
+    margin-bottom: 24px;
+  }
+
+  .links-columns {
     grid-template-columns: 1fr;
     column-gap: 0;
   }
