@@ -683,7 +683,7 @@
       </div>
       <style>
   html {
-    scroll-behavior: smooth;
+    scroll-behavior: auto;
   }
 
   .research-page {
@@ -696,8 +696,8 @@
   }
 
   .research-sidebar {
-    width: 220px;
-    flex: 0 0 220px;
+    width: 240px;
+    flex: 0 0 240px;
     position: sticky;
     top: 100px;
     align-self: flex-start;
@@ -706,22 +706,27 @@
   .research-sidebar-title {
     font-size: 1.55rem;
     font-weight: 700;
-    margin: 0 0 18px 0;
+    margin: 0 0 20px 0;
     color: #333333;
     line-height: 1.15;
   }
 
   .research-sidebar a {
     display: block;
-    margin: 0 0 8px 0;
-    padding: 4px 0 4px 10px;
+    margin: 0;
+    padding: 16px 0 16px 12px;
     border-left: 3px solid transparent;
+    border-bottom: 1px solid #cfcfcf;
     color: #EF7C00;
     text-decoration: none;
-    font-size: 0.95rem;
-    line-height: 1.3;
+    font-size: 0.98rem;
+    line-height: 1.4;
     font-weight: 400;
-    transition: all 0.2s ease;
+    transition: none;
+  }
+
+  .research-sidebar a:first-of-type {
+    border-top: 1px solid #cfcfcf;
   }
 
   .research-sidebar a:hover {
@@ -766,8 +771,7 @@
 
     .research-sidebar a {
       font-size: 0.92rem;
-      margin-bottom: 6px;
-      padding-left: 8px;
+      padding: 12px 0 12px 10px;
       border-left-width: 2px;
     }
   }
@@ -775,7 +779,7 @@
 <div class="research-page">
   <!-- Left contents -->
 <aside class="research-sidebar">
-  <h2 class="research-sidebar-title">Contents</h2>
+  <h2 class="research-sidebar-title">Research</h2>
   <a href="#overview" class="active">Research Overview</a>
   <a href="#research-thrusts">Research Thrusts</a>
   <a href="#research-center">Research Center</a>
@@ -1031,65 +1035,60 @@
     <br>
     <hr>
     <br>
-    <h1 id="research-center" style="text-align: center; font-weight: 700; margin-bottom: 2rem;">Research Center</h1>
-    <div style="
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 24px;
-      width: 80%;
-      max-width: 1400px;
-      margin: 24px auto;
-    ">
-      <figure style="
-        margin: 0;
-        background: #003D7C;
-        border-radius: 16px;
-        box-shadow: 0 4px 16px rgba(0,0,0,0.08);
-        overflow: hidden;
-        text-align: center;
+  <h1 id="research-center" style="text-align: center; font-weight: 700; margin-bottom: 2rem;">Research Center</h1>
+  <h2 style="text-align: center; font-weight: 500; line-height: 1.6;">
+  <span style="color:#EF7C00;">Center for Digital Building Technology</span>
+  </h2>
+<div style="
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  width: 80%;
+  max-width: 1400px;
+  margin: 24px auto;
+">
+  <figure style="
+    margin: 0;
+    background: #003D7C;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+  ">
+    <div style="width: 100%; background: #fff;">
+      <img src="https://maomaohu.net/img/center_for_digital_building_tech.jpg" style="
         width: 100%;
+        height: auto;
+        display: block;
       ">
-        <div style="width: 100%; background: #ffffff;">
-          <img src="https://maomaohu.net/img/center_for_digital_building_tech.jpg" style="
-            width: 100%;
-            height: auto;
-            display: block;
-          ">
-        </div>
-        <div style="
-          width: 100%;
-          background: #ffffff;
-          padding: 0;
-        ">
-          <iframe
-            src="https://www.youtube.com/embed/gY_YT0Vc8EA?si=YctpIQsh5_LxP-xr"
-            title="Centre for Digital Building Technology"
-            style="width: 100%; aspect-ratio: 16 / 9; border: 0; display: block;"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen>
-          </iframe>
-        </div>
-        <figcaption style="
-          padding: 12px 18px 16px 18px;
-          line-height: 1.6;
-          font-size: 1.05rem;
-          background: #003D7C;
-          color: #ffffff;
-        ">
-          <div style="font-size: 1.15rem; font-weight: 500; margin-bottom: 8px; text-align: center;">
-            Center for Digital Building Technology
-          </div>
-          <div style="text-align: left;">
-            Dr. Hu has served as the deputy director of the
-            <a href="https://cde.nus.edu.sg/dbe/centre-for-digital-building-technology/" style="color: #ffffff; text-decoration: underline;">
-              Center for Digital Building Technology
-            </a>
-            since 2025. The center's primary mission is to enhance quality and productivity by leveraging digital building technologies to transform how people design, deliver, and manage the built environment. These technologies include augmented reality (AR), virtual reality (VR), building information modeling (BIM), the Internet of Things (IoT), robotics and automation, video analytics, and digital twins, all supported by advanced equipment and devices.
-          </div>
-        </figcaption>
-      </figure>
     </div>
+    <div style="width: 100%; background: #fff;">
+      <iframe
+        src="https://www.youtube.com/embed/gY_YT0Vc8EA?si=YctpIQsh5_LxP-xr"
+        title="Centre for Digital Building Technology"
+        style="width: 100%; aspect-ratio: 16 / 9; border: 0; display: block;"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+      </iframe>
+    </div>
+    <figcaption style="
+      padding: 12px 18px 16px 18px;
+      line-height: 1.6;
+      font-size: 1.05rem;
+      background: #003D7C;
+      color: #ffffff;
+      text-align: left;
+    ">
+      Dr. Hu has served as the deputy director of the
+      <a href="https://cde.nus.edu.sg/dbe/centre-for-digital-building-technology/" style="color: #ffffff; text-decoration: underline;">
+        Center for Digital Building Technology
+      </a>
+      since 2025. The center's primary mission is to enhance quality and productivity by leveraging digital building technologies to transform how people design, deliver, and manage the built environment. These technologies include augmented reality (AR), virtual reality (VR), building information modeling (BIM), the Internet of Things (IoT), robotics and automation, video analytics, and digital twins, all supported by advanced equipment and devices.
+    </figcaption>
+  </figure>
+</div>
     <br>
     <hr>
     <br>
