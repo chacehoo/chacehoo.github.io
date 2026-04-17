@@ -1212,6 +1212,40 @@
     </div>
   </main>
 </div>
+<script>
+  const sections = document.querySelectorAll(".research-main h1[id]");
+  const navLinks = document.querySelectorAll(".research-sidebar a");
+
+  function setActiveLink() {
+    let currentId = "";
+
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop - 120;
+      if (window.scrollY >= sectionTop) {
+        currentId = section.getAttribute("id");
+      }
+    });
+
+    navLinks.forEach(link => {
+      link.classList.remove("active");
+      if (link.getAttribute("href") === "#" + currentId) {
+        link.classList.add("active");
+      }
+    });
+  }
+
+  navLinks.forEach(link => {
+    link.addEventListener("click", function () {
+      navLinks.forEach(item => item.classList.remove("active"));
+      this.classList.add("active");
+    });
+  });
+
+  window.addEventListener("scroll", setActiveLink);
+  window.addEventListener("load", setActiveLink);
+</script><blockquote>
+</blockquote>
+
     </div>
   
 </div>
