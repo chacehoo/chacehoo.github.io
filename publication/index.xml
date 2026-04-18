@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications | Maomao Hu | National University of Singapore</title>
+    <title>Maomao Hu | National University of Singapore</title>
     <link>https://maomaohu.net/publication/</link>
       <atom:link href="https://maomaohu.net/publication/index.xml" rel="self" type="application/rss+xml" />
-    <description>Publications</description>
+    <description>Maomao Hu | National University of Singapore</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2026 BIOR Lab</copyright><lastBuildDate>Thu, 02 Apr 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maomaohu.net/img/publications_first_sight.jpg</url>
-      <title>Publications</title>
+      <title>Maomao Hu | National University of Singapore</title>
       <link>https://maomaohu.net/publication/</link>
     </image>
     
