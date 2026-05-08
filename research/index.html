@@ -1211,12 +1211,18 @@
 <script>
   const sections = document.querySelectorAll(".research-main h2[id]");
   const navLinks = document.querySelectorAll(".research-sidebar a");
+  const topMenu = document.querySelector(".research-sidebar");
+
+  function getOffset() {
+    return topMenu.offsetHeight + 20;
+  }
 
   function setActiveLink() {
     let currentId = "";
+    const offset = getOffset();
 
     sections.forEach(section => {
-      const sectionTop = section.offsetTop - 120;
+      const sectionTop = section.offsetTop - offset - 20;
       if (window.scrollY >= sectionTop) {
         currentId = section.getAttribute("id");
       }
@@ -1238,8 +1244,9 @@
       const targetSection = document.querySelector(targetId);
 
       if (targetSection) {
-        const offset = 120;
-        const targetPosition = targetSection.offsetTop - offset;
+        const offset = getOffset();
+        const targetPosition =
+          targetSection.getBoundingClientRect().top + window.pageYOffset - offset;
 
         window.scrollTo({
           top: targetPosition,
@@ -1256,6 +1263,7 @@
 
   window.addEventListener("scroll", setActiveLink);
   window.addEventListener("load", setActiveLink);
+  window.addEventListener("resize", setActiveLink);
 </script><blockquote>
 </blockquote>
 
