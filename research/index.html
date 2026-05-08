@@ -683,8 +683,9 @@
         
       </div>
       <style>
-  html {
-    scroll-behavior: auto;
+  html,
+  body {
+    scroll-behavior: auto !important;
   }
 
   .research-page {
@@ -703,49 +704,53 @@
     background: #ffffff;
     padding: 18px 0 14px 0;
     margin-bottom: 36px;
-    border-bottom: 1px solid #d8d8d8;
-  }
-
-  .research-sidebar-title {
-    font-size: 1.55rem;
-    font-weight: 700;
-    margin: 0 0 14px 0;
-    color: #333333;
-    line-height: 1.15;
+    border-bottom: none;
   }
 
   .research-sidebar a {
     display: inline-block;
-    margin: 0 28px 0 0;
-    padding: 8px 0;
-    border-left: none;
-    border-bottom: 3px solid transparent;
+    margin: 0 12px 10px 0;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
     color: #EF7C00;
+    background: transparent;
     text-decoration: none;
-    font-size: 0.98rem;
+    font-size: 1.1rem;
     line-height: 1.4;
-    font-weight: 400;
+    font-weight: 500;
     transition: none;
   }
 
-  .research-sidebar a:first-of-type {
-    border-top: none;
-  }
-
   .research-sidebar a:hover {
-    border-bottom-color: #333333;
-    color: #333333;
+    color: #ffffff;
+    background: #003D7C;
   }
 
   .research-sidebar a.active {
-    border-bottom-color: #333333;
-    color: #333333;
-    font-weight: 500;
+    color: #ffffff;
+    background: #003D7C;
+    font-weight: 600;
   }
 
   .research-main {
     width: 100%;
     min-width: 0;
+  }
+
+  .research-section-title {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+
+  .research-subtitle {
+    text-align: left;
+    font-weight: 600;
+    line-height: 1.6;
+    color: #333333;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
   }
 
   code {
@@ -766,30 +771,25 @@
       padding: 12px 0;
     }
 
-    .research-sidebar-title {
-      font-size: 1.35rem;
-      margin-bottom: 10px;
-    }
-
     .research-sidebar a {
       display: inline-block;
-      font-size: 0.92rem;
-      margin: 0 18px 8px 0;
-      padding: 6px 0;
+      font-size: 1rem;
+      margin: 0 8px 8px 0;
+      padding: 8px 14px;
     }
   }
 </style>
 <div class="research-page">
-  <!-- Left contents -->
-<aside class="research-sidebar">
-  <a href="#overview" class="active">Research Overview</a>
-  <a href="#research-thrusts">Research Thrusts</a>
-  <a href="#research-center">Research Center</a>
-  <a href="#testbeds">Living Testbeds</a>
-</aside>
-  <!-- Right content -->
+  <!-- Top contents -->
+  <aside class="research-sidebar">
+    <a href="#overview" class="active">Research Overview</a>
+    <a href="#research-thrusts">Research Thrusts</a>
+    <a href="#research-center">Research Center</a>
+    <a href="#testbeds">Living Testbeds</a>
+  </aside>
+  <!-- Main content -->
   <main class="research-main">
-    <h1 id="overview" style="text-align: center; font-weight: 700; margin-bottom: 2rem;">Research Overview</h1>
+    <h2 id="overview" class="research-section-title">Research Overview</h2>
     <div style="display: flex; justify-content: center;">
       <img src="bior_logo_light_background.png" alt="BIOR LOGO" style="width: 80%; height: auto;">
     </div>
@@ -836,12 +836,10 @@
       <li><strong>UMBEM</strong>: Urban Microclimate and Building Energy Modeling</li>
     </ul>
     <br>
-    <hr>
-    <br>
-    <h1 id="research-thrusts" style="text-align: center; font-weight: 700; margin-bottom: 2rem;">Research Thrusts</h1>
-    <h2 style="text-align: center; font-weight: 500; line-height: 1.6;">
-      <span style="color:#EF7C00;">Thrust 1: Flexible, Resilient, Efficient, and Equitable (FREE) multi-scale energy systems with Distributed Energy Resources (DERs)</span>
-    </h2>
+    <h2 id="research-thrusts" class="research-section-title">Research Thrusts</h2>
+    <h3 class="research-subtitle">
+      Thrust 1: Flexible, Resilient, Efficient, and Equitable (FREE) multi-scale energy systems with Distributed Energy Resources (DERs)
+    </h3>
     <div style="
       display: grid;
       grid-template-columns: 1fr;
@@ -905,14 +903,14 @@
             Coordination and Negotiation in a Cyber-Physical Multi-Entity Residential Microgrid
           </div>
           <div style="margin-top: 6px; font-size: 0.98rem;">
-            <a href="https://doi.org/10.1016/j.rser.2020.110248" style="color: #ffffff; text-decoration: underline;">[Link]</a>
+            <a href="https://doi.org/10.1016/j.rser.2020.110248" style="color: #5f6876; text-decoration: underline;">[Link]</a>
           </div>
         </figcaption>
       </figure>
     </div>
-    <h2 style="text-align: center; font-weight: 500; line-height: 1.6;">
-      <span style="color:#EF7C00;">Thrust 2: Optimal and Learning-based Control</span>
-    </h2>
+    <h3 class="research-subtitle">
+      Thrust 2: Optimal and learning-based control
+    </h3>
     <div style="
       display: grid;
       grid-template-columns: 1fr;
@@ -950,9 +948,9 @@
         </figcaption>
       </figure>
     </div>
-    <h2 style="text-align: center; font-weight: 500; line-height: 1.6;">
-      <span style="color:#EF7C00;">Thrust 3: Explainable AI for Building and Urban Science and Engineering (XABUSE)</span>
-    </h2>
+    <h3 class="research-subtitle">
+      Thrust 3: Explainable AI for building and urban science and engineering (XABUSE)
+    </h3>
     <div style="
       display: grid;
       grid-template-columns: 1fr;
@@ -991,13 +989,13 @@
         </figcaption>
       </figure>
     </div>
-    <h2 style="text-align: center; font-weight: 500; line-height: 1.6;">
-      <span style="color:#EF7C00;">Thrust 4: Digital twin-enabled Energy Management Information System (DEMIS)</span>
-    </h2>
+    <h3 class="research-subtitle">
+      Thrust 4: Digital twin-enabled energy management information system (DEMIS)
+    </h3>
     <p>Under dev.</p>
-    <h2 style="text-align: center; font-weight: 500; line-height: 1.6;">
-      <span style="color:#EF7C00;">Thrust 5: Urban Microclimate and Building Energy Modeling (UMBEM)</span>
-    </h2>
+    <h3 class="research-subtitle">
+      Thrust 5: Urban microclimate and building energy modeling (UMBEM)
+    </h3>
     <div style="
       display: grid;
       grid-template-columns: 1fr;
@@ -1035,69 +1033,65 @@
       </figure>
     </div>
     <br>
-    <hr>
-    <br>
-  <h1 id="research-center" style="text-align: center; font-weight: 700; margin-bottom: 2rem;">Research Center</h1>
-  <h2 style="text-align: center; font-weight: 500; line-height: 1.6;">
-  <span style="color:#EF7C00;">Center for Digital Building Technology</span>
-  </h2>
-<div style="
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 24px;
-  width: 80%;
-  max-width: 1400px;
-  margin: 24px auto;
-">
-  <figure style="
-    margin: 0;
-    background: #ffffff;
-    border-radius: 16px;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
-    overflow: hidden;
-    text-align: center;
-    width: 100%;
-  ">
-    <div style="width: 100%; background: #fff;">
-      <img src="https://maomaohu.net/img/center_for_digital_building_tech.jpg" style="
-        width: 100%;
-        height: auto;
-        display: block;
-      ">
-    </div>
-    <div style="width: 100%; background: #fff;">
-      <iframe
-        src="https://www.youtube.com/embed/gY_YT0Vc8EA?si=YctpIQsh5_LxP-xr"
-        title="Centre for Digital Building Technology"
-        style="width: 100%; aspect-ratio: 16 / 9; border: 0; display: block;"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen>
-      </iframe>
-    </div>
-    <figcaption style="
-      padding: 12px 18px 16px 18px;
-      line-height: 1.6;
-      font-size: 1.05rem;
-      background: #ffffff;
-      color: #5f6876;
-      text-align: left;
+    <h2 id="research-center" class="research-section-title">Research Center</h2>
+    <h3 class="research-subtitle">
+      Center for Digital Building Technology
+    </h3>
+    <div style="
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+      width: 80%;
+      max-width: 1400px;
+      margin: 24px auto;
     ">
-      Dr. Hu has served as the deputy director of the
-      <a href="https://cde.nus.edu.sg/dbe/centre-for-digital-building-technology/" style="color: ##5f6876; text-decoration: underline;">
-        Center for Digital Building Technology
-      </a>
-      since 2025. The center's primary mission is to enhance quality and productivity by leveraging digital building technologies to transform how people design, deliver, and manage the built environment. These technologies include augmented reality (AR), virtual reality (VR), building information modeling (BIM), the Internet of Things (IoT), robotics and automation, video analytics, and digital twins, all supported by advanced equipment and devices.
-    </figcaption>
-  </figure>
-</div>
+      <figure style="
+        margin: 0;
+        background: #ffffff;
+        border-radius: 16px;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+        overflow: hidden;
+        text-align: center;
+        width: 100%;
+      ">
+        <div style="width: 100%; background: #fff;">
+          <img src="https://maomaohu.net/img/center_for_digital_building_tech.jpg" style="
+            width: 100%;
+            height: auto;
+            display: block;
+          ">
+        </div>
+        <div style="width: 100%; background: #fff;">
+          <iframe
+            src="https://www.youtube.com/embed/gY_YT0Vc8EA?si=YctpIQsh5_LxP-xr"
+            title="Centre for Digital Building Technology"
+            style="width: 100%; aspect-ratio: 16 / 9; border: 0; display: block;"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+          </iframe>
+        </div>
+        <figcaption style="
+          padding: 12px 18px 16px 18px;
+          line-height: 1.6;
+          font-size: 1.05rem;
+          background: #ffffff;
+          color: #5f6876;
+          text-align: left;
+        ">
+          Dr. Hu has served as the deputy director of the
+          <a href="https://cde.nus.edu.sg/dbe/centre-for-digital-building-technology/" style="color: #5f6876; text-decoration: underline;">
+            Center for Digital Building Technology
+          </a>
+          since 2025. The center's primary mission is to enhance quality and productivity by leveraging digital building technologies to transform how people design, deliver, and manage the built environment. These technologies include augmented reality (AR), virtual reality (VR), building information modeling (BIM), the Internet of Things (IoT), robotics and automation, video analytics, and digital twins, all supported by advanced equipment and devices.
+        </figcaption>
+      </figure>
+    </div>
     <br>
-    <hr>
-    <br>
-    <h1 id="testbeds" style="text-align: center; font-weight: 700; margin-bottom: 2rem;">Living Testbeds</h1>
-    <h2 style="text-align: center; font-weight: 500; line-height: 1.6;">
-      <span style="color:#EF7C00;">SDE 4, a Net-Zero Energy Building</span>
-    </h2>
+    <h2 id="testbeds" class="research-section-title">Living Testbeds</h2>
+    <h3 class="research-subtitle">
+      SDE 4, a net-zero energy building
+    </h3>
     <div style="
       display: grid;
       grid-template-columns: 1fr;
@@ -1134,9 +1128,9 @@
         </figcaption>
       </figure>
     </div>
-    <h2 style="text-align: center; font-weight: 500; line-height: 1.6; margin-top: 40px;">
-      <span style="color:#EF7C00;">Smart Green Home</span>
-    </h2>
+    <h3 class="research-subtitle">
+      Smart Green Home
+    </h3>
     <div style="
       display: grid;
       grid-template-columns: 1fr;
@@ -1173,9 +1167,9 @@
         </figcaption>
       </figure>
     </div>
-    <h2 style="text-align: center; font-weight: 500; line-height: 1.6; margin-top: 40px;">
-      <span style="color:#EF7C00;">District Cooling Systems on Campus</span>
-    </h2>
+    <h3 class="research-subtitle">
+      District Cooling Systems on Campus
+    </h3>
     <div style="
       display: grid;
       grid-template-columns: 1fr;
@@ -1215,7 +1209,7 @@
   </main>
 </div>
 <script>
-  const sections = document.querySelectorAll(".research-main h1[id]");
+  const sections = document.querySelectorAll(".research-main h2[id]");
   const navLinks = document.querySelectorAll(".research-sidebar a");
 
   function setActiveLink() {
@@ -1237,9 +1231,26 @@
   }
 
   navLinks.forEach(link => {
-    link.addEventListener("click", function () {
-      navLinks.forEach(item => item.classList.remove("active"));
-      this.classList.add("active");
+    link.addEventListener("click", function (e) {
+      e.preventDefault();
+
+      const targetId = this.getAttribute("href");
+      const targetSection = document.querySelector(targetId);
+
+      if (targetSection) {
+        const offset = 120;
+        const targetPosition = targetSection.offsetTop - offset;
+
+        window.scrollTo({
+          top: targetPosition,
+          behavior: "auto"
+        });
+
+        history.pushState(null, null, targetId);
+
+        navLinks.forEach(item => item.classList.remove("active"));
+        this.classList.add("active");
+      }
     });
   });
 
