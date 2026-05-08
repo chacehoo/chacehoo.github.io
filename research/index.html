@@ -683,587 +683,468 @@
         
       </div>
       <style>
-  html,
-  body {
-    scroll-behavior: auto !important;
-  }
+html,
+body {
+scroll-behavior: auto !important;
+}
 
-  .research-page {
-    display: block;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 24px;
-  }
+.research-page {
+display: block;
+max-width: 1400px;
+margin: 0 auto;
+padding: 0 24px;
+}
 
-  /* Top menu */
-  .research-sidebar {
-    width: 100%;
-    position: sticky;
-    top: 70px;
-    z-index: 100;
-    background: #ffffff;
-    padding: 18px 0 14px 0;
-    margin-bottom: 36px;
-    border-bottom: none;
-  }
+.research-sidebar {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 14px;
+flex-wrap: wrap;
+width: 100%;
+position: sticky;
+top: 70px;
+z-index: 100;
+background: rgba(255, 255, 255, 0.96);
+backdrop-filter: blur(8px);
+padding: 10px 0;
+margin-bottom: 42px;
+border-bottom: none;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+}
 
-  .research-sidebar a {
-    display: inline-block;
-    margin: 0 12px 10px 0;
-    padding: 10px 18px;
-    border: none;
-    border-radius: 6px;
-    color: #EF7C00;
-    background: transparent;
-    text-decoration: none;
-    font-size: 1.1rem;
-    line-height: 1.4;
-    font-weight: 500;
-    transition: none;
-  }
+.research-sidebar a {
+display: inline-block;
+padding: 8px 18px;
+border: none;
+border-radius: 999px;
+color: #EF7C00;
+background: transparent;
+text-decoration: none;
+font-size: 1rem;
+line-height: 1.3;
+font-weight: 500;
+transition: none;
+}
 
-  .research-sidebar a:hover {
-    color: #ffffff;
-    background: #003D7C;
-  }
+.research-sidebar a:hover,
+.research-sidebar a.active {
+color: #ffffff;
+background: #003D7C;
+font-weight: 600;
+}
 
-  .research-sidebar a.active {
-    color: #ffffff;
-    background: #003D7C;
-    font-weight: 600;
-  }
+.research-main {
+width: 100%;
+min-width: 0;
+}
 
-  .research-main {
-    width: 100%;
-    min-width: 0;
-  }
+.research-section-title {
+text-align: center;
+font-weight: 700;
+font-size: 2rem;
+margin-top: 1.5rem;
+margin-bottom: 2.5rem;
+color: #333333;
+scroll-margin-top: 120px;
+}
 
-  .research-section-title {
-    text-align: center;
-    font-weight: 700;
-    margin-bottom: 2rem;
-  }
+.research-section-title::after {
+content: "";
+display: block;
+width: 56px;
+height: 4px;
+background: #EF7C00;
+margin: 14px auto 0 auto;
+border-radius: 999px;
+}
 
-  .research-subtitle {
-    text-align: left;
-    font-weight: 600;
-    line-height: 1.6;
-    color: #333333;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-  }
+.research-subtitle {
+text-align: left;
+font-weight: 650;
+font-size: 1.35rem;
+line-height: 1.45;
+color: #333333;
+margin-top: 2.8rem;
+margin-bottom: 1.2rem;
+}
 
-  code {
-    background: none !important;
-    border: none !important;
-    padding: 0;
-    box-shadow: none !important;
-  }
+.thrust-label {
+color: #003D7C;
+font-weight: 700;
+}
 
-  @media (max-width: 992px) {
-    .research-page {
-      padding: 0 16px;
-    }
+.research-card-grid {
+display: grid;
+grid-template-columns: 1fr;
+gap: 24px;
+width: 74%;
+max-width: 1100px;
+margin: 24px auto 48px auto;
+}
 
-    .research-sidebar {
-      position: static;
-      margin-bottom: 24px;
-      padding: 12px 0;
-    }
+.research-card {
+margin: 0;
+background: #ffffff;
+border-radius: 18px;
+box-shadow: 0 8px 28px rgba(0, 0, 0, 0.07);
+overflow: hidden;
+text-align: center;
+}
 
-    .research-sidebar a {
-      display: inline-block;
-      font-size: 1rem;
-      margin: 0 8px 8px 0;
-      padding: 8px 14px;
-    }
-  }
+.research-card-image-wrap {
+width: 100%;
+background: #ffffff;
+}
+
+.research-card img {
+width: 100%;
+height: auto;
+display: block;
+}
+
+.research-card iframe {
+width: 100%;
+aspect-ratio: 16 / 9;
+border: 0;
+display: block;
+}
+
+.research-card figcaption {
+padding: 14px 18px 18px 18px;
+line-height: 1.45;
+font-size: 0.98rem;
+background: #ffffff;
+color: #5f6876;
+text-align: center;
+}
+
+.research-card figcaption.left-caption {
+text-align: left;
+line-height: 1.65;
+font-size: 1.02rem;
+}
+
+.research-card figcaption a {
+color: #5f6876;
+text-decoration: underline;
+}
+
+.research-overview-logo {
+display: flex;
+justify-content: center;
+margin-bottom: 1.4rem;
+}
+
+.research-overview-logo img {
+width: 78%;
+max-width: 760px;
+height: auto;
+}
+
+.research-tagline {
+text-align: center;
+margin-bottom: 2rem;
+}
+
+.research-main p,
+.research-main li {
+color: #333333;
+line-height: 1.7;
+}
+
+code {
+background: none !important;
+border: none !important;
+padding: 0;
+box-shadow: none !important;
+}
+
+@media (max-width: 992px) {
+.research-page {
+padding: 0 16px;
+}
+
+.research-sidebar {
+position: static;
+gap: 8px;
+margin-bottom: 28px;
+padding: 10px 0;
+box-shadow: none;
+}
+
+.research-sidebar a {
+font-size: 0.95rem;
+padding: 8px 14px;
+}
+
+.research-section-title {
+font-size: 1.7rem;
+}
+
+.research-subtitle {
+font-size: 1.2rem;
+}
+
+.research-card-grid {
+width: 100%;
+max-width: 100%;
+}
+
+.research-overview-logo img {
+width: 100%;
+}
+}
 </style>
 <div class="research-page">
-  <!-- Top contents -->
-  <aside class="research-sidebar">
-    <a href="#overview" class="active">Research Overview</a>
-    <a href="#research-thrusts">Research Thrusts</a>
-    <a href="#research-center">Research Center</a>
-    <a href="#testbeds">Living Testbeds</a>
-  </aside>
-  <!-- Main content -->
-  <main class="research-main">
-    <h2 id="overview" class="research-section-title">Research Overview</h2>
-    <div style="display: flex; justify-content: center;">
-      <img src="bior_logo_light_background.png" alt="BIOR LOGO" style="width: 80%; height: auto;">
-    </div>
-    <div style="text-align: center;">
-      <div id="typed-strings">
-        <p><code style="color: #EF7C00; font-weight: bold;">Smart</code></p>
-        <p><code style="color: #EF7C00; font-weight: bold;">Low-carbon</code></p>
-        <p><code style="color: #EF7C00; font-weight: bold;">Energy-efficient</code></p>
-        <p><code style="color: #EF7C00; font-weight: bold;">Demand-flexible</code></p>
-        <p><code style="color: #EF7C00; font-weight: bold;">Climate-resilient</code></p>
-        <p><code style="color: #EF7C00; font-weight: bold;">Equitable</code></p>
-      </div>
-      <span class="font-bold" id="typed"></span>
-      <code style="color: #003D7C">Building, District, and Urban Energy Systems.</code>
-    </div>
-    <!-- Include Typed.js -->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script>
-      var typed = new Typed('#typed', {
-        stringsElement: '#typed-strings',
-        typeSpeed: 50,
-        backSpeed: 30,
-        startDelay: 100,
-        backDelay: 2000,
-        loop: true
-      });
-    </script>
-    <br>
-    <p>
-      Our BIOR lab aims at developing sustainable and scalable technologies and computational tools to make building, district, and urban energy systems smart, low-carbon, energy-efficient, energy-flexible, climate-resilient, and equitable using optimization, learning, and control.
-    </p>
-    <p>
-      Our interdisciplinary research is at the interface of Building Science, Computer Science, and Control Engineering.
-    </p>
-    <p>
-      We employ a multifaceted approach that encompasses data analytics & machine learning, physics-based modeling & simulation, optimization & model-based optimal controls, as well as experiments. These approaches have been deployed across a spectrum of scales, spanning from equipment- through building- and community- to city-scale.
-    </p>
-    <p>Specifically, our research interests include:</p>
-    <ul>
-      <li><strong>FREE system</strong>: Flexible, Resilient, Efficient, and Equitable multi-scale energy systems with Distributed Energy Resources (DERs)</li>
-      <li>Optimal and Learning-based Control</li>
-      <li><strong>XABUSE</strong>: Explainable AI for Building and Urban Science and Engineering</li>
-      <li><strong>DEMIS</strong>: Digital twin-enabled Energy Management Information System</li>
-      <li><strong>UMBEM</strong>: Urban Microclimate and Building Energy Modeling</li>
-    </ul>
-    <br>
-    <h2 id="research-thrusts" class="research-section-title">Research Thrusts</h2>
-    <h3 class="research-subtitle">
-      Thrust 1: Flexible, Resilient, Efficient, and Equitable (FREE) multi-scale energy systems with Distributed Energy Resources (DERs)
-    </h3>
-    <div style="
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 24px;
-      width: 80%;
-      max-width: 1400px;
-      margin: 24px auto;
-    ">
-      <figure style="
-        margin: 0;
-        background: #ffffff;
-        border-radius: 16px;
-        box-shadow: 0 4px 16px rgba(0,0,0,0.08);
-        overflow: hidden;
-        text-align: center;
-      ">
-        <div style="width: 100%; background: #fff;">
-          <img src="https://maomaohu.net/img/thrust_1_0.jpg" style="
-            width: 100%;
-            height: auto;
-            display: block;
-          ">
-        </div>
-        <figcaption style="
-          padding: 12px 18px 10px 18px;
-          line-height: 1.35;
-          background: #ffffff;
-          color: #5f6876;
-        ">
-          <div style="font-size: 1.0rem; font-weight: 500;">
-            Complex Cyber-Physical District Energy System
-          </div>
-          <div style="margin-top: 6px; font-size: 0.98rem;">
-            <a href="https://doi.org/10.1016/j.enbuild.2023.113339" style="color: #5f6876; text-decoration: underline;">[Link]</a>
-            <a href="https://sesi.stanford.edu/energy-systems/central-energy-facility" style="color: #5f6876; text-decoration: underline; margin-left: 6px;">[Link]</a>
-          </div>
-        </figcaption>
-      </figure>
-      <figure style="
-        margin: 0;
-        background: #ffffff;
-        border-radius: 16px;
-        box-shadow: 0 4px 16px rgba(0,0,0,0.08);
-        overflow: hidden;
-        text-align: center;
-      ">
-        <div style="width: 100%; background: #fff;">
-          <img src="https://maomaohu.net/img/thrust_1_1.jpg" style="
-            width: 100%;
-            height: auto;
-            display: block;
-          ">
-        </div>
-        <figcaption style="
-          padding: 12px 18px 10px 18px;
-          line-height: 1.35;
-          background: #ffffff;
-          color: #5f6876;
-        ">
-          <div style="font-size: 1.0rem; font-weight: 500;">
-            Coordination and Negotiation in a Cyber-Physical Multi-Entity Residential Microgrid
-          </div>
-          <div style="margin-top: 6px; font-size: 0.98rem;">
-            <a href="https://doi.org/10.1016/j.rser.2020.110248" style="color: #5f6876; text-decoration: underline;">[Link]</a>
-          </div>
-        </figcaption>
-      </figure>
-    </div>
-    <h3 class="research-subtitle">
-      Thrust 2: Optimal and learning-based control
-    </h3>
-    <div style="
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 24px;
-      width: 80%;
-      max-width: 1400px;
-      margin: 24px auto;
-    ">
-      <figure style="
-        margin: 0;
-        background: #ffffff;
-        border-radius: 16px;
-        box-shadow: 0 4px 16px rgba(0,0,0,0.08);
-        overflow: hidden;
-        text-align: center;
-        width: 100%;
-      ">
-        <div style="width: 100%; background: #fff;">
-          <img src="https://maomaohu.net/img/thrust_2.jpg" style="
-            width: 100%;
-            height: auto;
-            display: block;
-          ">
-        </div>
-        <figcaption style="
-          padding: 10px 18px;
-          line-height: 1.6;
-          font-size: 1.05rem;
-          background: #ffffff;
-          color: #5f6876;
-        ">
-          Schematic diagram of MPC for building energy systems
-          <a href="https://maomaohu.net/project/0_mpc_ac/" style="color: #5f6876; text-decoration: underline;">[Link]</a>
-          <a href="https://maomaohu.net/project/1_mpc_floor/" style="color: #5f6876; text-decoration: underline;">[Link]</a>
-        </figcaption>
-      </figure>
-    </div>
-    <h3 class="research-subtitle">
-      Thrust 3: Explainable AI for building and urban science and engineering (XABUSE)
-    </h3>
-    <div style="
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 24px;
-      width: 80%;
-      max-width: 1400px;
-      margin: 24px auto;
-    ">
-      <figure style="
-        margin: 0;
-        background: #ffffff;
-        border-radius: 16px;
-        box-shadow: 0 4px 16px rgba(0,0,0,0.08);
-        overflow: hidden;
-        text-align: center;
-        width: 100%;
-      ">
-        <div style="width: 100%; background: #fff;">
-          <img src="https://maomaohu.net/img/thrust_3_0.jpg" style="
-            width: 100%;
-            height: auto;
-            display: block;
-          ">
-        </div>
-        <figcaption style="
-          padding: 10px 18px;
-          line-height: 1.6;
-          font-size: 1.05rem;
-          background: #ffffff;
-          color: #5f6876;
-        ">
-          Explainable Machine Learning using Large-Scale Smart Meter Data
-          <a href="https://maomaohu.net/software/ifeel/" style="color: #5f6876; text-decoration: underline;">[Link]</a>
-          <a href="https://doi.org/10.1016/j.scs.2021.103380" style="color: #5f6876; text-decoration: underline;">[Link]</a>
-          <a href="https://doi.org/10.1016/j.enbuild.2023.112896" style="color: #5f6876; text-decoration: underline;">[Link]</a>
-        </figcaption>
-      </figure>
-    </div>
-    <h3 class="research-subtitle">
-      Thrust 4: Digital twin-enabled energy management information system (DEMIS)
-    </h3>
-    <p>Under dev.</p>
-    <h3 class="research-subtitle">
-      Thrust 5: Urban microclimate and building energy modeling (UMBEM)
-    </h3>
-    <div style="
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 24px;
-      width: 80%;
-      max-width: 1400px;
-      margin: 24px auto;
-    ">
-      <figure style="
-        margin: 0;
-        background: #ffffff;
-        border-radius: 16px;
-        box-shadow: 0 4px 16px rgba(0,0,0,0.08);
-        overflow: hidden;
-        text-align: center;
-        width: 100%;
-      ">
-        <div style="width: 100%; background: #fff;">
-          <img src="https://maomaohu.net/img/thrust_4_0.jpg" style="
-            width: 100%;
-            height: auto;
-            display: block;
-          ">
-        </div>
-        <figcaption style="
-          padding: 10px 18px;
-          line-height: 1.6;
-          font-size: 1.05rem;
-          background: #ffffff;
-          color: #5f6876;
-        ">
-          Quantifying Uncertainty in Aggregate Energy Use and Demand Flexibility of Building Clusters Considering Stochastic Occupancy
-          <a href="https://doi.org/10.1016/j.energy.2019.116838" style="color: #5f6876; text-decoration: underline;">[Link]</a>
-        </figcaption>
-      </figure>
-    </div>
-    <br>
-    <h2 id="research-center" class="research-section-title">Research Center</h2>
-    <h3 class="research-subtitle">
-      Center for Digital Building Technology
-    </h3>
-    <div style="
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 24px;
-      width: 80%;
-      max-width: 1400px;
-      margin: 24px auto;
-    ">
-      <figure style="
-        margin: 0;
-        background: #ffffff;
-        border-radius: 16px;
-        box-shadow: 0 4px 16px rgba(0,0,0,0.08);
-        overflow: hidden;
-        text-align: center;
-        width: 100%;
-      ">
-        <div style="width: 100%; background: #fff;">
-          <img src="https://maomaohu.net/img/center_for_digital_building_tech.jpg" style="
-            width: 100%;
-            height: auto;
-            display: block;
-          ">
-        </div>
-        <div style="width: 100%; background: #fff;">
-          <iframe
-            src="https://www.youtube.com/embed/gY_YT0Vc8EA?si=YctpIQsh5_LxP-xr"
-            title="Centre for Digital Building Technology"
-            style="width: 100%; aspect-ratio: 16 / 9; border: 0; display: block;"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen>
-          </iframe>
-        </div>
-        <figcaption style="
-          padding: 12px 18px 16px 18px;
-          line-height: 1.6;
-          font-size: 1.05rem;
-          background: #ffffff;
-          color: #5f6876;
-          text-align: left;
-        ">
-          Dr. Hu has served as the deputy director of the
-          <a href="https://cde.nus.edu.sg/dbe/centre-for-digital-building-technology/" style="color: #5f6876; text-decoration: underline;">
-            Center for Digital Building Technology
-          </a>
-          since 2025. The center's primary mission is to enhance quality and productivity by leveraging digital building technologies to transform how people design, deliver, and manage the built environment. These technologies include augmented reality (AR), virtual reality (VR), building information modeling (BIM), the Internet of Things (IoT), robotics and automation, video analytics, and digital twins, all supported by advanced equipment and devices.
-        </figcaption>
-      </figure>
-    </div>
-    <br>
-    <h2 id="testbeds" class="research-section-title">Living Testbeds</h2>
-    <h3 class="research-subtitle">
-      SDE 4, a net-zero energy building
-    </h3>
-    <div style="
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 24px;
-      width: 80%;
-      max-width: 1400px;
-      margin: 24px auto;
-    ">
-      <figure style="
-        margin: 0;
-        background: #ffffff;
-        border-radius: 16px;
-        box-shadow: 0 4px 16px rgba(0,0,0,0.08);
-        overflow: hidden;
-        text-align: center;
-        width: 100%;
-      ">
-        <div style="width: 100%; background: #ffffff;">
-          <img src="https://maomaohu.net/img/PV_2.png" style="
-            width: 100%;
-            height: auto;
-            display: block;
-          ">
-        </div>
-        <figcaption style="
-          padding: 12px 18px 16px 18px;
-          line-height: 1.6;
-          font-size: 1.05rem;
-          background: #ffffff;
-          color: #5f6876;
-          text-align: left;
-        ">
-          SDE4 is Singapore’s first new-build net-zero energy building, designed to exemplify human-centric and integrated sustainable development. Completed in 2019, the six-story structure incorporates passive design strategies, including a large overhanging roof and double facades on its east and west sides, to provide shading and minimize solar heat gain. Its hybrid cooling system enhances energy efficiency by maintaining comfortable indoor temperatures without excessive cooling. The building is powered by over 1,200 solar photovoltaic panels on its roof, generating more than 500 MWh of electricity annually to achieve a zero or positive energy balance. With a gross floor area of 8,514 square meters, SDE4 houses research laboratories, design studios, and community spaces, fostering interdisciplinary collaboration with public agencies and industry partners. Serving as a living laboratory, it plays a key role in advancing sustainable building technologies.
-        </figcaption>
-      </figure>
-    </div>
-    <h3 class="research-subtitle">
-      Smart Green Home
-    </h3>
-    <div style="
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 24px;
-      width: 80%;
-      max-width: 1400px;
-      margin: 24px auto;
-    ">
-      <figure style="
-        margin: 0;
-        background: #ffffff;
-        border-radius: 16px;
-        box-shadow: 0 4px 16px rgba(0,0,0,0.08);
-        overflow: hidden;
-        text-align: center;
-        width: 100%;
-      ">
-        <div style="width: 100%; background: #ffffff;">
-          <img src="https://maomaohu.net/img/smart_green_home.jpg" style="
-            width: 100%;
-            height: auto;
-            display: block;
-          ">
-        </div>
-        <figcaption style="
-          padding: 12px 18px 16px 18px;
-          line-height: 1.6;
-          font-size: 1.05rem;
-          background: #ffffff;
-          color: #5f6876;
-          text-align: left;
-        ">
-          The Smart Green Home is a cutting-edge indoor test-bed dedicated to advancing research and innovation in smart and sustainable living. This 100 m² full-size home provides a plug-and-play environment for testing smart features, green building technologies, and human-centric design solutions. Its reconfigurable structure enables flexible experimental setups, allowing researchers to study energy efficiency, indoor environmental quality, and sustainable home innovations. The facility also supports the exploration of novel materials, sensor-based control systems, and adaptive facades to enhance occupant comfort while optimizing energy performance.
-        </figcaption>
-      </figure>
-    </div>
-    <h3 class="research-subtitle">
-      District Cooling Systems on Campus
-    </h3>
-    <div style="
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 24px;
-      width: 80%;
-      max-width: 1400px;
-      margin: 24px auto;
-    ">
-      <figure style="
-        margin: 0;
-        background: #ffffff;
-        border-radius: 16px;
-        box-shadow: 0 4px 16px rgba(0,0,0,0.08);
-        overflow: hidden;
-        text-align: center;
-        width: 100%;
-      ">
-        <div style="width: 100%; background: #ffffff;">
-          <img src="https://maomaohu.net/img/district_cooling_systems.png" style="
-            width: 100%;
-            height: auto;
-            display: block;
-          ">
-        </div>
-        <figcaption style="
-          padding: 12px 18px 16px 18px;
-          line-height: 1.6;
-          font-size: 1.05rem;
-          background: #ffffff;
-          color: #5f6876;
-          text-align: left;
-        ">
-          NUS operates multiple district cooling systems that efficiently cool buildings across its campus using centralized chilled water plants. This system produces and distributes chilled water through underground pipes to multiple buildings within a two-kilometer radius, eliminating the need for individual chiller plants and cooling towers. Heat exchangers optimize flow and regulate pressure, improving overall efficiency. By leveraging economies of scale and optimizing asset performance, district cooling reduces energy costs by up to 40% compared to traditional air-conditioning systems. Additionally, it lowers carbon emissions while enhancing grid reliability and climate resilience.
-        </figcaption>
-      </figure>
-    </div>
-  </main>
+<aside class="research-sidebar">
+<a href="#overview" class="active">Research Overview</a>
+<a href="#research-thrusts">Research Thrusts</a>
+<a href="#research-center">Research Center</a>
+<a href="#testbeds">Living Testbeds</a>
+</aside>
+<main class="research-main">
+<h2 id="overview" class="research-section-title">Research Overview</h2>
+<div class="research-overview-logo">
+<img src="bior_logo_light_background.png" alt="BIOR LOGO">
+</div>
+<div class="research-tagline">
+<div id="typed-strings">
+<p><code style="color: #EF7C00; font-weight: bold;">Smart</code></p>
+<p><code style="color: #EF7C00; font-weight: bold;">Low-carbon</code></p>
+<p><code style="color: #EF7C00; font-weight: bold;">Energy-efficient</code></p>
+<p><code style="color: #EF7C00; font-weight: bold;">Demand-flexible</code></p>
+<p><code style="color: #EF7C00; font-weight: bold;">Climate-resilient</code></p>
+<p><code style="color: #EF7C00; font-weight: bold;">Equitable</code></p>
+</div>
+<span class="font-bold" id="typed"></span>
+<code style="color: #003D7C">Building, District, and Urban Energy Systems.</code>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+var typed = new Typed('#typed', {
+stringsElement: '#typed-strings',
+typeSpeed: 50,
+backSpeed: 30,
+startDelay: 100,
+backDelay: 2000,
+loop: true
+});
+</script>
+<p>
+Our BIOR lab aims at developing sustainable and scalable technologies and computational tools to make building, district, and urban energy systems smart, low-carbon, energy-efficient, energy-flexible, climate-resilient, and equitable using optimization, learning, and control.
+</p>
+<p>
+Our interdisciplinary research is at the interface of Building Science, Computer Science, and Control Engineering.
+</p>
+<p>
+We employ a multifaceted approach that encompasses data analytics & machine learning, physics-based modeling & simulation, optimization & model-based optimal controls, as well as experiments. These approaches have been deployed across a spectrum of scales, spanning from equipment- through building- and community- to city-scale.
+</p>
+<p>Specifically, our research interests include:</p>
+<ul>
+<li><strong>FREE system</strong>: Flexible, Resilient, Efficient, and Equitable multi-scale energy systems with Distributed Energy Resources (DERs)</li>
+<li>Optimal and Learning-based Control</li>
+<li><strong>XABUSE</strong>: Explainable AI for Building and Urban Science and Engineering</li>
+<li><strong>DEMIS</strong>: Digital twin-enabled Energy Management Information System</li>
+<li><strong>UMBEM</strong>: Urban Microclimate and Building Energy Modeling</li>
+</ul>
+<h2 id="research-thrusts" class="research-section-title">Research Thrusts</h2>
+<h3 class="research-subtitle">
+<span class="thrust-label">Thrust 1:</span>
+Flexible, Resilient, Efficient, and Equitable (FREE) multi-scale energy systems with Distributed Energy Resources (DERs)
+</h3>
+<div class="research-card-grid">
+<figure class="research-card">
+<div class="research-card-image-wrap">
+<img src="https://maomaohu.net/img/thrust_1_0.jpg" alt="Complex Cyber-Physical District Energy System">
+</div>
+<figcaption>
+<div style="font-weight: 500;">Complex Cyber-Physical District Energy System</div>
+<div style="margin-top: 6px;">
+<a href="https://doi.org/10.1016/j.enbuild.2023.113339">[Link]</a>
+<a href="https://sesi.stanford.edu/energy-systems/central-energy-facility" style="margin-left: 6px;">[Link]</a>
+</div>
+</figcaption>
+</figure>
+<figure class="research-card">
+<div class="research-card-image-wrap">
+<img src="https://maomaohu.net/img/thrust_1_1.jpg" alt="Coordination and Negotiation in a Cyber-Physical Multi-Entity Residential Microgrid">
+</div>
+<figcaption>
+<div style="font-weight: 500;">Coordination and Negotiation in a Cyber-Physical Multi-Entity Residential Microgrid</div>
+<div style="margin-top: 6px;">
+<a href="https://doi.org/10.1016/j.rser.2020.110248">[Link]</a>
+</div>
+</figcaption>
+</figure>
+</div>
+<h3 class="research-subtitle">
+<span class="thrust-label">Thrust 2:</span>
+Optimal and learning-based control
+</h3>
+<div class="research-card-grid">
+<figure class="research-card">
+<div class="research-card-image-wrap">
+<img src="https://maomaohu.net/img/thrust_2.jpg" alt="Schematic diagram of MPC for building energy systems">
+</div>
+<figcaption>
+Schematic diagram of MPC for building energy systems
+<a href="https://maomaohu.net/project/0_mpc_ac/">[Link]</a>
+<a href="https://maomaohu.net/project/1_mpc_floor/">[Link]</a>
+</figcaption>
+</figure>
+</div>
+<h3 class="research-subtitle">
+<span class="thrust-label">Thrust 3:</span>
+Explainable AI for building and urban science and engineering (XABUSE)
+</h3>
+<div class="research-card-grid">
+<figure class="research-card">
+<div class="research-card-image-wrap">
+<img src="https://maomaohu.net/img/thrust_3_0.jpg" alt="Explainable Machine Learning using Large-Scale Smart Meter Data">
+</div>
+<figcaption>
+Explainable Machine Learning using Large-Scale Smart Meter Data
+<a href="https://maomaohu.net/software/ifeel/">[Link]</a>
+<a href="https://doi.org/10.1016/j.scs.2021.103380">[Link]</a>
+<a href="https://doi.org/10.1016/j.enbuild.2023.112896">[Link]</a>
+</figcaption>
+</figure>
+</div>
+<h3 class="research-subtitle">
+<span class="thrust-label">Thrust 4:</span>
+Digital twin-enabled energy management information system (DEMIS)
+</h3>
+<p>Under dev.</p>
+<h3 class="research-subtitle">
+<span class="thrust-label">Thrust 5:</span>
+Urban microclimate and building energy modeling (UMBEM)
+</h3>
+<div class="research-card-grid">
+<figure class="research-card">
+<div class="research-card-image-wrap">
+<img src="https://maomaohu.net/img/thrust_4_0.jpg" alt="Quantifying Uncertainty in Aggregate Energy Use and Demand Flexibility">
+</div>
+<figcaption>
+Quantifying Uncertainty in Aggregate Energy Use and Demand Flexibility of Building Clusters Considering Stochastic Occupancy
+<a href="https://doi.org/10.1016/j.energy.2019.116838">[Link]</a>
+</figcaption>
+</figure>
+</div>
+<h2 id="research-center" class="research-section-title">Research Center</h2>
+<h3 class="research-subtitle">Center for Digital Building Technology</h3>
+<div class="research-card-grid">
+<figure class="research-card">
+<div class="research-card-image-wrap">
+<img src="https://maomaohu.net/img/center_for_digital_building_tech.jpg" alt="Center for Digital Building Technology">
+</div>
+<div class="research-card-image-wrap">
+<iframe
+src="https://www.youtube.com/embed/gY_YT0Vc8EA?si=YctpIQsh5_LxP-xr"
+title="Centre for Digital Building Technology"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin"
+allowfullscreen>
+</iframe>
+</div>
+<figcaption class="left-caption">
+Dr. Hu has served as the deputy director of the
+<a href="https://cde.nus.edu.sg/dbe/centre-for-digital-building-technology/">Center for Digital Building Technology</a>
+since 2025. The center's primary mission is to enhance quality and productivity by leveraging digital building technologies to transform how people design, deliver, and manage the built environment. These technologies include augmented reality (AR), virtual reality (VR), building information modeling (BIM), the Internet of Things (IoT), robotics and automation, video analytics, and digital twins, all supported by advanced equipment and devices.
+</figcaption>
+</figure>
+</div>
+<h2 id="testbeds" class="research-section-title">Living Testbeds</h2>
+<h3 class="research-subtitle">SDE 4, a net-zero energy building</h3>
+<div class="research-card-grid">
+<figure class="research-card">
+<div class="research-card-image-wrap">
+<img src="https://maomaohu.net/img/PV_2.png" alt="SDE 4, a net-zero energy building">
+</div>
+<figcaption class="left-caption">
+SDE4 is Singapore’s first new-build net-zero energy building, designed to exemplify human-centric and integrated sustainable development. Completed in 2019, the six-story structure incorporates passive design strategies, including a large overhanging roof and double facades on its east and west sides, to provide shading and minimize solar heat gain. Its hybrid cooling system enhances energy efficiency by maintaining comfortable indoor temperatures without excessive cooling. The building is powered by over 1,200 solar photovoltaic panels on its roof, generating more than 500 MWh of electricity annually to achieve a zero or positive energy balance. With a gross floor area of 8,514 square meters, SDE4 houses research laboratories, design studios, and community spaces, fostering interdisciplinary collaboration with public agencies and industry partners. Serving as a living laboratory, it plays a key role in advancing sustainable building technologies.
+</figcaption>
+</figure>
+</div>
+<h3 class="research-subtitle">Smart Green Home</h3>
+<div class="research-card-grid">
+<figure class="research-card">
+<div class="research-card-image-wrap">
+<img src="https://maomaohu.net/img/smart_green_home.jpg" alt="Smart Green Home">
+</div>
+<figcaption class="left-caption">
+The Smart Green Home is a cutting-edge indoor test-bed dedicated to advancing research and innovation in smart and sustainable living. This 100 m² full-size home provides a plug-and-play environment for testing smart features, green building technologies, and human-centric design solutions. Its reconfigurable structure enables flexible experimental setups, allowing researchers to study energy efficiency, indoor environmental quality, and sustainable home innovations. The facility also supports the exploration of novel materials, sensor-based control systems, and adaptive facades to enhance occupant comfort while optimizing energy performance.
+</figcaption>
+</figure>
+</div>
+<h3 class="research-subtitle">District Cooling Systems on Campus</h3>
+<div class="research-card-grid">
+<figure class="research-card">
+<div class="research-card-image-wrap">
+<img src="https://maomaohu.net/img/district_cooling_systems.png" alt="District Cooling Systems on Campus">
+</div>
+<figcaption class="left-caption">
+NUS operates multiple district cooling systems that efficiently cool buildings across its campus using centralized chilled water plants. This system produces and distributes chilled water through underground pipes to multiple buildings within a two-kilometer radius, eliminating the need for individual chiller plants and cooling towers. Heat exchangers optimize flow and regulate pressure, improving overall efficiency. By leveraging economies of scale and optimizing asset performance, district cooling reduces energy costs by up to 40% compared to traditional air-conditioning systems. Additionally, it lowers carbon emissions while enhancing grid reliability and climate resilience.
+</figcaption>
+</figure>
+</div>
+</main>
 </div>
 <script>
-  const sections = document.querySelectorAll(".research-main h2[id]");
-  const navLinks = document.querySelectorAll(".research-sidebar a");
-  const topMenu = document.querySelector(".research-sidebar");
+const sections = document.querySelectorAll(".research-main h2[id]");
+const navLinks = document.querySelectorAll(".research-sidebar a");
+const topMenu = document.querySelector(".research-sidebar");
 
-  function getOffset() {
-    return topMenu.offsetHeight + 20;
-  }
+function getOffset() {
+return topMenu.offsetHeight + 20;
+}
 
-  function setActiveLink() {
-    let currentId = "";
-    const offset = getOffset();
+function setActiveLink() {
+let currentId = "";
+const offset = getOffset();
 
-    sections.forEach(section => {
-      const sectionTop = section.offsetTop - offset - 20;
-      if (window.scrollY >= sectionTop) {
-        currentId = section.getAttribute("id");
-      }
-    });
+sections.forEach(section => {
+const sectionTop = section.offsetTop - offset - 20;
+if (window.scrollY >= sectionTop) {
+currentId = section.getAttribute("id");
+}
+});
 
-    navLinks.forEach(link => {
-      link.classList.remove("active");
-      if (link.getAttribute("href") === "#" + currentId) {
-        link.classList.add("active");
-      }
-    });
-  }
+navLinks.forEach(link => {
+link.classList.remove("active");
+if (link.getAttribute("href") === "#" + currentId) {
+link.classList.add("active");
+}
+});
+}
 
-  navLinks.forEach(link => {
-    link.addEventListener("click", function (e) {
-      e.preventDefault();
+navLinks.forEach(link => {
+link.addEventListener("click", function (e) {
+e.preventDefault();
 
-      const targetId = this.getAttribute("href");
-      const targetSection = document.querySelector(targetId);
+const targetId = this.getAttribute("href");
+const targetSection = document.querySelector(targetId);
 
-      if (targetSection) {
-        const offset = getOffset();
-        const targetPosition =
-          targetSection.getBoundingClientRect().top + window.pageYOffset - offset;
+if (targetSection) {
+const offset = getOffset();
+const targetPosition = targetSection.getBoundingClientRect().top + window.pageYOffset - offset;
 
-        window.scrollTo({
-          top: targetPosition,
-          behavior: "auto"
-        });
+window.scrollTo({
+top: targetPosition,
+behavior: "auto"
+});
 
-        history.pushState(null, null, targetId);
+history.pushState(null, null, targetId);
 
-        navLinks.forEach(item => item.classList.remove("active"));
-        this.classList.add("active");
-      }
-    });
-  });
+navLinks.forEach(item => item.classList.remove("active"));
+this.classList.add("active");
+}
+});
+});
 
-  window.addEventListener("scroll", setActiveLink);
-  window.addEventListener("load", setActiveLink);
-  window.addEventListener("resize", setActiveLink);
+window.addEventListener("scroll", setActiveLink);
+window.addEventListener("load", setActiveLink);
+window.addEventListener("resize", setActiveLink);
 </script><blockquote>
 </blockquote>
 
