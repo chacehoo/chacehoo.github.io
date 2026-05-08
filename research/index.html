@@ -689,53 +689,68 @@ scroll-behavior: auto !important;
 }
 
 .research-page {
-display: block;
-max-width: 1400px;
+display: flex;
+align-items: flex-start;
+gap: 44px;
+max-width: 1500px;
 margin: 0 auto;
 padding: 0 24px;
 }
 
 .research-sidebar {
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 14px;
-flex-wrap: wrap;
-width: 100%;
+width: 250px;
+flex: 0 0 250px;
 position: sticky;
-top: 70px;
+top: 100px;
 z-index: 100;
-background: rgba(255, 255, 255, 0.96);
-backdrop-filter: blur(8px);
-padding: 10px 0;
-margin-bottom: 42px;
-border-bottom: none;
-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+background: #ffffff;
+padding: 0;
+margin: 0;
+border: none;
+box-shadow: none;
+}
+
+.research-sidebar-title {
+font-size: 1.6rem;
+font-weight: 700;
+margin: 0 0 18px 0;
+color: #333333;
+line-height: 1.2;
 }
 
 .research-sidebar a {
-display: inline-block;
-padding: 8px 18px;
-border: none;
-border-radius: 999px;
+display: block;
+position: relative;
+width: 100%;
+padding: 14px 16px 14px 18px;
+margin: 0 0 8px 0;
+border-radius: 0;
+border: 1px solid #e5e5e5;
+border-left: 5px solid transparent;
+background: #ffffff;
 color: #EF7C00;
-background: transparent;
 text-decoration: none;
-font-size: 1rem;
-line-height: 1.3;
+font-size: 1.02rem;
+line-height: 1.35;
 font-weight: 500;
 transition: none;
 }
 
-.research-sidebar a:hover,
+.research-sidebar a:hover {
+background: #f7f9fc;
+color: #003D7C;
+border-left-color: #EF7C00;
+}
+
 .research-sidebar a.active {
-color: #ffffff;
-background: #003D7C;
-font-weight: 600;
+background: #f7f9fc;
+color: #003D7C;
+border-left-color: #EF7C00;
+font-weight: 700;
 }
 
 .research-main {
-width: 100%;
+flex: 1;
 min-width: 0;
 }
 
@@ -760,7 +775,7 @@ border-radius: 999px;
 }
 
 .research-subtitle {
-text-align: left;
+text-align: center;
 font-weight: 650;
 font-size: 1.35rem;
 line-height: 1.45;
@@ -778,8 +793,8 @@ font-weight: 700;
 display: grid;
 grid-template-columns: 1fr;
 gap: 24px;
-width: 74%;
-max-width: 1100px;
+width: 80%;
+max-width: 1050px;
 margin: 24px auto 48px auto;
 }
 
@@ -862,20 +877,25 @@ box-shadow: none !important;
 
 @media (max-width: 992px) {
 .research-page {
+display: block;
 padding: 0 16px;
 }
 
 .research-sidebar {
+width: 100%;
 position: static;
-gap: 8px;
 margin-bottom: 28px;
-padding: 10px 0;
-box-shadow: none;
+}
+
+.research-sidebar-title {
+font-size: 1.35rem;
+margin-bottom: 12px;
 }
 
 .research-sidebar a {
-font-size: 0.95rem;
-padding: 8px 14px;
+font-size: 0.98rem;
+padding: 12px 14px;
+margin-bottom: 8px;
 }
 
 .research-section-title {
@@ -898,6 +918,7 @@ width: 100%;
 </style>
 <div class="research-page">
 <aside class="research-sidebar">
+<h2 class="research-sidebar-title">Research</h2>
 <a href="#overview" class="active">Research Overview</a>
 <a href="#research-thrusts">Research Thrusts</a>
 <a href="#research-center">Research Center</a>
@@ -1093,10 +1114,9 @@ NUS operates multiple district cooling systems that efficiently cool buildings a
 <script>
 const sections = document.querySelectorAll(".research-main h2[id]");
 const navLinks = document.querySelectorAll(".research-sidebar a");
-const topMenu = document.querySelector(".research-sidebar");
 
 function getOffset() {
-return topMenu.offsetHeight + 20;
+return 110;
 }
 
 function setActiveLink() {
