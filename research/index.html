@@ -688,36 +688,38 @@
   }
 
   .research-page {
-    display: flex;
-    align-items: flex-start;
-    gap: 36px;
-    max-width: 1700px;
+    display: block;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 24px;
   }
 
+  /* Top menu */
   .research-sidebar {
-    width: 240px;
-    flex: 0 0 240px;
+    width: 100%;
     position: sticky;
-    top: 100px;
-    align-self: flex-start;
+    top: 70px;
+    z-index: 100;
+    background: #ffffff;
+    padding: 18px 0 14px 0;
+    margin-bottom: 36px;
+    border-bottom: 1px solid #d8d8d8;
   }
 
   .research-sidebar-title {
     font-size: 1.55rem;
     font-weight: 700;
-    margin: 0 0 20px 0;
+    margin: 0 0 14px 0;
     color: #333333;
     line-height: 1.15;
   }
 
   .research-sidebar a {
-    display: block;
-    margin: 0;
-    padding: 16px 0 16px 12px;
-    border-left: 3px solid transparent;
-    border-bottom: 1px solid #cfcfcf;
+    display: inline-block;
+    margin: 0 28px 0 0;
+    padding: 8px 0;
+    border-left: none;
+    border-bottom: 3px solid transparent;
     color: #EF7C00;
     text-decoration: none;
     font-size: 0.98rem;
@@ -727,22 +729,22 @@
   }
 
   .research-sidebar a:first-of-type {
-    border-top: 1px solid #cfcfcf;
+    border-top: none;
   }
 
   .research-sidebar a:hover {
-    border-left-color: #333333;
+    border-bottom-color: #333333;
     color: #333333;
   }
 
   .research-sidebar a.active {
-    border-left-color: #333333;
+    border-bottom-color: #333333;
     color: #333333;
     font-weight: 500;
   }
 
   .research-main {
-    flex: 1;
+    width: 100%;
     min-width: 0;
   }
 
@@ -755,25 +757,25 @@
 
   @media (max-width: 992px) {
     .research-page {
-      display: block;
       padding: 0 16px;
     }
 
     .research-sidebar {
-      width: 100%;
       position: static;
       margin-bottom: 24px;
+      padding: 12px 0;
     }
 
     .research-sidebar-title {
       font-size: 1.35rem;
-      margin-bottom: 14px;
+      margin-bottom: 10px;
     }
 
     .research-sidebar a {
+      display: inline-block;
       font-size: 0.92rem;
-      padding: 12px 0 12px 10px;
-      border-left-width: 2px;
+      margin: 0 18px 8px 0;
+      padding: 6px 0;
     }
   }
 </style>
