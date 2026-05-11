@@ -5,7 +5,7 @@
     <link>https://maomaohu.net/</link>
       <atom:link href="https://maomaohu.net/index.xml" rel="self" type="application/rss+xml" />
     <description>Maomao Hu | National University of Singapore</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2026 BIOR Lab</copyright><lastBuildDate>Wed, 08 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2026 BIOR Lab</copyright><lastBuildDate>Thu, 23 Apr 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maomaohu.net/images/logo.svg</url>
       <title>Maomao Hu | National University of Singapore</title>
@@ -17,6 +17,14 @@
       <link>https://maomaohu.net/contact/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://maomaohu.net/contact/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-timescale rolling optimization coordinating heterogeneous EV and building load flexibility in community energy systems with NGBoost-based renewable forecast</title>
+      <link></link>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+      <guid></guid>
       <description></description>
     </item>
     
