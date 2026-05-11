@@ -561,6 +561,30 @@ body {
   scroll-behavior: auto !important;
 }
 
+ 
+
+.publication-hero {
+  max-width: 1500px;
+  margin: 0 auto 2.2rem auto;
+  padding: 0 24px;
+}
+
+.publication-hero figure {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.publication-hero img {
+  width: 100%;
+  max-width: 1180px;
+  height: auto;
+  display: block;
+}
+
+ 
+
 .publication-page {
   display: flex;
   align-items: flex-start;
@@ -618,28 +642,6 @@ body {
 .publication-main {
   flex: 1;
   min-width: 0;
-}
-
-.publication-header-image {
-  display: flex;
-  justify-content: center;
-  margin: 0 auto 1.2rem auto;
-}
-
-.publication-header-image img {
-  width: 78%;
-  max-width: 820px;
-  height: auto;
-  display: block;
-}
-
-.publication-header-caption {
-  max-width: 820px;
-  margin: -0.5rem auto 1.5rem auto;
-  text-align: center;
-  color: #666666;
-  font-size: 0.95rem;
-  line-height: 1.5;
 }
 
 .publication-section-title {
@@ -746,7 +748,19 @@ body {
   box-shadow: none !important;
 }
 
+ 
+
 @media (max-width: 992px) {
+  .publication-hero {
+    padding: 0 16px;
+    margin-bottom: 1.8rem;
+  }
+
+  .publication-hero img {
+    width: 100%;
+    max-width: 100%;
+  }
+
   .publication-page {
     display: block;
     padding: 0 16px;
@@ -762,11 +776,6 @@ body {
     font-size: 0.98rem;
     padding: 12px 14px;
     margin-bottom: 8px;
-  }
-
-  .publication-header-image img {
-    width: 100%;
-    max-width: 100%;
   }
 
   .publication-section-title {
@@ -789,6 +798,12 @@ body {
 
 
 
+<div class="publication-hero">
+  <figure>
+    <img src="/img/publications_first_sight.jpg" alt="Publications first sight">
+  </figure>
+</div>
+
 <div class="publication-page">
 
   <aside class="publication-sidebar">
@@ -798,14 +813,6 @@ body {
   </aside>
 
   <main class="publication-main">
-
-    
-    <div class="publication-header-image">
-      <img src="/img/publications_first_sight.jpg" alt="Publications">
-    </div>
-    
-
-    
 
     <h1 id="publications" class="publication-section-title">Publications</h1>
 
