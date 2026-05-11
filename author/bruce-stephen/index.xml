@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bruce Stephen | BIOR Lab</title>
+    <link>https://maomaohu.net/author/bruce-stephen/</link>
+      <atom:link href="https://maomaohu.net/author/bruce-stephen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Bruce Stephen</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020-2024 Maomao Hu</copyright><lastBuildDate>Sun, 26 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://maomaohu.net/images/icon_hu1fba2d0b8dc8bfe246be87df8bc2bbf8_10050_512x512_fill_lanczos_center_3.png</url>
+      <title>Bruce Stephen</title>
+      <link>https://maomaohu.net/author/bruce-stephen/</link>
+    </image>
+    
+    <item>
+      <title>Impacts of building load dispersion level on its load forecasting accuracy: Data or algorithms? Importance of reliability and interpretability in machine learning</title>
+      <link>https://maomaohu.net/publication/journal_paper/paper_14/</link>
+      <pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/publication/journal_paper/paper_14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Classification and characterization of intra-day load curves of PV and non-PV households using interpretable feature extraction and feature-based clustering</title>
+      <link>https://maomaohu.net/publication/journal_paper/paper_10/</link>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/publication/journal_paper/paper_10/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

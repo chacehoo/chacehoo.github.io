@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lingshi Wang | BIOR Lab</title>
+    <link>https://maomaohu.net/author/lingshi-wang/</link>
+      <atom:link href="https://maomaohu.net/author/lingshi-wang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Lingshi Wang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020-2024 Maomao Hu</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://maomaohu.net/images/icon_hu1fba2d0b8dc8bfe246be87df8bc2bbf8_10050_512x512_fill_lanczos_center_3.png</url>
+      <title>Lingshi Wang</title>
+      <link>https://maomaohu.net/author/lingshi-wang/</link>
+    </image>
+    
+    <item>
+      <title>Performance analysis of absorption thermal energy storage for distributed energy systems</title>
+      <link>https://maomaohu.net/publication/conference_paper/rn-941/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/publication/conference_paper/rn-941/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Investigation of demand response potentials of residential air conditioners in smart grids using grey-box room thermal model</title>
+      <link>https://maomaohu.net/publication/journal_paper/rn-930/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/publication/journal_paper/rn-930/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

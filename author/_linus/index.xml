@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>_LiNUS | BIOR Lab | Maomao Hu</title>
+    <link>https://maomaohu.net/author/_linus/</link>
+      <atom:link href="https://maomaohu.net/author/_linus/index.xml" rel="self" type="application/rss+xml" />
+    <description>_LiNUS</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020-2024 BIOR Lab</copyright>
+    <image>
+      <url>https://maomaohu.net/images/logo.svg</url>
+      <title>_LiNUS</title>
+      <link>https://maomaohu.net/author/_linus/</link>
+    </image>
+    
+  </channel>
+</rss>

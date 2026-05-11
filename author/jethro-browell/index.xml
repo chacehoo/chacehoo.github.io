@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jethro Browell | BIOR Lab</title>
+    <link>https://maomaohu.net/author/jethro-browell/</link>
+      <atom:link href="https://maomaohu.net/author/jethro-browell/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jethro Browell</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020-2024 Maomao Hu</copyright><lastBuildDate>Sun, 26 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://maomaohu.net/images/icon_hu1fba2d0b8dc8bfe246be87df8bc2bbf8_10050_512x512_fill_lanczos_center_3.png</url>
+      <title>Jethro Browell</title>
+      <link>https://maomaohu.net/author/jethro-browell/</link>
+    </image>
+    
+    <item>
+      <title>Impacts of building load dispersion level on its load forecasting accuracy: Data or algorithms? Importance of reliability and interpretability in machine learning</title>
+      <link>https://maomaohu.net/publication/journal_paper/paper_14/</link>
+      <pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/publication/journal_paper/paper_14/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

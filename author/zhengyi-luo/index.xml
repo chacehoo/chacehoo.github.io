@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zhengyi Luo | BIOR Lab</title>
+    <link>https://maomaohu.net/author/zhengyi-luo/</link>
+      <atom:link href="https://maomaohu.net/author/zhengyi-luo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zhengyi Luo</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020-2024 Maomao Hu</copyright><lastBuildDate>Thu, 24 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://maomaohu.net/images/icon_hu1fba2d0b8dc8bfe246be87df8bc2bbf8_10050_512x512_fill_lanczos_center_3.png</url>
+      <title>Zhengyi Luo</title>
+      <link>https://maomaohu.net/author/zhengyi-luo/</link>
+    </image>
+    
+    <item>
+      <title>Multi-objective optimal dispatch of household flexible loads based on their real-life operating characteristics and energy-related occupant behavior</title>
+      <link>https://maomaohu.net/publication/journal_paper/paper_16/</link>
+      <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/publication/journal_paper/paper_16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A novel forecast-based operation strategy for residential PV-battery-flexible loads systems considering the flexibility of battery and loads</title>
+      <link>https://maomaohu.net/publication/journal_paper/paper_13/</link>
+      <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/publication/journal_paper/paper_13/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

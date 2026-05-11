@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wei Liao | BIOR Lab</title>
+    <link>https://maomaohu.net/author/wei-liao/</link>
+      <atom:link href="https://maomaohu.net/author/wei-liao/index.xml" rel="self" type="application/rss+xml" />
+    <description>Wei Liao</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020-2024 Maomao Hu</copyright><lastBuildDate>Thu, 24 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://maomaohu.net/images/icon_hu1fba2d0b8dc8bfe246be87df8bc2bbf8_10050_512x512_fill_lanczos_center_3.png</url>
+      <title>Wei Liao</title>
+      <link>https://maomaohu.net/author/wei-liao/</link>
+    </image>
+    
+    <item>
+      <title>Multi-objective optimal dispatch of household flexible loads based on their real-life operating characteristics and energy-related occupant behavior</title>
+      <link>https://maomaohu.net/publication/journal_paper/paper_16/</link>
+      <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/publication/journal_paper/paper_16/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

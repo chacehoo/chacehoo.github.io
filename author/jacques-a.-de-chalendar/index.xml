@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jacques A. de Chalendar | BIOR Lab</title>
+    <link>https://maomaohu.net/author/jacques-a.-de-chalendar/</link>
+      <atom:link href="https://maomaohu.net/author/jacques-a.-de-chalendar/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jacques A. de Chalendar</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020-2024 Maomao Hu</copyright><lastBuildDate>Tue, 25 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://maomaohu.net/images/icon_hu1fba2d0b8dc8bfe246be87df8bc2bbf8_10050_512x512_fill_lanczos_center_3.png</url>
+      <title>Jacques A. de Chalendar</title>
+      <link>https://maomaohu.net/author/jacques-a.-de-chalendar/</link>
+    </image>
+    
+    <item>
+      <title>Empirical Exploration of Zone-by-zone Energy Flexibility: a Non-intrusive Load Disaggregation Approach for Commercial Buildings</title>
+      <link>https://maomaohu.net/publication/journal_paper/paper_15/</link>
+      <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/publication/journal_paper/paper_15/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
