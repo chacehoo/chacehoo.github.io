@@ -588,6 +588,63 @@ body {
 
  
 
+.publication-top {
+  width: 100vw;
+  max-width: none;
+  margin: 0 0 3.2rem 0;
+  padding: 0 24px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.publication-top-inner {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.publication-section-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 2.5rem;
+  color: #333333;
+  scroll-margin-top: 120px;
+}
+
+.publication-section-title::after {
+  content: "";
+  display: block;
+  width: 56px;
+  height: 4px;
+  background: #EF7C00;
+  margin: 14px auto 0 auto;
+  border-radius: 999px;
+}
+
+.publication-intro {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  color: #333333;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.publication-intro a {
+  color: #EF7C00;
+  text-decoration: none;
+}
+
+.publication-intro a:hover {
+  color: #003D7C;
+  text-decoration: underline;
+}
+
+ 
+
 .publication-page {
   display: flex;
   align-items: flex-start;
@@ -647,45 +704,6 @@ body {
   min-width: 0;
 }
 
-.publication-section-title {
-  text-align: center;
-  font-weight: 700;
-  font-size: 2rem;
-  margin-top: 1.5rem;
-  margin-bottom: 2.5rem;
-  color: #333333;
-  scroll-margin-top: 120px;
-}
-
-.publication-section-title::after {
-  content: "";
-  display: block;
-  width: 56px;
-  height: 4px;
-  background: #EF7C00;
-  margin: 14px auto 0 auto;
-  border-radius: 999px;
-}
-
-.publication-intro {
-  max-width: 900px;
-  margin: 0 auto 3rem auto;
-  text-align: center;
-  color: #333333;
-  font-size: 1.05rem;
-  line-height: 1.7;
-}
-
-.publication-intro a {
-  color: #EF7C00;
-  text-decoration: none;
-}
-
-.publication-intro a:hover {
-  color: #003D7C;
-  text-decoration: underline;
-}
-
 .publication-category {
   margin-bottom: 4rem;
   scroll-margin-top: 120px;
@@ -695,10 +713,14 @@ body {
   font-size: 2rem;
   font-weight: 700;
   color: #333333;
-  margin-top: 2.5rem;
+  margin-top: 0;
   margin-bottom: 1.5rem;
   padding-bottom: 0.75rem;
   border-bottom: 1px solid #d9d9d9;
+}
+
+.publication-category:not(:first-child) h2 {
+  margin-top: 2.5rem;
 }
 
 .publication-year {
@@ -744,7 +766,8 @@ body {
   border-color: #EF7C00;
 }
 
-.publication-main code {
+.publication-main code,
+.publication-top code {
   background: none !important;
   border: none !important;
   padding: 0;
@@ -755,13 +778,25 @@ body {
 
 @media (max-width: 992px) {
   .publication-hero {
-    padding: 0 16px;
     margin-bottom: 1.8rem;
   }
 
   .publication-hero img {
     width: 100%;
     max-width: 100%;
+  }
+
+  .publication-top {
+    padding: 0 16px;
+    margin-bottom: 2rem;
+  }
+
+  .publication-section-title {
+    font-size: 1.7rem;
+  }
+
+  .publication-intro {
+    text-align: left;
   }
 
   .publication-page {
@@ -781,20 +816,12 @@ body {
     margin-bottom: 8px;
   }
 
-  .publication-section-title {
-    font-size: 1.7rem;
-  }
-
   .publication-category h2 {
     font-size: 1.65rem;
   }
 
   .publication-year {
     font-size: 1.35rem;
-  }
-
-  .publication-intro {
-    text-align: left;
   }
 }
 </style>
@@ -807,15 +834,8 @@ body {
   </figure>
 </div>
 
-<div class="publication-page">
-
-  <aside class="publication-sidebar">
-    <a href="#book-chapters" class="active">Book chapters</a>
-    <a href="#journal-papers">Journal papers</a>
-    <a href="#conference-papers">Conference papers</a>
-  </aside>
-
-  <main class="publication-main">
+<div class="publication-top">
+  <div class="publication-top-inner">
 
     <h1 id="publications" class="publication-section-title">Publications</h1>
 
@@ -825,6 +845,19 @@ body {
       Find the full list and our latest work at
       <a href="https://scholar.google.com/citations?user=a9ST74sAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>.
     </div>
+
+  </div>
+</div>
+
+<div class="publication-page">
+
+  <aside class="publication-sidebar">
+    <a href="#book-chapters" class="active">Book chapters</a>
+    <a href="#journal-papers">Journal papers</a>
+    <a href="#conference-papers">Conference papers</a>
+  </aside>
+
+  <main class="publication-main">
 
     
     <section id="book-chapters" class="publication-category">
