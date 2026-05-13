@@ -674,6 +674,245 @@
   
   
 
+  <section id="people_0_Sidebar" class="home-section wg-blank   " style="padding: 0 0 0 0;" >
+    <div class="container">
+      
+
+
+<div class="row">
+  
+    <div class="col-lg-12">
+      <div class="section-heading" style="margin-bottom: 1.5rem;">
+        
+        
+      </div>
+      <style>
+/* ===== People page two-column layout ===== */
+
+.home-section:first-of-type {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+/* Create a two-column layout for the people page */
+body.page-people .universal-wrapper,
+body.page-people .article-container {
+  max-width: 1500px;
+}
+
+/* Sidebar */
+.people-sidebar {
+  position: fixed;
+  top: 120px;
+  left: max(24px, calc((100vw - 1500px) / 2 + 24px));
+  width: 260px;
+  z-index: 10;
+  background: #ffffff;
+}
+
+.people-sidebar-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 18px;
+  color: #333333;
+}
+
+.people-sidebar a {
+  display: block;
+  width: 100%;
+  padding: 14px 16px 14px 18px;
+  margin-bottom: 8px;
+  border: 1px solid #e5e5e5;
+  border-left: 5px solid transparent;
+  background: #ffffff;
+  color: #EF7C00;
+  text-decoration: none;
+  font-size: 1.02rem;
+  line-height: 1.35;
+  font-weight: 500;
+}
+
+.people-sidebar a:hover,
+.people-sidebar a.active {
+  background: #f7f9fc;
+  color: #003D7C;
+  border-left-color: #EF7C00;
+  font-weight: 700;
+}
+
+/* Move all people sections to the right */
+body.page-people .home-section {
+  padding-left: 330px !important;
+  padding-right: 24px !important;
+}
+
+/* Keep the sidebar section itself full width */
+body.page-people .home-section:first-of-type {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Improve section titles */
+body.page-people .section-heading h1,
+body.page-people .section-heading h2 {
+  text-align: center;
+  font-weight: 700;
+  color: #333333;
+  font-size: 2rem;
+}
+
+body.page-people .section-heading h1::after,
+body.page-people .section-heading h2::after {
+  content: "";
+  display: block;
+  width: 56px;
+  height: 4px;
+  background: #EF7C00;
+  margin: 14px auto 0 auto;
+  border-radius: 999px;
+}
+
+/* Alternating background for sections */
+body.page-people .home-section:nth-of-type(odd) {
+  background: #ffffff;
+}
+
+body.page-people .home-section:nth-of-type(even) {
+  background: #f7f7f7;
+}
+
+/* Mobile */
+@media (max-width: 992px) {
+  .people-sidebar {
+    position: static;
+    width: auto;
+    margin: 0 16px 28px 16px;
+  }
+
+  body.page-people .home-section {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  body.page-people .home-section:first-of-type {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .people-sidebar-title {
+    font-size: 1.35rem;
+  }
+
+  .people-sidebar a {
+    font-size: 0.98rem;
+    padding: 12px 14px;
+  }
+}
+</style>
+<div class="people-sidebar">
+  <div class="people-sidebar-title">People</div>
+  <a href="#faculty" class="active">Faculty</a>
+  <a href="#postdocs">Postdocs</a>
+  <a href="#ph-d-students">Ph.D. Students</a>
+  <a href="#master-students">Master Students</a>
+  <a href="#visiting-students">Visiting Students</a>
+  <a href="#bachelor-candidate">Barkchelor Candidate</a>
+  <a href="#former-lab-members">Former Lab Members</a>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.body.classList.add("page-people");
+
+  const links = document.querySelectorAll(".people-sidebar a");
+
+  links.forEach(link => {
+    link.addEventListener("click", function(e) {
+      const target = document.querySelector(this.getAttribute("href"));
+      if (!target) return;
+
+      e.preventDefault();
+
+      const offset = 100;
+      const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - offset;
+
+      window.scrollTo({
+        top: targetPosition,
+        behavior: "auto"
+      });
+
+      history.pushState(null, null, this.getAttribute("href"));
+
+      links.forEach(item => item.classList.remove("active"));
+      this.classList.add("active");
+    });
+  });
+
+  const sections = document.querySelectorAll(".home-section[id]");
+
+  function setActiveLink() {
+    let currentId = "";
+    const offset = 140;
+
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop - offset;
+      if (window.scrollY >= sectionTop) {
+        currentId = section.getAttribute("id");
+      }
+    });
+
+    links.forEach(link => {
+      link.classList.remove("active");
+      if (link.getAttribute("href") === "#" + currentId) {
+        link.classList.add("active");
+      }
+    });
+  }
+
+  window.addEventListener("scroll", setActiveLink);
+  window.addEventListener("load", setActiveLink);
+});
+</script><blockquote>
+</blockquote>
+
+    </div>
+  
+</div>
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
   <section id="people_1_Faculty" class="home-section wg-people   " style="padding: 30px 0 30px 0;" >
     <div class="container">
       
@@ -685,6 +924,11 @@
 
 
 <div class="row justify-content-center people-widget">
+  
+  <div class="col-md-12 section-heading">
+    <h1>Faculty</h1>
+    
+  </div>
   
 
   
@@ -889,6 +1133,11 @@
 
 
 <div class="row justify-content-center people-widget">
+  
+  <div class="col-md-12 section-heading">
+    <h1>Postdocs</h1>
+    
+  </div>
   
 
   
@@ -1171,6 +1420,11 @@
 
 
 <div class="row justify-content-center people-widget">
+  
+  <div class="col-md-12 section-heading">
+    <h1>PhD Students</h1>
+    
+  </div>
   
 
   
@@ -1616,6 +1870,11 @@
 
 <div class="row justify-content-center people-widget">
   
+  <div class="col-md-12 section-heading">
+    <h1>Master Students</h1>
+    
+  </div>
+  
 
   
 
@@ -1744,6 +2003,11 @@
 
 
 <div class="row justify-content-center people-widget">
+  
+  <div class="col-md-12 section-heading">
+    <h1>Visiting Students</h1>
+    
+  </div>
   
 
   
@@ -2036,6 +2300,11 @@
 
 
 <div class="row justify-content-center people-widget">
+  
+  <div class="col-md-12 section-heading">
+    <h1>Barkchelor Candidate</h1>
+    
+  </div>
   
 
   
