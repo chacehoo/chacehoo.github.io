@@ -687,47 +687,54 @@
         
       </div>
       <style>
-/* ===== People page two-column layout ===== */
+/* ===== People page layout ===== */
 
-.home-section:first-of-type {
-  max-width: 1500px;
-  margin: 0 auto;
+body.people-page .home-section {
+  padding-left: 340px !important;
+  padding-right: 40px !important;
 }
 
-/* Create a two-column layout for the people page */
-body.page-people .universal-wrapper,
-body.page-people .article-container {
-  max-width: 1500px;
+/* Do not add left padding to the sidebar widget itself */
+body.people-page .home-section.people-sidebar-section {
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  background: transparent !important;
 }
 
-/* Sidebar */
+/* Sidebar: not floating over the banner */
 .people-sidebar {
-  position: fixed;
-  top: 120px;
-  left: max(24px, calc((100vw - 1500px) / 2 + 24px));
   width: 260px;
-  z-index: 10;
+  position: sticky;
+  top: 100px;
+  z-index: 20;
   background: #ffffff;
+  margin-top: 40px;
+  margin-bottom: 0;
+  border: 1px solid #e5e5e5;
 }
 
 .people-sidebar-title {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: 700;
-  margin-bottom: 18px;
+  margin: 0;
+  padding: 18px 20px;
   color: #333333;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .people-sidebar a {
   display: block;
   width: 100%;
-  padding: 14px 16px 14px 18px;
-  margin-bottom: 8px;
-  border: 1px solid #e5e5e5;
+  padding: 15px 20px 15px 22px;
+  margin: 0;
+  border-bottom: 1px solid #eeeeee;
   border-left: 5px solid transparent;
   background: #ffffff;
   color: #EF7C00;
   text-decoration: none;
-  font-size: 1.02rem;
+  font-size: 1.05rem;
   line-height: 1.35;
   font-weight: 500;
 }
@@ -740,63 +747,49 @@ body.page-people .article-container {
   font-weight: 700;
 }
 
-/* Move all people sections to the right */
-body.page-people .home-section {
-  padding-left: 330px !important;
-  padding-right: 24px !important;
+/* Pull the people content upward so it starts beside the sidebar */
+body.people-page .home-section.people-sidebar-section + .home-section {
+  margin-top: -360px;
 }
 
-/* Keep the sidebar section itself full width */
-body.page-people .home-section:first-of-type {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-
-/* Improve section titles */
-body.page-people .section-heading h1,
-body.page-people .section-heading h2 {
+/* Section title style inside people widget */
+body.people-page .section-heading h1,
+body.people-page .section-heading h2 {
   text-align: center;
   font-weight: 700;
   color: #333333;
-  font-size: 2rem;
 }
 
-body.page-people .section-heading h1::after,
-body.page-people .section-heading h2::after {
-  content: "";
-  display: block;
-  width: 56px;
-  height: 4px;
-  background: #EF7C00;
-  margin: 14px auto 0 auto;
-  border-radius: 999px;
-}
-
-/* Alternating background for sections */
-body.page-people .home-section:nth-of-type(odd) {
-  background: #ffffff;
-}
-
-body.page-people .home-section:nth-of-type(even) {
+/* Make people sections visually cleaner */
+body.people-page .home-section:nth-of-type(even) {
   background: #f7f7f7;
 }
 
-/* Mobile */
-@media (max-width: 992px) {
-  .people-sidebar {
-    position: static;
-    width: auto;
-    margin: 0 16px 28px 16px;
-  }
+body.people-page .home-section:nth-of-type(odd) {
+  background: #ffffff;
+}
 
-  body.page-people .home-section {
+/* Mobile layout */
+@media (max-width: 992px) {
+  body.people-page .home-section {
     padding-left: 16px !important;
     padding-right: 16px !important;
   }
 
-  body.page-people .home-section:first-of-type {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+  body.people-page .home-section.people-sidebar-section {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  body.people-page .home-section.people-sidebar-section + .home-section {
+    margin-top: 0;
+  }
+
+  .people-sidebar {
+    width: 100%;
+    position: static;
+    margin-top: 24px;
+    margin-bottom: 28px;
   }
 
   .people-sidebar-title {
@@ -805,7 +798,7 @@ body.page-people .home-section:nth-of-type(even) {
 
   .people-sidebar a {
     font-size: 0.98rem;
-    padding: 12px 14px;
+    padding: 12px 16px;
   }
 }
 </style>
@@ -813,17 +806,44 @@ body.page-people .home-section:nth-of-type(even) {
   <div class="people-sidebar-title">People</div>
   <a href="#faculty" class="active">Faculty</a>
   <a href="#postdocs">Postdocs</a>
-  <a href="#ph-d-students">Ph.D. Students</a>
-  <a href="#master-students">Master Students</a>
-  <a href="#visiting-students">Visiting Students</a>
-  <a href="#bachelor-candidate">Barkchelor Candidate</a>
-  <a href="#former-lab-members">Former Lab Members</a>
+  <a href="#phd-students">Ph.D. students</a>
+  <a href="#master-students">Master students</a>
+  <a href="#visiting-students">Visiting students</a>
+  <a href="#bachelor-candidate">Bachelor candidate</a>
+  <a href="#former-lab-members">Former lab members</a>
 </div>
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  document.body.classList.add("page-people");
+  document.body.classList.add("people-page");
+
+  const sidebar = document.querySelector(".people-sidebar");
+  const sidebarSection = sidebar.closest(".home-section");
+  if (sidebarSection) {
+    sidebarSection.classList.add("people-sidebar-section");
+  }
 
   const links = document.querySelectorAll(".people-sidebar a");
+
+  /* Assign ids to people sections based on the visible group titles */
+  const sectionMap = {
+    "Faculty": "faculty",
+    "Postdocs": "postdocs",
+    "Ph.D. Students": "phd-students",
+    "Master Students": "master-students",
+    "Visiting Students": "visiting-students",
+    "Bachelor Candidate": "bachelor-candidate",
+    "Former Lab Members": "former-lab-members"
+  };
+
+  document.querySelectorAll(".home-section").forEach(section => {
+    const heading = section.querySelector("h1, h2, h3");
+    if (!heading) return;
+
+    const text = heading.textContent.trim();
+    if (sectionMap[text]) {
+      section.id = sectionMap[text];
+    }
+  });
 
   links.forEach(link => {
     link.addEventListener("click", function(e) {
@@ -832,7 +852,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       e.preventDefault();
 
-      const offset = 100;
+      const offset = 90;
       const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - offset;
 
       window.scrollTo({
@@ -847,16 +867,17 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  const sections = document.querySelectorAll(".home-section[id]");
-
   function setActiveLink() {
     let currentId = "";
     const offset = 140;
 
-    sections.forEach(section => {
+    Object.values(sectionMap).forEach(id => {
+      const section = document.getElementById(id);
+      if (!section) return;
+
       const sectionTop = section.offsetTop - offset;
       if (window.scrollY >= sectionTop) {
-        currentId = section.getAttribute("id");
+        currentId = id;
       }
     });
 
@@ -870,6 +891,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   window.addEventListener("scroll", setActiveLink);
   window.addEventListener("load", setActiveLink);
+  window.addEventListener("resize", setActiveLink);
 });
 </script><blockquote>
 </blockquote>
@@ -924,11 +946,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 <div class="row justify-content-center people-widget">
-  
-  <div class="col-md-12 section-heading">
-    <h1>Faculty</h1>
-    
-  </div>
   
 
   
@@ -1133,11 +1150,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 <div class="row justify-content-center people-widget">
-  
-  <div class="col-md-12 section-heading">
-    <h1>Postdocs</h1>
-    
-  </div>
   
 
   
@@ -1420,11 +1432,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 <div class="row justify-content-center people-widget">
-  
-  <div class="col-md-12 section-heading">
-    <h1>PhD Students</h1>
-    
-  </div>
   
 
   
@@ -1870,11 +1877,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <div class="row justify-content-center people-widget">
   
-  <div class="col-md-12 section-heading">
-    <h1>Master Students</h1>
-    
-  </div>
-  
 
   
 
@@ -2003,11 +2005,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 <div class="row justify-content-center people-widget">
-  
-  <div class="col-md-12 section-heading">
-    <h1>Visiting Students</h1>
-    
-  </div>
   
 
   
@@ -2300,11 +2297,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 <div class="row justify-content-center people-widget">
-  
-  <div class="col-md-12 section-heading">
-    <h1>Barkchelor Candidate</h1>
-    
-  </div>
   
 
   
