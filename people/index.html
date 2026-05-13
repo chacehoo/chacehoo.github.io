@@ -687,31 +687,28 @@
         
       </div>
       <style>
-/* ===== People page layout ===== */
+/* ===== People page two-column layout ===== */
 
-body.people-page .home-section {
-  padding-left: 340px !important;
-  padding-right: 40px !important;
+.people-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 48px;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 40px 40px 0 40px;
 }
 
-/* Do not add left padding to the sidebar widget itself */
-body.people-page .home-section.people-sidebar-section {
-  padding-left: 40px !important;
-  padding-right: 40px !important;
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
-  background: transparent !important;
-}
-
-/* Sidebar: not floating over the banner */
-.people-sidebar {
+.people-sidebar-wrap {
   width: 260px;
+  flex: 0 0 260px;
   position: sticky;
   top: 100px;
   z-index: 20;
+}
+
+.people-sidebar {
+  width: 100%;
   background: #ffffff;
-  margin-top: 40px;
-  margin-bottom: 0;
   border: 1px solid #e5e5e5;
 }
 
@@ -747,48 +744,65 @@ body.people-page .home-section.people-sidebar-section {
   font-weight: 700;
 }
 
-/* Pull the people content upward so it starts beside the sidebar */
-body.people-page .home-section.people-sidebar-section + .home-section {
-  margin-top: -360px;
+.people-main {
+  flex: 1;
+  min-width: 0;
 }
 
-/* Section title style inside people widget */
-body.people-page .section-heading h1,
-body.people-page .section-heading h2 {
+/* Reset the original Academic widget width after moving sections */
+.people-main > .home-section {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.people-main > .home-section .container {
+  max-width: 100% !important;
+}
+
+/* Section spacing */
+.people-main > .home-section {
+  padding-top: 55px !important;
+  padding-bottom: 65px !important;
+}
+
+/* Alternating background */
+.people-main > .home-section:nth-child(odd) {
+  background: #ffffff;
+}
+
+.people-main > .home-section:nth-child(even) {
+  background: #f7f7f7;
+}
+
+/* Section title style */
+.people-main .section-heading h1,
+.people-main .section-heading h2 {
   text-align: center;
   font-weight: 700;
   color: #333333;
 }
 
-/* Make people sections visually cleaner */
-body.people-page .home-section:nth-of-type(even) {
-  background: #f7f7f7;
+.people-main .section-heading h1::after,
+.people-main .section-heading h2::after {
+  content: "";
+  display: block;
+  width: 56px;
+  height: 4px;
+  background: #EF7C00;
+  margin: 14px auto 0 auto;
+  border-radius: 999px;
 }
 
-body.people-page .home-section:nth-of-type(odd) {
-  background: #ffffff;
-}
-
-/* Mobile layout */
+/* Mobile */
 @media (max-width: 992px) {
-  body.people-page .home-section {
-    padding-left: 16px !important;
-    padding-right: 16px !important;
+  .people-layout {
+    display: block;
+    padding: 24px 16px 0 16px;
   }
 
-  body.people-page .home-section.people-sidebar-section {
-    padding-left: 16px !important;
-    padding-right: 16px !important;
-  }
-
-  body.people-page .home-section.people-sidebar-section + .home-section {
-    margin-top: 0;
-  }
-
-  .people-sidebar {
+  .people-sidebar-wrap {
     width: 100%;
     position: static;
-    margin-top: 24px;
     margin-bottom: 28px;
   }
 
@@ -800,31 +814,69 @@ body.people-page .home-section:nth-of-type(odd) {
     font-size: 0.98rem;
     padding: 12px 16px;
   }
+
+  .people-main > .home-section {
+    padding-top: 40px !important;
+    padding-bottom: 48px !important;
+  }
 }
 </style>
-<div class="people-sidebar">
-  <div class="people-sidebar-title">People</div>
-  <a href="#faculty" class="active">Faculty</a>
-  <a href="#postdocs">Postdocs</a>
-  <a href="#phd-students">Ph.D. students</a>
-  <a href="#master-students">Master students</a>
-  <a href="#visiting-students">Visiting students</a>
-  <a href="#bachelor-candidate">Bachelor candidate</a>
-  <a href="#former-lab-members">Former lab members</a>
+<div class="people-sidebar-source">
+  <aside class="people-sidebar">
+    <div class="people-sidebar-title">People</div>
+    <a href="#faculty" class="active">Faculty</a>
+    <a href="#postdocs">Postdocs</a>
+    <a href="#phd-students">Ph.D. students</a>
+    <a href="#master-students">Master students</a>
+    <a href="#visiting-students">Visiting students</a>
+    <a href="#bachelor-candidate">Bachelor candidate</a>
+    <a href="#former-lab-members">Former lab members</a>
+  </aside>
 </div>
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  document.body.classList.add("people-page");
+  const sidebarSource = document.querySelector(".people-sidebar-source");
+  if (!sidebarSource) return;
 
-  const sidebar = document.querySelector(".people-sidebar");
-  const sidebarSection = sidebar.closest(".home-section");
-  if (sidebarSection) {
-    sidebarSection.classList.add("people-sidebar-section");
+  const sidebarSection = sidebarSource.closest(".home-section");
+  if (!sidebarSection) return;
+
+  const sidebar = sidebarSource.querySelector(".people-sidebar");
+
+  /* Create the new two-column structure */
+  const layout = document.createElement("div");
+  layout.className = "people-layout";
+
+  const sidebarWrap = document.createElement("div");
+  sidebarWrap.className = "people-sidebar-wrap";
+
+  const main = document.createElement("main");
+  main.className = "people-main";
+
+  sidebarWrap.appendChild(sidebar);
+  layout.appendChild(sidebarWrap);
+  layout.appendChild(main);
+
+  /* Insert layout after the sidebar widget */
+  sidebarSection.parentNode.insertBefore(layout, sidebarSection.nextSibling);
+
+  /* Move all following people widgets into the right column */
+  let next = layout.nextElementSibling;
+  const sectionsToMove = [];
+
+  while (next && next.classList && next.classList.contains("home-section")) {
+    sectionsToMove.push(next);
+    next = next.nextElementSibling;
   }
 
-  const links = document.querySelectorAll(".people-sidebar a");
+  sectionsToMove.forEach(section => {
+    main.appendChild(section);
+  });
 
-  /* Assign ids to people sections based on the visible group titles */
+  /* Remove the empty sidebar widget section */
+  sidebarSection.remove();
+
+  /* Assign stable ids to sections based on visible headings */
   const sectionMap = {
     "Faculty": "faculty",
     "Postdocs": "postdocs",
@@ -835,7 +887,7 @@ document.addEventListener("DOMContentLoaded", function () {
     "Former Lab Members": "former-lab-members"
   };
 
-  document.querySelectorAll(".home-section").forEach(section => {
+  main.querySelectorAll(".home-section").forEach(section => {
     const heading = section.querySelector("h1, h2, h3");
     if (!heading) return;
 
@@ -844,6 +896,8 @@ document.addEventListener("DOMContentLoaded", function () {
       section.id = sectionMap[text];
     }
   });
+
+  const links = document.querySelectorAll(".people-sidebar a");
 
   links.forEach(link => {
     link.addEventListener("click", function(e) {
@@ -869,7 +923,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function setActiveLink() {
     let currentId = "";
-    const offset = 140;
+    const offset = 150;
 
     Object.values(sectionMap).forEach(id => {
       const section = document.getElementById(id);
@@ -892,6 +946,8 @@ document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("scroll", setActiveLink);
   window.addEventListener("load", setActiveLink);
   window.addEventListener("resize", setActiveLink);
+
+  setActiveLink();
 });
 </script><blockquote>
 </blockquote>
