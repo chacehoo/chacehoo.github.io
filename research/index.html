@@ -710,14 +710,6 @@ body {
   box-shadow: none;
 }
 
-.research-sidebar-title {
-  font-size: 1.6rem;
-  font-weight: 700;
-  margin: 0 0 18px 0;
-  color: #333333;
-  line-height: 1.2;
-}
-
 .research-sidebar a {
   display: block;
   position: relative;
@@ -749,16 +741,48 @@ body {
   font-weight: 700;
 }
 
-/* Sidebar sub-items under Research Thrusts */
+/* Sidebar dropdown */
+.sidebar-group {
+  width: 100%;
+}
+
+.sidebar-parent {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sidebar-arrow {
+  font-size: 0.85rem;
+  color: inherit;
+  transition: transform 0.2s ease;
+}
+
+.sidebar-group.open .sidebar-arrow {
+  transform: rotate(180deg);
+}
+
+.sidebar-submenu {
+  display: none;
+  margin: -2px 0 10px 0;
+  padding: 0 0 0 18px;
+  border-left: 2px solid #f0f0f0;
+}
+
+.sidebar-group.open .sidebar-submenu {
+  display: block;
+}
+
 .research-sidebar a.sidebar-subitem {
-  padding: 9px 14px 9px 28px;
-  margin-top: -4px;
-  margin-bottom: 6px;
+  width: calc(100% - 18px);
+  padding: 8px 12px 8px 18px;
+  margin: 0 0 6px 0;
   font-size: 0.9rem;
   font-weight: 400;
   color: #6b7280;
-  border-left: 5px solid #f2f2f2;
-  background: #ffffff;
+  border: none;
+  border-left: 4px solid transparent;
+  background: transparent;
 }
 
 .research-sidebar a.sidebar-subitem:hover {
@@ -897,18 +921,6 @@ body {
   text-decoration: underline !important;
 }
 
-.nus-yellow-link {
-  color: #EF7C00 !important;
-  font-weight: 500;
-  text-decoration: none !important;
-  margin-left: 6px;
-}
-
-.nus-yellow-link:hover {
-  color: #003D7C !important;
-  text-decoration: underline !important;
-}
-
 .access-note {
   display: block;
   margin-top: 4px;
@@ -959,20 +971,19 @@ code {
     margin-bottom: 28px;
   }
 
-  .research-sidebar-title {
-    font-size: 1.35rem;
-    margin-bottom: 12px;
-  }
-
   .research-sidebar a {
     font-size: 0.98rem;
     padding: 12px 14px;
     margin-bottom: 8px;
   }
 
+  .sidebar-submenu {
+    padding-left: 14px;
+  }
+
   .research-sidebar a.sidebar-subitem {
     font-size: 0.9rem;
-    padding: 9px 14px 9px 24px;
+    padding: 8px 12px 8px 16px;
   }
 
   .research-section-title {
@@ -1002,13 +1013,20 @@ code {
 <div class="research-page">
 <aside class="research-sidebar">
   <a href="#overview" class="active">Research Overview</a>
-  <a href="#research-thrusts">Research Thrusts</a>
-  <a href="#free-systems" class="sidebar-subitem">FREE systems</a>
-  <a href="#dt-emis" class="sidebar-subitem">DT &amp; EMIS</a>
-  <a href="#control" class="sidebar-subitem">Control</a>
-  <a href="#ai" class="sidebar-subitem">AI</a>
-  <a href="#research-center">Research Center</a>
-  <a href="#testbeds">Living Testbeds</a>
+  <div class="sidebar-group open">
+    <a href="#research-thrusts" class="sidebar-parent">
+      <span>Research Thrusts</span>
+      <span class="sidebar-arrow">▾</span>
+    </a>
+    <div class="sidebar-submenu">
+      <a href="#free-systems" class="sidebar-subitem">FREE energy systems</a>
+      <a href="#dt-emis" class="sidebar-subitem">DT &amp; EMIS</a>
+      <a href="#control" class="sidebar-subitem">Control</a>
+      <a href="#ai" class="sidebar-subitem">AI</a>
+    </div>
+  </div>
+<p><a href="#research-center">Research Center</a>
+<a href="#testbeds">Living Testbeds</a></p>
 </aside>
 <main class="research-main">
 <h2 id="overview" class="research-section-title">Research Overview</h2>
@@ -1214,6 +1232,8 @@ NUS operates multiple district cooling systems that efficiently cool buildings a
 <script>
 const sections = document.querySelectorAll(".research-main h2[id], .research-main h3[id]");
 const navLinks = document.querySelectorAll(".research-sidebar a");
+const sidebarParent = document.querySelector(".sidebar-parent");
+const sidebarGroup = document.querySelector(".sidebar-group");
 
 function getOffset() {
   return 110;
@@ -1238,19 +1258,52 @@ function setActiveLink() {
   });
 
   if (
+    currentId === "research-thrusts" ||
     currentId === "free-systems" ||
     currentId === "dt-emis" ||
     currentId === "control" ||
     currentId === "ai"
   ) {
     const researchThrustsLink = document.querySelector('.research-sidebar a[href="#research-thrusts"]');
+
     if (researchThrustsLink) {
       researchThrustsLink.classList.add("active");
+    }
+
+    if (sidebarGroup) {
+      sidebarGroup.classList.add("open");
     }
   }
 }
 
+if (sidebarParent && sidebarGroup) {
+  sidebarParent.addEventListener("click", function (e) {
+    e.preventDefault();
+
+    const targetId = this.getAttribute("href");
+    const targetSection = document.querySelector(targetId);
+
+    sidebarGroup.classList.toggle("open");
+
+    if (targetSection) {
+      const offset = getOffset();
+      const targetPosition = targetSection.getBoundingClientRect().top + window.pageYOffset - offset;
+
+      window.scrollTo({
+        top: targetPosition,
+        behavior: "auto"
+      });
+
+      history.pushState(null, null, targetId);
+    }
+  });
+}
+
 navLinks.forEach(link => {
+  if (link.classList.contains("sidebar-parent")) {
+    return;
+  }
+
   link.addEventListener("click", function (e) {
     e.preventDefault();
 
@@ -1278,8 +1331,13 @@ navLinks.forEach(link => {
         targetId === "#ai"
       ) {
         const researchThrustsLink = document.querySelector('.research-sidebar a[href="#research-thrusts"]');
+
         if (researchThrustsLink) {
           researchThrustsLink.classList.add("active");
+        }
+
+        if (sidebarGroup) {
+          sidebarGroup.classList.add("open");
         }
       }
     }
