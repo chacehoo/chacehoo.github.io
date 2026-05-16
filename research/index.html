@@ -685,235 +685,268 @@
       <style>
 html,
 body {
-scroll-behavior: auto !important;
+  scroll-behavior: auto !important;
 }
 
 .research-page {
-display: flex;
-align-items: flex-start;
-gap: 44px;
-max-width: 1500px;
-margin: 0 auto;
-padding: 0 24px;
+  display: flex;
+  align-items: flex-start;
+  gap: 44px;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 24px;
 }
 
 .research-sidebar {
-width: 250px;
-flex: 0 0 250px;
-position: sticky;
-top: 100px;
-z-index: 100;
-background: #ffffff;
-padding: 0;
-margin: 0;
-border: none;
-box-shadow: none;
+  width: 250px;
+  flex: 0 0 250px;
+  position: sticky;
+  top: 100px;
+  z-index: 100;
+  background: #ffffff;
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-shadow: none;
 }
 
 .research-sidebar-title {
-font-size: 1.6rem;
-font-weight: 700;
-margin: 0 0 18px 0;
-color: #333333;
-line-height: 1.2;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 0 0 18px 0;
+  color: #333333;
+  line-height: 1.2;
 }
 
 .research-sidebar a {
-display: block;
-position: relative;
-width: 100%;
-padding: 14px 16px 14px 18px;
-margin: 0 0 8px 0;
-border-radius: 0;
-border: 1px solid #e5e5e5;
-border-left: 5px solid transparent;
-background: #ffffff;
-color: #EF7C00;
-text-decoration: none;
-font-size: 1.02rem;
-line-height: 1.35;
-font-weight: 500;
-transition: none;
+  display: block;
+  position: relative;
+  width: 100%;
+  padding: 14px 16px 14px 18px;
+  margin: 0 0 8px 0;
+  border-radius: 0;
+  border: 1px solid #e5e5e5;
+  border-left: 5px solid transparent;
+  background: #ffffff;
+  color: #EF7C00;
+  text-decoration: none;
+  font-size: 1.02rem;
+  line-height: 1.35;
+  font-weight: 500;
+  transition: none;
 }
 
 .research-sidebar a:hover {
-background: #f7f9fc;
-color: #003D7C;
-border-left-color: #EF7C00;
+  background: #f7f9fc;
+  color: #003D7C;
+  border-left-color: #EF7C00;
 }
 
 .research-sidebar a.active {
-background: #f7f9fc;
-color: #003D7C;
-border-left-color: #EF7C00;
-font-weight: 700;
+  background: #f7f9fc;
+  color: #003D7C;
+  border-left-color: #EF7C00;
+  font-weight: 700;
 }
 
 .research-main {
-flex: 1;
-min-width: 0;
+  flex: 1;
+  min-width: 0;
 }
 
 .research-section-title {
-text-align: center;
-font-weight: 700;
-font-size: 2rem;
-margin-top: 1.5rem;
-margin-bottom: 2.5rem;
-color: #333333;
-scroll-margin-top: 120px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
+  color: #333333;
+  scroll-margin-top: 120px;
 }
 
 .research-section-title::after {
-content: "";
-display: block;
-width: 56px;
-height: 4px;
-background: #EF7C00;
-margin: 14px auto 0 auto;
-border-radius: 999px;
+  content: "";
+  display: block;
+  width: 56px;
+  height: 4px;
+  background: #EF7C00;
+  margin: 14px auto 0 auto;
+  border-radius: 999px;
 }
 
 .research-subtitle {
-text-align: center;
-font-weight: 650;
-font-size: 1.35rem;
-line-height: 1.45;
-color: #333333;
-margin-top: 2.8rem;
-margin-bottom: 1.2rem;
+  text-align: center;
+  font-weight: 650;
+  font-size: 1.35rem;
+  line-height: 1.45;
+  color: #333333;
+  margin-top: 2.8rem;
+  margin-bottom: 1.2rem;
 }
 
 .thrust-label {
-color: #003D7C;
-font-weight: 700;
+  color: #003D7C;
+  font-weight: 700;
 }
 
 .research-card-grid {
-display: grid;
-grid-template-columns: 1fr;
-gap: 24px;
-width: 80%;
-max-width: 1050px;
-margin: 24px auto 48px auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  width: 80%;
+  max-width: 1050px;
+  margin: 24px auto 48px auto;
+}
+
+/* Three product cards in one row */
+.research-card-grid.three-cards {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  width: 100%;
+  max-width: 1200px;
+  gap: 24px;
 }
 
 .research-card {
-margin: 0;
-background: #ffffff;
-border-radius: 18px;
-box-shadow: 0 8px 28px rgba(0, 0, 0, 0.07);
-overflow: hidden;
-text-align: center;
+  margin: 0;
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.07);
+  overflow: hidden;
+  text-align: center;
 }
 
 .research-card-image-wrap {
-width: 100%;
-background: #ffffff;
+  width: 100%;
+  background: #ffffff;
+}
+
+.research-card-grid.three-cards .research-card-image-wrap {
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
 }
 
 .research-card img {
-width: 100%;
-height: auto;
-display: block;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.research-card-grid.three-cards .research-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .research-card iframe {
-width: 100%;
-aspect-ratio: 16 / 9;
-border: 0;
-display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  display: block;
 }
 
 .research-card figcaption {
-padding: 14px 18px 18px 18px;
-line-height: 1.45;
-font-size: 0.98rem;
-background: #ffffff;
-color: #5f6876;
-text-align: center;
+  padding: 14px 18px 18px 18px;
+  line-height: 1.45;
+  font-size: 0.98rem;
+  background: #ffffff;
+  color: #5f6876;
+  text-align: center;
 }
 
 .research-card figcaption.left-caption {
-text-align: left;
-line-height: 1.65;
-font-size: 1.02rem;
+  text-align: left;
+  line-height: 1.65;
+  font-size: 1.02rem;
 }
 
 .research-card figcaption a {
-color: #5f6876;
-text-decoration: underline;
+  color: #5f6876;
+  text-decoration: underline;
+}
+
+.access-note {
+  display: block;
+  margin-top: 4px;
+  font-size: 0.82rem;
+  font-weight: 400;
+  color: #7a8491;
 }
 
 .research-overview-logo {
-display: flex;
-justify-content: center;
-margin-bottom: 1.4rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.4rem;
 }
 
 .research-overview-logo img {
-width: 78%;
-max-width: 760px;
-height: auto;
+  width: 78%;
+  max-width: 760px;
+  height: auto;
 }
 
 .research-tagline {
-text-align: center;
-margin-bottom: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 .research-main p,
 .research-main li {
-color: #333333;
-line-height: 1.7;
+  color: #333333;
+  line-height: 1.7;
 }
 
 code {
-background: none !important;
-border: none !important;
-padding: 0;
-box-shadow: none !important;
+  background: none !important;
+  border: none !important;
+  padding: 0;
+  box-shadow: none !important;
 }
 
 @media (max-width: 992px) {
-.research-page {
-display: block;
-padding: 0 16px;
-}
+  .research-page {
+    display: block;
+    padding: 0 16px;
+  }
 
-.research-sidebar {
-width: 100%;
-position: static;
-margin-bottom: 28px;
-}
+  .research-sidebar {
+    width: 100%;
+    position: static;
+    margin-bottom: 28px;
+  }
 
-.research-sidebar-title {
-font-size: 1.35rem;
-margin-bottom: 12px;
-}
+  .research-sidebar-title {
+    font-size: 1.35rem;
+    margin-bottom: 12px;
+  }
 
-.research-sidebar a {
-font-size: 0.98rem;
-padding: 12px 14px;
-margin-bottom: 8px;
-}
+  .research-sidebar a {
+    font-size: 0.98rem;
+    padding: 12px 14px;
+    margin-bottom: 8px;
+  }
 
-.research-section-title {
-font-size: 1.7rem;
-}
+  .research-section-title {
+    font-size: 1.7rem;
+  }
 
-.research-subtitle {
-font-size: 1.2rem;
-}
+  .research-subtitle {
+    font-size: 1.2rem;
+  }
 
-.research-card-grid {
-width: 100%;
-max-width: 100%;
-}
+  .research-card-grid {
+    width: 100%;
+    max-width: 100%;
+  }
 
-.research-overview-logo img {
-width: 100%;
-}
+  .research-card-grid.three-cards {
+    grid-template-columns: 1fr;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .research-overview-logo img {
+    width: 100%;
+  }
 }
 </style>
 <div class="research-page">
@@ -943,12 +976,12 @@ width: 100%;
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <script>
 var typed = new Typed('#typed', {
-stringsElement: '#typed-strings',
-typeSpeed: 50,
-backSpeed: 30,
-startDelay: 100,
-backDelay: 2000,
-loop: true
+  stringsElement: '#typed-strings',
+  typeSpeed: 50,
+  backSpeed: 30,
+  startDelay: 100,
+  backDelay: 2000,
+  loop: true
 });
 </script>
 <p>
@@ -1034,14 +1067,31 @@ Explainable Machine Learning using Large-Scale Smart Meter Data
 <span class="thrust-label">Thrust 4:</span>
 Multi-scale Digital Twins and Energy Management Information System (DT & EMIS)
 </h3>
-<div class="research-card-grid">
+<div class="research-card-grid three-cards">
 <figure class="research-card">
 <div class="research-card-image-wrap">
-<img src="https://maomaohu.net/img/thrust_4_0.jpg" alt="Quantifying Uncertainty in Aggregate Energy Use and Demand Flexibility">
+<img src="https://maomaohu.net/img/Urban_DT.png" alt="Urban Digital Twin">
 </div>
 <figcaption>
-Quantifying Uncertainty in Aggregate Energy Use and Demand Flexibility of Building Clusters Considering Stochastic Occupancy
-<a href="https://doi.org/10.1016/j.energy.2019.116838">[Link]</a>
+Urban DT
+</figcaption>
+</figure>
+<figure class="research-card">
+<div class="research-card-image-wrap">
+<img src="https://maomaohu.net/img/University_EMIS.png" alt="NUS campus Energy Management Information System">
+</div>
+<figcaption>
+NUS campus EMIS
+<span class="access-note">login required; NUS intranet only</span>
+</figcaption>
+</figure>
+<figure class="research-card">
+<div class="research-card-image-wrap">
+<img src="https://maomaohu.net/img/Building_DT.png" alt="Building Digital Twin">
+</div>
+<figcaption>
+Building DT
+<span class="access-note">login required</span>
 </figcaption>
 </figure>
 </div>
@@ -1109,50 +1159,50 @@ const sections = document.querySelectorAll(".research-main h2[id]");
 const navLinks = document.querySelectorAll(".research-sidebar a");
 
 function getOffset() {
-return 110;
+  return 110;
 }
 
 function setActiveLink() {
-let currentId = "";
-const offset = getOffset();
+  let currentId = "";
+  const offset = getOffset();
 
-sections.forEach(section => {
-const sectionTop = section.offsetTop - offset - 20;
-if (window.scrollY >= sectionTop) {
-currentId = section.getAttribute("id");
+  sections.forEach(section => {
+    const sectionTop = section.offsetTop - offset - 20;
+    if (window.scrollY >= sectionTop) {
+      currentId = section.getAttribute("id");
+    }
+  });
+
+  navLinks.forEach(link => {
+    link.classList.remove("active");
+    if (link.getAttribute("href") === "#" + currentId) {
+      link.classList.add("active");
+    }
+  });
 }
-});
 
 navLinks.forEach(link => {
-link.classList.remove("active");
-if (link.getAttribute("href") === "#" + currentId) {
-link.classList.add("active");
-}
-});
-}
+  link.addEventListener("click", function (e) {
+    e.preventDefault();
 
-navLinks.forEach(link => {
-link.addEventListener("click", function (e) {
-e.preventDefault();
+    const targetId = this.getAttribute("href");
+    const targetSection = document.querySelector(targetId);
 
-const targetId = this.getAttribute("href");
-const targetSection = document.querySelector(targetId);
+    if (targetSection) {
+      const offset = getOffset();
+      const targetPosition = targetSection.getBoundingClientRect().top + window.pageYOffset - offset;
 
-if (targetSection) {
-const offset = getOffset();
-const targetPosition = targetSection.getBoundingClientRect().top + window.pageYOffset - offset;
+      window.scrollTo({
+        top: targetPosition,
+        behavior: "auto"
+      });
 
-window.scrollTo({
-top: targetPosition,
-behavior: "auto"
-});
+      history.pushState(null, null, targetId);
 
-history.pushState(null, null, targetId);
-
-navLinks.forEach(item => item.classList.remove("active"));
-this.classList.add("active");
-}
-});
+      navLinks.forEach(item => item.classList.remove("active"));
+      this.classList.add("active");
+    }
+  });
 });
 
 window.addEventListener("scroll", setActiveLink);
