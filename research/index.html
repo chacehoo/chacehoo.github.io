@@ -1013,7 +1013,7 @@ code {
 <div class="research-page">
 <aside class="research-sidebar">
   <a href="#overview" class="active">Research Overview</a>
-  <div class="sidebar-group open">
+  <div class="sidebar-group">
     <a href="#research-thrusts" class="sidebar-parent">
       <span>Research Thrusts</span>
       <span class="sidebar-arrow">▾</span>
@@ -1269,10 +1269,6 @@ function setActiveLink() {
     if (researchThrustsLink) {
       researchThrustsLink.classList.add("active");
     }
-
-    if (sidebarGroup) {
-      sidebarGroup.classList.add("open");
-    }
   }
 }
 
@@ -1334,10 +1330,6 @@ navLinks.forEach(link => {
 
         if (researchThrustsLink) {
           researchThrustsLink.classList.add("active");
-        }
-
-        if (sidebarGroup) {
-          sidebarGroup.classList.add("open");
         }
       }
     }
