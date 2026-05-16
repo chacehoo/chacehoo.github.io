@@ -749,6 +749,31 @@ body {
   font-weight: 700;
 }
 
+/* Sidebar sub-items under Research Thrusts */
+.research-sidebar a.sidebar-subitem {
+  padding: 9px 14px 9px 28px;
+  margin-top: -4px;
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #6b7280;
+  border-left: 5px solid #f2f2f2;
+  background: #ffffff;
+}
+
+.research-sidebar a.sidebar-subitem:hover {
+  color: #003D7C;
+  background: #f7f9fc;
+  border-left-color: #EF7C00;
+}
+
+.research-sidebar a.sidebar-subitem.active {
+  color: #003D7C;
+  background: #f7f9fc;
+  border-left-color: #EF7C00;
+  font-weight: 600;
+}
+
 .research-main {
   flex: 1;
   min-width: 0;
@@ -782,6 +807,7 @@ body {
   color: #333333;
   margin-top: 2.8rem;
   margin-bottom: 1.2rem;
+  scroll-margin-top: 120px;
 }
 
 .thrust-label {
@@ -797,7 +823,6 @@ body {
   max-width: 1050px;
   margin: 24px auto 48px auto;
 }
-
 
 .research-card-grid.three-cards {
   grid-template-columns: 1fr;
@@ -859,9 +884,17 @@ body {
   font-size: 1.02rem;
 }
 
+/* All card links in NUS yellow */
 .research-card figcaption a {
-  color: #5f6876;
-  text-decoration: underline;
+  color: #EF7C00 !important;
+  font-weight: 500;
+  text-decoration: none !important;
+  margin-left: 6px;
+}
+
+.research-card figcaption a:hover {
+  color: #003D7C !important;
+  text-decoration: underline !important;
 }
 
 .nus-yellow-link {
@@ -937,6 +970,11 @@ code {
     margin-bottom: 8px;
   }
 
+  .research-sidebar a.sidebar-subitem {
+    font-size: 0.9rem;
+    padding: 9px 14px 9px 24px;
+  }
+
   .research-section-title {
     font-size: 1.7rem;
   }
@@ -963,10 +1001,14 @@ code {
 </style>
 <div class="research-page">
 <aside class="research-sidebar">
-<a href="#overview" class="active">Research Overview</a>
-<a href="#research-thrusts">Research Thrusts</a>
-<a href="#research-center">Research Center</a>
-<a href="#testbeds">Living Testbeds</a>
+  <a href="#overview" class="active">Research Overview</a>
+  <a href="#research-thrusts">Research Thrusts</a>
+  <a href="#free-systems" class="sidebar-subitem">FREE systems</a>
+  <a href="#dt-emis" class="sidebar-subitem">DT &amp; EMIS</a>
+  <a href="#control" class="sidebar-subitem">Control</a>
+  <a href="#ai" class="sidebar-subitem">AI</a>
+  <a href="#research-center">Research Center</a>
+  <a href="#testbeds">Living Testbeds</a>
 </aside>
 <main class="research-main">
 <h2 id="overview" class="research-section-title">Research Overview</h2>
@@ -1010,10 +1052,10 @@ We employ a multifaceted approach that encompasses data analytics & machine lear
 <li><strong>FREE Energy Systems</strong>: Flexible, Resilient, Efficient, and Equitable (FREE) multi-scale energy systems with Distributed Energy Resources (DERs)</li>
 <li><strong>DT & EMIS</strong>: Multi-scale Digital Twins (DT) and Energy Management Information System (EMIS)</li>
 <li>Optimal & Learning-based Control</li>
-<li><strong>AI4BUSE</strong>: AI for Building and Urban Science and Engineering(BUSE)</li>
+<li><strong>AI4BUSE</strong>: AI for Building and Urban Science and Engineering (BUSE)</li>
 </ul>
 <h2 id="research-thrusts" class="research-section-title">Research Thrusts</h2>
-<h3 class="research-subtitle">
+<h3 id="free-systems" class="research-subtitle">
 <span class="thrust-label">Thrust 1:</span>
 Flexible, Resilient, Efficient, and Equitable (FREE) multi-scale energy systems with Distributed Energy Resources (DERs)
 </h3>
@@ -1025,8 +1067,8 @@ Flexible, Resilient, Efficient, and Equitable (FREE) multi-scale energy systems 
 <figcaption>
 <div style="font-weight: 500;">Complex Cyber-Physical District Energy System</div>
 <div style="margin-top: 6px;">
-<a href="https://doi.org/10.1016/j.enbuild.2023.113339">[Link]</a>
-<a href="https://sesi.stanford.edu/energy-systems/central-energy-facility" style="margin-left: 6px;">[Link]</a>
+<a href="https://doi.org/10.1016/j.enbuild.2023.113339" target="_blank" rel="noopener">[Link]</a>
+<a href="https://sesi.stanford.edu/energy-systems/central-energy-facility" target="_blank" rel="noopener">[Link]</a>
 </div>
 </figcaption>
 </figure>
@@ -1037,12 +1079,12 @@ Flexible, Resilient, Efficient, and Equitable (FREE) multi-scale energy systems 
 <figcaption>
 <div style="font-weight: 500;">Coordination and Negotiation in a Cyber-Physical Multi-Entity Residential Microgrid</div>
 <div style="margin-top: 6px;">
-<a href="https://doi.org/10.1016/j.rser.2020.110248">[Link]</a>
+<a href="https://doi.org/10.1016/j.rser.2020.110248" target="_blank" rel="noopener">[Link]</a>
 </div>
 </figcaption>
 </figure>
 </div>
-<h3 class="research-subtitle">
+<h3 id="dt-emis" class="research-subtitle">
 <span class="thrust-label">Thrust 2:</span>
 Multi-scale Digital Twins and Energy Management Information System (DT & EMIS)
 </h3>
@@ -1053,16 +1095,16 @@ Multi-scale Digital Twins and Energy Management Information System (DT & EMIS)
 </div>
 <figcaption>
 Urban DT
-<a class="nus-yellow-link" href="https://urbandt.org/" target="_blank" rel="noopener">[Visit]</a>
+<a href="https://urbandt.org/" target="_blank" rel="noopener">[Visit]</a>
 </figcaption>
 </figure>
 <figure class="research-card">
 <div class="research-card-image-wrap">
-<img src="https://maomaohu.net/img/Campus EMIS.png" alt="NUS campus Energy Management Information System">
+<img src="https://maomaohu.net/img/Campus%20EMIS.png" alt="NUS campus Energy Management Information System">
 </div>
 <figcaption>
 NUS Campus EMIS
-<a class="nus-yellow-link" href="http://10.245.67.108:3000/login" target="_blank" rel="noopener">[Visit]</a>
+<a href="http://10.245.67.108:3000/login" target="_blank" rel="noopener">[Visit]</a>
 <span class="access-note">(login required; NUS intranet only)</span>
 </figcaption>
 </figure>
@@ -1072,11 +1114,12 @@ NUS Campus EMIS
 </div>
 <figcaption>
 Building DT
-<a class="nus-yellow-link" href="https://www.buildingdt.org/" target="_blank" rel="noopener">[Visit]</a>
+<a href="https://www.buildingdt.org/" target="_blank" rel="noopener">[Visit]</a>
 <span class="access-note">(login required)</span>
 </figcaption>
 </figure>
-<h3 class="research-subtitle">
+</div>
+<h3 id="control" class="research-subtitle">
 <span class="thrust-label">Thrust 3:</span>
 Optimal and learning-based control
 </h3>
@@ -1087,12 +1130,12 @@ Optimal and learning-based control
 </div>
 <figcaption>
 Schematic diagram of MPC for building energy systems
-<a href="https://maomaohu.net/project/0_mpc_ac/">[Link]</a>
-<a href="https://maomaohu.net/project/1_mpc_floor/">[Link]</a>
+<a href="https://maomaohu.net/project/0_mpc_ac/" target="_blank" rel="noopener">[Link]</a>
+<a href="https://maomaohu.net/project/1_mpc_floor/" target="_blank" rel="noopener">[Link]</a>
 </figcaption>
 </figure>
 </div>
-<h3 class="research-subtitle">
+<h3 id="ai" class="research-subtitle">
 <span class="thrust-label">Thrust 4:</span>
 AI for building and urban science and engineering (AI4BUSE)
 </h3>
@@ -1103,12 +1146,11 @@ AI for building and urban science and engineering (AI4BUSE)
 </div>
 <figcaption>
 Explainable Machine Learning using Large-Scale Smart Meter Data
-<a href="https://maomaohu.net/software/ifeel/">[Link]</a>
-<a href="https://doi.org/10.1016/j.scs.2021.103380">[Link]</a>
-<a href="https://doi.org/10.1016/j.enbuild.2023.112896">[Link]</a>
+<a href="https://maomaohu.net/software/ifeel/" target="_blank" rel="noopener">[Link]</a>
+<a href="https://doi.org/10.1016/j.scs.2021.103380" target="_blank" rel="noopener">[Link]</a>
+<a href="https://doi.org/10.1016/j.enbuild.2023.112896" target="_blank" rel="noopener">[Link]</a>
 </figcaption>
 </figure>
-</div>
 </div>
 <h2 id="research-center" class="research-section-title">Research Center</h2>
 <h3 class="research-subtitle">Center for Digital Building Technology</h3>
@@ -1128,7 +1170,7 @@ allowfullscreen>
 </div>
 <figcaption class="left-caption">
 Dr. Hu has served as the deputy director of the
-<a href="https://cde.nus.edu.sg/dbe/centre-for-digital-building-technology/">Center for Digital Building Technology</a>
+<a href="https://cde.nus.edu.sg/dbe/centre-for-digital-building-technology/" target="_blank" rel="noopener">Center for Digital Building Technology</a>
 since 2025. The center's primary mission is to enhance quality and productivity by leveraging digital building technologies to transform how people design, deliver, and manage the built environment. These technologies include augmented reality (AR), virtual reality (VR), building information modeling (BIM), the Internet of Things (IoT), robotics and automation, video analytics, and digital twins, all supported by advanced equipment and devices.
 </figcaption>
 </figure>
@@ -1170,7 +1212,7 @@ NUS operates multiple district cooling systems that efficiently cool buildings a
 </main>
 </div>
 <script>
-const sections = document.querySelectorAll(".research-main h2[id]");
+const sections = document.querySelectorAll(".research-main h2[id], .research-main h3[id]");
 const navLinks = document.querySelectorAll(".research-sidebar a");
 
 function getOffset() {
@@ -1194,6 +1236,18 @@ function setActiveLink() {
       link.classList.add("active");
     }
   });
+
+  if (
+    currentId === "free-systems" ||
+    currentId === "dt-emis" ||
+    currentId === "control" ||
+    currentId === "ai"
+  ) {
+    const researchThrustsLink = document.querySelector('.research-sidebar a[href="#research-thrusts"]');
+    if (researchThrustsLink) {
+      researchThrustsLink.classList.add("active");
+    }
+  }
 }
 
 navLinks.forEach(link => {
@@ -1216,6 +1270,18 @@ navLinks.forEach(link => {
 
       navLinks.forEach(item => item.classList.remove("active"));
       this.classList.add("active");
+
+      if (
+        targetId === "#free-systems" ||
+        targetId === "#dt-emis" ||
+        targetId === "#control" ||
+        targetId === "#ai"
+      ) {
+        const researchThrustsLink = document.querySelector('.research-sidebar a[href="#research-thrusts"]');
+        if (researchThrustsLink) {
+          researchThrustsLink.classList.add("active");
+        }
+      }
     }
   });
 });
