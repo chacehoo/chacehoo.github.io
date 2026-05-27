@@ -5,7 +5,7 @@
     <link>https://maomaohu.net/</link>
       <atom:link href="https://maomaohu.net/index.xml" rel="self" type="application/rss+xml" />
     <description>Maomao Hu | National University of Singapore</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2026 BIOR Lab</copyright><lastBuildDate>Thu, 23 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2026 BIOR Lab</copyright><lastBuildDate>Wed, 27 May 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maomaohu.net/images/logo.svg</url>
       <title>Maomao Hu | National University of Singapore</title>
@@ -18,6 +18,58 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://maomaohu.net/contact/contact/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>May 2026 | We are recruiting one PhD student with 4-year scholarship in Intelligent Building-Integrated Energy Systems</title>
+      <link>https://maomaohu.net/post/post_63_recruitment/</link>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/post/post_63_recruitment/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Position&lt;/strong&gt;: PhD Student (Intelligent Building-Integrated Energy Systems) with 4-Year Scholarship&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Project Description&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;The Building Informatics and Operations Research (BIOR) Lab at the National University of Singapore (NUS) is looking for one outstanding and highly motivated PhD student to work on &lt;strong&gt;intelligent building-integrated energy systems for clean mobility, grid flexibility, and climate resilience&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The broader research direction focuses on the modeling, optimization, control, and validation of building-integrated distributed energy resources, including photovoltaics, electric vehicles, battery storage systems, DC microgrids, smart chargers, and flexible building loads. The project aims to develop scalable and low-cost solutions that enable buildings to support clean mobility, improve on-site renewable energy utilization, reduce grid stress, and enhance urban energy resilience.&lt;/p&gt;
+&lt;p&gt;The project is highly interdisciplinary and translational, spanning building energy systems, renewable energy integration, EV charging infrastructure, DC microgrids, optimization, distributed control, hardware-in-the-loop testing, real-world demonstration, and technology commercialization.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Scholarship and Program Information&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;The PhD student will be advised by Assistant Professor Maomao Hu from the Department of the Built Environment, College of Design and Engineering, NUS.&lt;/p&gt;
+&lt;p&gt;The position is supported through the NUS Guangzhou Research Translation and Innovation Institute (NUSGRTII). The scholarship is expected to cover four years of tuition fees and a monthly stipend, subject to NUS and NUSGRTII scholarship terms and conditions.&lt;/p&gt;
+&lt;p&gt;The student will be based primarily at NUS in Singapore. The student may travel to Guangzhou for research translation, pilot demonstration, industry engagement, and commercialization-related activities.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Develop system-level energy models for buildings, rooftop photovoltaics, EV charging infrastructure, battery storage systems, DC microgrids, and flexible electrical loads.&lt;/li&gt;
+&lt;li&gt;Develop advanced control strategies for coordinating distributed energy resources and EV charging demand under uncertain renewable generation and user behavior.&lt;/li&gt;
+&lt;li&gt;Explore distributed, data-driven, and communication-light control algorithms for scalable building energy management.&lt;/li&gt;
+&lt;li&gt;Build simulation environments to evaluate system performance under different building types, EV usage patterns, solar generation profiles, electricity tariffs, grid constraints, and urban operating conditions.&lt;/li&gt;
+&lt;li&gt;Implement and test selected control strategies in hardware-in-the-loop, laboratory, or prototype settings.&lt;/li&gt;
+&lt;li&gt;Contribute to research translation, including IP generation, prototype development, deployment toolkit preparation, and potential pilot demonstration.&lt;/li&gt;
+&lt;li&gt;Publish scientific papers in high-impact journals and present findings at seminars and international conferences.&lt;/li&gt;
+&lt;li&gt;Work closely with postdocs, PhD students, research assistants, collaborators, and industry partners within the BIOR Lab and the Centre for Digital Building Technology.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Required Qualifications and Skills&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A bachelor’s or master’s degree in Civil Engineering, Electrical Engineering, Mechanical Engineering, Energy Engineering, Architectural Engineering, Automation, Computer Science, or other related fields.&lt;/li&gt;
+&lt;li&gt;Strong background in one or more of the following areas: building energy systems, renewable energy systems, EV charging, power systems, DC microgrids, optimization, control, machine learning, or energy system simulation.&lt;/li&gt;
+&lt;li&gt;Strong programming skills in Python, MATLAB, Julia, R, or similar languages.&lt;/li&gt;
+&lt;li&gt;Experience with energy system modeling, power system simulation, optimization, control algorithm development, or data-driven modeling is highly desirable.&lt;/li&gt;
+&lt;li&gt;Experience with hardware-in-the-loop testing, embedded control, Modelica, OpenDSS, EnergyPlus, or similar simulation platforms is a plus.&lt;/li&gt;
+&lt;li&gt;Interest in translational research, prototype development, technology deployment, and commercialization is highly encouraged.&lt;/li&gt;
+&lt;li&gt;Strong motivation to conduct interdisciplinary research with both academic and practical impact.&lt;/li&gt;
+&lt;li&gt;Strong oral and written communication skills in English.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Application Deadline&lt;/strong&gt;: &lt;strong&gt;1 August 2026&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PhD Study Start Date&lt;/strong&gt;: &lt;strong&gt;January 2027&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How to Apply&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Interested applicants should send an email with the subject line &lt;code&gt;Prospective_PhD_{First Name}_{Last Name}&lt;/code&gt; to Assistant Professor Maomao Hu at &lt;code&gt;maomaohu@nus.edu.sg&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The email should be written in English and include the following materials:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CV/resume in English, with an emphasis on computational and research skills.&lt;/li&gt;
+&lt;li&gt;Transcripts from undergraduate and/or graduate studies.&lt;/li&gt;
+&lt;li&gt;GitHub repository, if any.&lt;/li&gt;
+&lt;li&gt;Contact information for 2–3 references.&lt;/li&gt;
+&lt;li&gt;Other materials demonstrating research and work capabilities, such as first-author publications, manuscripts in preparation, project reports, or technical writing samples.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Due to the high volume of inquiries, I may not be able to respond to every applicant. However, please rest assured that each email will be carefully reviewed, and I will respond promptly if your qualifications align with current opportunities.&lt;/p&gt;
+</description>
     </item>
     
     <item>
