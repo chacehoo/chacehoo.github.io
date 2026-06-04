@@ -803,10 +803,11 @@ body {
   min-width: 0;
 }
 
+/* Section title: h2 */
 .research-section-title {
   text-align: center;
-  font-weight: 700;
-  font-size: 2rem;
+  font-weight: 800;
+  font-size: clamp(2.2rem, 4vw, 3.1rem);
   margin-top: 1.5rem;
   margin-bottom: 2.5rem;
   color: #333333;
@@ -823,11 +824,11 @@ body {
   border-radius: 999px;
 }
 
+/* Thrust title: h3 */
 .research-subtitle {
   display: block;
   text-align: center;
   font-weight: 650;
-  font-size: 1.35rem;
   line-height: 1.25;
   color: #333333;
   margin-top: 2.8rem;
@@ -841,18 +842,18 @@ body {
 }
 
 .research-subtitle .title-line {
-  font-size: clamp(2rem, 4vw, 3.2rem);
+  font-size: clamp(1.65rem, 2.8vw, 2.35rem);
   font-weight: 800;
-  line-height: 1.15;
-  color: #333333;
+  line-height: 1.2;
+  color: #003D7C;
 }
 
 .research-subtitle .subtitle-line {
-  max-width: 950px;
-  margin: 0.8rem auto 0;
-  font-size: clamp(1.2rem, 2.1vw, 1.8rem);
-  font-weight: 700;
-  line-height: 1.35;
+  max-width: 900px;
+  margin: 0.7rem auto 0;
+  font-size: clamp(1.05rem, 1.75vw, 1.35rem);
+  font-weight: 600;
+  line-height: 1.45;
   color: #333333;
 }
 
@@ -1009,19 +1010,15 @@ code {
   }
 
   .research-section-title {
-    font-size: 1.7rem;
-  }
-
-  .research-subtitle {
-    font-size: 1.2rem;
-  }
-
-  .research-subtitle .title-line {
     font-size: clamp(1.8rem, 8vw, 2.4rem);
   }
 
+  .research-subtitle .title-line {
+    font-size: clamp(1.4rem, 6vw, 1.9rem);
+  }
+
   .research-subtitle .subtitle-line {
-    font-size: clamp(1.05rem, 5vw, 1.35rem);
+    font-size: clamp(1rem, 4vw, 1.15rem);
   }
 
   .research-card-grid {
@@ -1103,14 +1100,14 @@ We employ a multifaceted approach that encompasses data analytics & machine lear
 <li><strong>AI</strong>: AI for building and urban science and engineering (AI4BUSE)</li>
 </ul>
 <h2 id="research-thrusts" class="research-section-title">Research Thrusts</h2>
-<h2 id="free-systems" class="research-subtitle">
+<h3 id="free-systems" class="research-subtitle">
   <span class="title-line">
     <span class="thrust-label">Thrust 1: FREE energy systems</span>
   </span>
   <span class="subtitle-line">
     Flexible, resilient, efficient, and equitable multi-scale energy systems with distributed energy resources (DERs)
   </span>
-</h2>
+</h3>
 <div class="research-card-grid">
 <figure class="research-card">
 <div class="research-card-image-wrap">
@@ -1136,14 +1133,14 @@ We employ a multifaceted approach that encompasses data analytics & machine lear
 </figcaption>
 </figure>
 </div>
-<h2 id="digitalization" class="research-subtitle">
+<h3 id="digitalization" class="research-subtitle">
   <span class="title-line">
     <span class="thrust-label">Thrust 2: Digitalization</span>
   </span>
   <span class="subtitle-line">
     Multi-scale digital twins and energy management information system (DT & EMIS)
   </span>
-</h2>
+</h3>
 <div class="research-card-grid three-cards">
 <figure class="research-card">
 <div class="research-card-image-wrap">
@@ -1175,14 +1172,14 @@ Building DT
 </figcaption>
 </figure>
 </div>
-<h2 id="control" class="research-subtitle">
+<h3 id="control" class="research-subtitle">
   <span class="title-line">
     <span class="thrust-label">Thrust 3: Control</span>
   </span>
   <span class="subtitle-line">
     Model-based and learning-based optimal control
   </span>
-</h2>
+</h3>
 <div class="research-card-grid">
 <figure class="research-card">
 <div class="research-card-image-wrap">
@@ -1195,14 +1192,14 @@ Schematic diagram of MPC for building energy systems
 </figcaption>
 </figure>
 </div>
-<h2 id="ai" class="research-subtitle">
+<h3 id="ai" class="research-subtitle">
   <span class="title-line">
     <span class="thrust-label">Thrust 4: AI</span>
   </span>
   <span class="subtitle-line">
     AI for building and urban science and engineering (AI4BUSE)
   </span>
-</h2>
+</h3>
 <div class="research-card-grid">
 <figure class="research-card">
 <div class="research-card-image-wrap">
