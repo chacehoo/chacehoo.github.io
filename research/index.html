@@ -824,19 +824,41 @@ body {
 }
 
 .research-subtitle {
+  display: block;
   text-align: center;
   font-weight: 650;
   font-size: 1.35rem;
-  line-height: 1.45;
+  line-height: 1.25;
   color: #333333;
   margin-top: 2.8rem;
   margin-bottom: 1.2rem;
   scroll-margin-top: 120px;
 }
 
-.thrust-label {
-  color: #003D7C;
+.research-subtitle .title-line,
+.research-subtitle .subtitle-line {
+  display: block;
+}
+
+.research-subtitle .title-line {
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  font-weight: 800;
+  line-height: 1.15;
+  color: #333333;
+}
+
+.research-subtitle .subtitle-line {
+  max-width: 950px;
+  margin: 0.8rem auto 0;
+  font-size: clamp(1.2rem, 2.1vw, 1.8rem);
   font-weight: 700;
+  line-height: 1.35;
+  color: #333333;
+}
+
+.research-subtitle .thrust-label {
+  color: #003D7C;
+  font-weight: 800;
 }
 
 .research-card-grid {
@@ -994,6 +1016,14 @@ code {
     font-size: 1.2rem;
   }
 
+  .research-subtitle .title-line {
+    font-size: clamp(1.8rem, 8vw, 2.4rem);
+  }
+
+  .research-subtitle .subtitle-line {
+    font-size: clamp(1.05rem, 5vw, 1.35rem);
+  }
+
   .research-card-grid {
     width: 100%;
     max-width: 100%;
@@ -1008,31 +1038,6 @@ code {
   .research-overview-logo img {
     width: 100%;
   }
-
-  .research-subtitle {
-  text-align: center;
-  line-height: 1.25;
-}
-
-.title-line {
-  display: block;
-  font-size: clamp(2rem, 4vw, 3.2rem);
-  font-weight: 800;
-  color: #333;
-}
-
-.subtitle-line {
-  display: block;
-  max-width: 950px;
-  margin: 0.8rem auto 0;
-  font-size: clamp(1.4rem, 2.5vw, 2.2rem);
-  font-weight: 700;
-  color: #333;
-}
-
-.thrust-label {
-  color: #004b8d;
-}
 }
 </style>
 <div class="research-page">
@@ -1092,15 +1097,15 @@ We employ a multifaceted approach that encompasses data analytics & machine lear
 </p>
 <p>Specifically, our research interests include:</p>
 <ul>
-<li><strong>FREE Energy Systems</strong>: Flexible, Resilient, Efficient, and Equitable (FREE) multi-scale energy systems with Distributed Energy Resources (DERs)</li>
-<li><strong>Digitalization</strong>: Multi-scale Digital Twins (DT) and Energy Management Information System (EMIS)</li>
-<li><strong>Control</strong>: Model-based and Learning-based Optimal Control</li>
-<li><strong>AI</strong>: AI for Building and Urban Science and Engineering (AI4BUSE)</li>
+<li><strong>FREE energy systems</strong>: Flexible, resilient, efficient, and equitable multi-scale energy systems with distributed energy resources (DERs)</li>
+<li><strong>Digitalization</strong>: Multi-scale digital twins (DT) and energy management information system (EMIS)</li>
+<li><strong>Control</strong>: Model-based and learning-based optimal control</li>
+<li><strong>AI</strong>: AI for building and urban science and engineering (AI4BUSE)</li>
 </ul>
 <h2 id="research-thrusts" class="research-section-title">Research Thrusts</h2>
 <h3 id="free-systems" class="research-subtitle">
   <span class="title-line">
-    <span class="thrust-label">Thrust 1: FREE Energy Systems</span>
+    <span class="thrust-label">Thrust 1: FREE energy systems</span>
   </span>
   <span class="subtitle-line">
     Flexible, resilient, efficient, and equitable multi-scale energy systems with distributed energy resources (DERs)
@@ -1112,7 +1117,7 @@ We employ a multifaceted approach that encompasses data analytics & machine lear
 <img src="https://maomaohu.net/img/thrust_1_0.jpg" alt="Complex Cyber-Physical District Energy System">
 </div>
 <figcaption>
-<div style="font-weight: 500;">Complex Cyber-Physical District Energy System</div>
+<div style="font-weight: 500;">Complex cyber-physical district energy system</div>
 <div style="margin-top: 6px;">
 <a href="https://doi.org/10.1016/j.enbuild.2023.113339" target="_blank" rel="noopener">[Link]</a>
 <a href="https://sesi.stanford.edu/energy-systems/central-energy-facility" target="_blank" rel="noopener">[Link]</a>
@@ -1124,7 +1129,7 @@ We employ a multifaceted approach that encompasses data analytics & machine lear
 <img src="https://maomaohu.net/img/thrust_1_1.jpg" alt="Coordination and Negotiation in a Cyber-Physical Multi-Entity Residential Microgrid">
 </div>
 <figcaption>
-<div style="font-weight: 500;">Coordination and Negotiation in a Cyber-Physical Multi-Entity Residential Microgrid</div>
+<div style="font-weight: 500;">Coordination and negotiation in a cyber-physical multi-entity residential microgrid</div>
 <div style="margin-top: 6px;">
 <a href="https://doi.org/10.1016/j.rser.2020.110248" target="_blank" rel="noopener">[Link]</a>
 </div>
@@ -1136,7 +1141,7 @@ We employ a multifaceted approach that encompasses data analytics & machine lear
     <span class="thrust-label">Thrust 2: Digitalization</span>
   </span>
   <span class="subtitle-line">
-    Multi-scale Digital Twins and Energy Management Information System (DT & EMIS)
+    Multi-scale digital twins and energy management information system (DT & EMIS)
   </span>
 </h3>
 <div class="research-card-grid three-cards">
@@ -1204,7 +1209,7 @@ Schematic diagram of MPC for building energy systems
 <img src="https://maomaohu.net/img/thrust_3_0.jpg" alt="Explainable Machine Learning using Large-Scale Smart Meter Data">
 </div>
 <figcaption>
-Explainable Machine Learning using Large-Scale Smart Meter Data
+Explainable machine learning using large-scale smart meter data
 <a href="https://maomaohu.net/software/ifeel/" target="_blank" rel="noopener">[Link]</a>
 <a href="https://doi.org/10.1016/j.scs.2021.103380" target="_blank" rel="noopener">[Link]</a>
 <a href="https://doi.org/10.1016/j.enbuild.2023.112896" target="_blank" rel="noopener">[Link]</a>
@@ -1212,7 +1217,9 @@ Explainable Machine Learning using Large-Scale Smart Meter Data
 </figure>
 </div>
 <h2 id="research-center" class="research-section-title">Research Center</h2>
-<h3 class="research-subtitle">Center for Digital Building Technology</h3>
+<h3 class="research-subtitle">
+  <span class="title-line">Center for Digital Building Technology</span>
+</h3>
 <div class="research-card-grid">
 <figure class="research-card">
 <div class="research-card-image-wrap">
@@ -1235,7 +1242,9 @@ since 2025. The center's primary mission is to enhance quality and productivity 
 </figure>
 </div>
 <h2 id="testbeds" class="research-section-title">Living Testbeds</h2>
-<h3 class="research-subtitle">SDE 4, a net-zero energy building</h3>
+<h3 class="research-subtitle">
+  <span class="title-line">SDE 4, a net-zero energy building</span>
+</h3>
 <div class="research-card-grid">
 <figure class="research-card">
 <div class="research-card-image-wrap">
@@ -1246,7 +1255,9 @@ SDE4 is Singapore’s first new-build net-zero energy building, designed to exem
 </figcaption>
 </figure>
 </div>
-<h3 class="research-subtitle">Smart Green Home</h3>
+<h3 class="research-subtitle">
+  <span class="title-line">Smart Green Home</span>
+</h3>
 <div class="research-card-grid">
 <figure class="research-card">
 <div class="research-card-image-wrap">
@@ -1257,7 +1268,9 @@ The Smart Green Home is a cutting-edge indoor test-bed dedicated to advancing re
 </figcaption>
 </figure>
 </div>
-<h3 class="research-subtitle">District Cooling Systems on Campus</h3>
+<h3 class="research-subtitle">
+  <span class="title-line">District cooling systems on campus</span>
+</h3>
 <div class="research-card-grid">
 <figure class="research-card">
 <div class="research-card-image-wrap">
@@ -1301,7 +1314,7 @@ function setActiveLink() {
   if (
     currentId === "research-thrusts" ||
     currentId === "free-systems" ||
-    currentId === "dt-emis" ||
+    currentId === "digitalization" ||
     currentId === "control" ||
     currentId === "ai"
   ) {
@@ -1363,7 +1376,7 @@ navLinks.forEach(link => {
 
       if (
         targetId === "#free-systems" ||
-        targetId === "#dt-emis" ||
+        targetId === "#digitalization" ||
         targetId === "#control" ||
         targetId === "#ai"
       ) {
