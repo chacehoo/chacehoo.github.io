@@ -5,12 +5,28 @@
     <link>https://maomaohu.net/publication/</link>
       <atom:link href="https://maomaohu.net/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2026 BIOR Lab</copyright><lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2026 BIOR Lab</copyright><lastBuildDate>Tue, 14 Jul 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maomaohu.net/img/publications_first_sight.jpg</url>
       <title>Publications</title>
       <link>https://maomaohu.net/publication/</link>
     </image>
+    
+    <item>
+      <title>A hybrid physics-based and data-driven framework for spatiotemporal prediction of urban microclimate across climate zones</title>
+      <link></link>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data-driven characterization of spatio-temporal correlations between AC terminals and occupied zones for zone-based control in large built environments</title>
+      <link></link>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Optimizing Heat Pump and Electric Vehicle Flexibility through Predictive Home Energy Management Systems within Urban Energy Digital Twins</title>
