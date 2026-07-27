@@ -5,7 +5,7 @@
     <link>https://maomaohu.net/</link>
       <atom:link href="https://maomaohu.net/index.xml" rel="self" type="application/rss+xml" />
     <description>Maomao Hu | National University of Singapore</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2026 BIOR Lab</copyright><lastBuildDate>Tue, 14 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2026 BIOR Lab</copyright><lastBuildDate>Sun, 26 Jul 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maomaohu.net/images/logo.svg</url>
       <title>Maomao Hu | National University of Singapore</title>
@@ -18,6 +18,31 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://maomaohu.net/contact/contact/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>July 2026 | S$3.06M Singapore-Korea Grant Awarded to Advance DER Flexibility and Feeder Resilience</title>
+      <link>https://maomaohu.net/post/post_67_funding_award/</link>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/post/post_67_funding_award/</guid>
+      <description>&lt;figure style=&#34;text-align: center;&#34;&gt;
+  &lt;img src=&#34;https://maomaohu.net/img/SG_PV_and_BESS.png&#34;&gt;
+&lt;/figure&gt;
+&lt;p&gt;Excited to share that our Singapore-South Korea 🇸🇬 🇰🇷 team has secured approximately &lt;strong&gt;S$3.06 million&lt;/strong&gt; in combined funding through the EMA-KETEP Joint Grant Call.&lt;/p&gt;
+&lt;p&gt;The call is jointly supported by Singapore’s &lt;strong&gt;Energy Market Authority (EMA)&lt;/strong&gt; and the &lt;strong&gt;Korea Institute of Energy Technology Evaluation and Planning (KETEP)&lt;/strong&gt;. Our funded project is titled: “&lt;em&gt;From DER Flexibility to Feeder Resilience: Online Estimation, Feeder-Aware Aggregation, and Quantum-Accelerated Coordination&lt;/em&gt;”.&lt;/p&gt;
+&lt;p&gt;The growing deployment of distributed energy resources (DERs), including PVs, battery energy storage systems (BESSs), and EV chargers, will make power grid operation increasingly complex in Singapore and Korea. The uncoordinated operation of DERs may contribute to network congestion and capacity constraints. However, when properly managed, these resources can provide valuable flexibility, support power system needs, and strengthen grid resilience.&lt;/p&gt;
+&lt;p&gt;Our project aims to translate the device-level flexibility of PVs, EVs, and individual and shared BESSs into feeder-level resilience through online flexibility estimation, feeder-aware aggregation, quantum-accelerated coordination, and GIS-based digital twins.&lt;/p&gt;
+&lt;p&gt;A big thank you to my amazing team members:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Dipti Srinivasan&lt;/strong&gt;, &lt;strong&gt;Adrian Chong&lt;/strong&gt;, and &lt;strong&gt;Yu Qian Ang&lt;/strong&gt; (National University of Singapore);&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mike Nian&lt;/strong&gt; (Green Union);&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;DongHyuk Yi&lt;/strong&gt; (NINEWATT);&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Jung Min Han&lt;/strong&gt; and &lt;strong&gt;Junghwan Kim&lt;/strong&gt; (Yonsei University);&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Yeonsook Heo&lt;/strong&gt; (Korea University).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A heartfelt thank you to Energy Market Authority (EMA) and KETEP for supporting this international research collaboration.&lt;/p&gt;
+&lt;p&gt;Multiple postdoctoral positions will be available through this project. Stay tuned!&lt;/p&gt;
+</description>
     </item>
     
     <item>
