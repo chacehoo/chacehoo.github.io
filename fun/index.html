@@ -669,7 +669,7 @@
   
   
 
-  <section id="2026" class="home-section wg-blank   "  >
+  <section id="photos" class="home-section wg-blank   "  >
     <div class="container">
       
 
@@ -678,91 +678,247 @@
   
     <div class="col-lg-12">
       <div class="section-heading" style="margin-bottom: 1.5rem;">
-        <h1 style="text-align: center; font-weight: 700;">2026</h1>
+        
         
       </div>
-      <figure style="text-align: center;">
-  <img src="https://maomaohu.net/img/Group_photo_Aug_2026.jpg"">
-  <figcaption style="text-align: right;">Farewell to Xiaohan and Pengyu, and a warm welcome to Filippo @ East Coast Park, August, 2026</figcaption>
-</figure>
+      <style>
+html,
+body {
+  scroll-behavior: auto !important;
+}
 
-    </div>
-  
+.gallery-page {
+  display: flex;
+  align-items: flex-start;
+  gap: 44px;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.gallery-sidebar {
+  width: 250px;
+  flex: 0 0 250px;
+  position: sticky;
+  top: 100px;
+  z-index: 100;
+  background: #ffffff;
+}
+
+.gallery-sidebar a {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding: 14px 16px 14px 18px;
+  margin: 0 0 8px;
+  border: 1px solid #e5e5e5;
+  border-left: 5px solid transparent;
+  background: #ffffff;
+  color: #ef7c00;
+  text-decoration: none;
+  font-size: 1.02rem;
+  line-height: 1.35;
+  font-weight: 500;
+}
+
+.gallery-sidebar a:hover,
+.gallery-sidebar a.active {
+  background: #f7f9fc;
+  color: #003d7c;
+  border-left-color: #ef7c00;
+}
+
+.gallery-sidebar a.active {
+  font-weight: 700;
+}
+
+.gallery-main {
+  flex: 1;
+  min-width: 0;
+}
+
+.gallery-page-title {
+  margin: 1.5rem 0 2.8rem;
+  color: #003d7c;
+  text-align: center;
+  font-size: clamp(2rem, 3.5vw, 3rem);
+  font-weight: 800;
+}
+
+.gallery-year-title {
+  margin: 1.5rem 0 2.3rem;
+  color: #ef7c00;
+  text-align: center;
+  font-size: clamp(1.9rem, 3.2vw, 2.6rem);
+  font-weight: 800;
+  scroll-margin-top: 120px;
+}
+
+.gallery-year-title::after {
+  content: "";
+  display: block;
+  width: 52px;
+  height: 4px;
+  margin: 12px auto 0;
+  border-radius: 999px;
+  background: #ef7c00;
+}
+
+.gallery-photo-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  width: 80%;
+  max-width: 1050px;
+  margin: 0 auto 64px;
+}
+
+.gallery-photo {
+  margin: 0;
+}
+
+.gallery-photo-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.gallery-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.gallery-photo figcaption {
+  padding-top: 8px;
+  color: #5f6876;
+  font-size: 0.98rem;
+  line-height: 1.45;
+  text-align: right;
+}
+
+@media (max-width: 992px) {
+  .gallery-page {
+    display: block;
+    padding: 0 16px;
+  }
+
+  .gallery-sidebar {
+    position: static;
+    width: 100%;
+    margin-bottom: 28px;
+  }
+
+  .gallery-sidebar a {
+    padding: 12px 14px;
+    font-size: 0.98rem;
+  }
+
+  .gallery-photo-list {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+<div class="gallery-page">
+<aside class="gallery-sidebar" aria-label="Year navigation">
+  <a href="#year-2026" class="active">2026</a>
+  <a href="#year-2025">2025</a>
+</aside>
+<main class="gallery-main">
+<h1 class="gallery-page-title">Group Photos</h1>
+<h2 id="year-2026" class="gallery-year-title">2026</h2>
+<div class="gallery-photo-list">
+<figure class="gallery-photo">
+  <img
+    src="https://maomaohu.net/img/Group_photo_Aug_2026.jpg"
+    alt="BIOR group gathering at East Coast Park in August 2026"
+  >
+  <figcaption>
+    Farewell to Xiaohan and Pengyu, and a warm welcome to Filippo at East Coast Park, August 2026
+  </figcaption>
+</figure>
 </div>
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="2025" class="home-section wg-blank   "  >
-    <div class="container">
-      
-
-
-<div class="row">
-  
-    <div class="col-lg-12">
-      <div class="section-heading" style="margin-bottom: 1.5rem;">
-        <h1 style="text-align: center; font-weight: 700;">2025</h1>
-        
-      </div>
-      <figure style="text-align: center;">
-  <img src="https://maomaohu.net/img/Farewell_with_Chengshen.JPG"">
-  <figcaption style="text-align: right;">Farewell to Chengshen, and a warm welcome to Liangcai, Terry, Xiaohan, and Pengyu, Sep, 2025</figcaption>
+<h2 id="year-2025" class="gallery-year-title">2025</h2>
+<div class="gallery-photo-list">
+<figure class="gallery-photo">
+  <img
+    src="https://maomaohu.net/img/Farewell_with_Chengshen.JPG"
+    alt="Farewell to Chengshen and welcome gathering in September 2025"
+  >
+  <figcaption>
+    Farewell to Chengshen, and a warm welcome to Liangcai, Terry, Xiaohan, and Pengyu, September 2025
+  </figcaption>
 </figure>
-<figure style="text-align: center;">
-  <img src="https://maomaohu.net/img/Farewell_with_Hafeez.jpg"">
-  <figcaption style="text-align: right;">Group photo taken after Hafeez’s farewell lunch, July, 2025</figcaption>
+<figure class="gallery-photo">
+  <img
+    src="https://maomaohu.net/img/Farewell_with_Hafeez.jpg"
+    alt="Group photo after Hafeez's farewell lunch in July 2025"
+  >
+  <figcaption>
+    Group photo taken after Hafeez’s farewell lunch, July 2025
+  </figcaption>
 </figure>
-<br>
-<figure style="text-align: center;">
-  <img src="https://maomaohu.net/img/Farewell_lunch_for_Nico.PNG"">
-  <figcaption style="text-align: right;">Farewell lunch for Nico, April, 2025</figcaption>
+<figure class="gallery-photo">
+  <img
+    src="https://maomaohu.net/img/Farewell_lunch_for_Nico.PNG"
+    alt="Farewell lunch for Nico in April 2025"
+  >
+  <figcaption>Farewell lunch for Nico, April 2025</figcaption>
 </figure>
-<br>
-<figure style="text-align: center;">
-  <div style="display: flex; flex-direction: column; gap: 20px;">
+<figure class="gallery-photo">
+  <div class="gallery-photo-stack">
     <img
       src="https://maomaohu.net/img/Group_retreat_March_2025.jpg"
-      style="width: 100%; height: auto;"
+      alt="BIOR group retreat at East Coast Park in March 2025"
     >
     <img
       src="https://maomaohu.net/img/Group_photo_Mar_2025.PNG"
-      style="width: 100%; height: auto;"
+      alt="BIOR group photo at East Coast Park in March 2025"
     >
   </div>
-  <figcaption style="text-align: right; margin-top: 10px;">
-    Group retreat at East Coast Park, March 2025
-  </figcaption>
+  <figcaption>Group retreat at East Coast Park, March 2025</figcaption>
 </figure>
+</div>
+</main>
+</div>
+<script>
+const gallerySections = document.querySelectorAll(".gallery-main h2[id]");
+const galleryNavLinks = document.querySelectorAll(".gallery-sidebar a");
+
+function setActiveGalleryYear() {
+  let currentId = gallerySections[0]?.id || "";
+  const offset = 140;
+
+  gallerySections.forEach(section => {
+    if (window.scrollY >= section.offsetTop - offset) {
+      currentId = section.id;
+    }
+  });
+
+  galleryNavLinks.forEach(link => {
+    link.classList.toggle("active", link.getAttribute("href") === "#" + currentId);
+  });
+}
+
+galleryNavLinks.forEach(link => {
+  link.addEventListener("click", function (event) {
+    event.preventDefault();
+    const target = document.querySelector(this.getAttribute("href"));
+
+    if (target) {
+      const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - 110;
+      window.scrollTo({ top: targetPosition, behavior: "auto" });
+      history.pushState(null, null, this.getAttribute("href"));
+      setActiveGalleryYear();
+    }
+  });
+});
+
+window.addEventListener("scroll", setActiveGalleryYear, { passive: true });
+window.addEventListener("load", setActiveGalleryYear);
+window.addEventListener("resize", setActiveGalleryYear);
+</script>
 
     </div>
   
