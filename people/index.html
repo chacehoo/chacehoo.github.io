@@ -1562,7 +1562,71 @@
   
   
 
-  <section id="people_4_MSc" class="home-section wg-people   " style="padding: 30px 0 30px 0;" >
+  <section id="people_4_RA" class="home-section wg-people   " style="padding: 30px 0 30px 0;" >
+    <div class="container">
+      
+
+
+
+
+
+
+
+<div class="row justify-content-center people-widget">
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="people_5_MSc" class="home-section wg-people   " style="padding: 30px 0 30px 0;" >
     <div class="container">
       
 
@@ -1611,7 +1675,7 @@
     <div class="portrait-title">
       <h2><a href="/members/terryjiaruihe/">Terry Jiarui He</a></h2>
       
-      <h3>BSc, Hong Kong Polytechnic University</h3>
+      <h3>BSc, Hong Kong Polytechnic University; MSc, National University of Singapore</h3>
       <ul class="network-icon" aria-hidden="true">
   
     
@@ -1691,7 +1755,7 @@
   
   
 
-  <section id="people_5_Visiting_students" class="home-section wg-people   " style="padding: 30px 0 30px 0;" >
+  <section id="people_6_Visiting_students" class="home-section wg-people   " style="padding: 30px 0 30px 0;" >
     <div class="container">
       
 
@@ -2017,7 +2081,7 @@
   
   
 
-  <section id="people_6_Barkchelor_Candidate" class="home-section wg-people   " style="padding: 30px 0 30px 0;" >
+  <section id="people_7_Barkchelor_Candidate" class="home-section wg-people   " style="padding: 30px 0 30px 0;" >
     <div class="container">
       
 
@@ -2108,7 +2172,7 @@
   
   
 
-  <section id="people_7_former_lab_members" class="home-section wg-blank   "  >
+  <section id="people_8_former_lab_members" class="home-section wg-blank   "  >
     <div class="container">
       
 
@@ -2125,7 +2189,7 @@
   width: 100%;
   overflow-x: auto;
   margin: 0 auto;
-  padding: 10px 0 30px 0;
+  padding: 10px 0 30px;
 }
 
 .former-members-table {
@@ -2165,13 +2229,11 @@
   border-bottom: 1px solid #eeeeee;
 }
 
-.former-members-table tbody tr:last-child td {
-  border-bottom: none;
-}
-
 .former-members-table tbody tr:hover {
   background: #f7f9fc;
 }
+
+/* Member profile */
 
 .former-member-profile {
   display: flex;
@@ -2209,6 +2271,8 @@
   white-space: nowrap;
 }
 
+/* Contact icon */
+
 .former-member-contact a {
   display: inline-flex;
   align-items: center;
@@ -2219,17 +2283,96 @@
   background: #fff4e8;
   color: #EF7C00;
   text-decoration: none;
-  transition: all 0.2s ease;
+  transition:
+    color 0.2s ease,
+    background 0.2s ease;
 }
 
 .former-member-contact a:hover {
-  background: #EF7C00;
   color: #ffffff;
+  background: #EF7C00;
 }
 
 .former-member-contact i {
   font-size: 18px;
 }
+
+/* Hide all members after the first three */
+
+.former-member-extra {
+  display: none;
+}
+
+/* Show additional members after clicking the arrow */
+
+.former-members-table.is-expanded .former-member-extra {
+  display: table-row;
+  animation: show-former-member 0.25s ease-out;
+}
+
+@keyframes show-former-member {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* Arrow row */
+
+.former-members-table tfoot td {
+  padding: 0;
+  border: none;
+  background: #ffffff;
+}
+
+.former-members-expand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 34px;
+  padding: 0;
+  color: #EF7C00;
+  background: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.former-members-expand:hover {
+  background: #fff4e8;
+}
+
+.former-members-expand:focus-visible {
+  outline: 3px solid rgba(239, 124, 0, 0.3);
+  outline-offset: -3px;
+}
+
+/* Small downward arrow */
+
+.former-members-arrow {
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin-top: -4px;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(45deg);
+  transition: transform 0.25s ease;
+}
+
+/* Point arrow upward when expanded */
+
+.former-members-expand[aria-expanded="true"]
+.former-members-arrow {
+  margin-top: 4px;
+  transform: rotate(225deg);
+}
+
+/* Mobile layout */
 
 @media (max-width: 768px) {
   .former-members-table {
@@ -2259,114 +2402,278 @@
       </tr>
     </thead>
     <tbody>
+      <!-- Member 1: visible by default -->
       <tr>
         <td>
           <div class="former-member-profile">
-            <img src="https://maomaohu.net/img/former_member_Xiaohan.jpg" alt="Xiaohan Shen">
-            <div class="former-member-name">Xiaohan Shen</div>
+            <img
+              src="https://maomaohu.net/img/former_member_Xiaohan.jpg"
+              alt="Xiaohan Shen"
+            >
+            <div class="former-member-name">
+              Xiaohan Shen
+            </div>
           </div>
         </td>
-        <td class="former-member-role">Visiting student, Southeast University</td>
-        <td class="former-member-period">Aug 2025 – Aug 2026</td>
+        <td class="former-member-role">
+          Visiting student, Southeast University
+        </td>
+        <td class="former-member-period">
+          Aug 2025 – Aug 2026
+        </td>
         <td class="former-member-contact">
-          <a href="https://orcid.org/0009-0001-4579-1980" target="_blank" rel="noopener" aria-label="ORCID profile">
+          <a
+            href="https://orcid.org/0009-0001-4579-1980"
+            target="_blank"
+            rel="noopener"
+            aria-label="Xiaohan Shen's ORCID profile"
+          >
             <i class="fab fa-orcid"></i>
           </a>
         </td>
       </tr>
+      <!-- Member 2: visible by default -->
       <tr>
         <td>
           <div class="former-member-profile">
-            <img src="https://maomaohu.net/img/former_member_Chengshen.png" alt="Chengshen Zhang">
-            <div class="former-member-name">Chengshen Zhang</div>
+            <img
+              src="https://maomaohu.net/img/former_member_Chengshen.png"
+              alt="Chengshen Zhang"
+            >
+            <div class="former-member-name">
+              Chengshen Zhang
+            </div>
           </div>
         </td>
-        <td class="former-member-role">Visiting student, Southeast University</td>
-        <td class="former-member-period">Sep 2024 – Sep 2025</td>
+        <td class="former-member-role">
+          Visiting student, Southeast University
+        </td>
+        <td class="former-member-period">
+          Sep 2024 – Sep 2025
+        </td>
         <td class="former-member-contact">
-          <a href="https://www.linkedin.com/in/chengshen-zhang-ba30b22b8/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <a
+            href="https://www.linkedin.com/in/chengshen-zhang-ba30b22b8/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Chengshen Zhang's LinkedIn profile"
+          >
             <i class="fab fa-linkedin-in"></i>
           </a>
         </td>
       </tr>
+      <!-- Member 3: visible by default -->
       <tr>
         <td>
           <div class="former-member-profile">
-            <img src="https://maomaohu.net/img/former_member_hafeez.png" alt="Muhammad Hafeez Saeed">
-            <div class="former-member-name">Muhammad Hafeez Saeed</div>
+            <img
+              src="https://maomaohu.net/img/former_member_hafeez.png"
+              alt="Muhammad Hafeez Saeed"
+            >
+            <div class="former-member-name">
+              Muhammad Hafeez Saeed
+            </div>
           </div>
         </td>
-        <td class="former-member-role">Visiting student, KU Leuven</td>
-        <td class="former-member-period">May 2025 – Aug 2025</td>
+        <td class="former-member-role">
+          Visiting student, KU Leuven
+        </td>
+        <td class="former-member-period">
+          May 2025 – Aug 2025
+        </td>
         <td class="former-member-contact">
-          <a href="https://www.linkedin.com/in/mhafeezsaeed/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <a
+            href="https://www.linkedin.com/in/mhafeezsaeed/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Muhammad Hafeez Saeed's LinkedIn profile"
+          >
             <i class="fab fa-linkedin-in"></i>
           </a>
         </td>
       </tr>
-      <tr>
+      <!-- Additional members: hidden by default -->
+      <tr class="former-member-extra">
         <td>
           <div class="former-member-profile">
-            <img src="https://maomaohu.net/img/former_member_arthur.jpg" alt="Arthur Dattin">
-            <div class="former-member-name">Arthur Dattin</div>
+            <img
+              src="https://maomaohu.net/img/former_member_arthur.jpg"
+              alt="Arthur Dattin"
+            >
+            <div class="former-member-name">
+              Arthur Dattin
+            </div>
           </div>
         </td>
-        <td class="former-member-role">Visiting student, ETH Zurich</td>
-        <td class="former-member-period">Jun 2025 – Jul 2025</td>
+        <td class="former-member-role">
+          Visiting student, ETH Zurich
+        </td>
+        <td class="former-member-period">
+          Jun 2025 – Jul 2025
+        </td>
         <td class="former-member-contact">
-          <a href="https://www.linkedin.com/in/arthur-dattin-941958235/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <a
+            href="https://www.linkedin.com/in/arthur-dattin-941958235/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Arthur Dattin's LinkedIn profile"
+          >
             <i class="fab fa-linkedin-in"></i>
           </a>
         </td>
       </tr>
-      <tr>
+      <tr class="former-member-extra">
         <td>
           <div class="former-member-profile">
-            <img src="https://maomaohu.net/img/former_member_Qi.jpg" alt="Qi Li">
-            <div class="former-member-name">Qi Li</div>
+            <img
+              src="https://maomaohu.net/img/former_member_Qi.jpg"
+              alt="Qi Li"
+            >
+            <div class="former-member-name">
+              Qi Li
+            </div>
           </div>
         </td>
-        <td class="former-member-role">Visiting student, City University of Hong Kong</td>
-        <td class="former-member-period">Aug 2024 – May 2025</td>
+        <td class="former-member-role">
+          Visiting student, City University of Hong Kong
+        </td>
+        <td class="former-member-period">
+          Aug 2024 – May 2025
+        </td>
         <td class="former-member-contact">
-          <a href="https://www.linkedin.com/in/qi-li-6686862b8/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <a
+            href="https://www.linkedin.com/in/qi-li-6686862b8/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Qi Li's LinkedIn profile"
+          >
             <i class="fab fa-linkedin-in"></i>
           </a>
         </td>
       </tr>
-      <tr>
+      <tr class="former-member-extra">
         <td>
           <div class="former-member-profile">
-            <img src="https://maomaohu.net/img/former_member_Nico.jpg" alt="Nico Yannik Fuchs">
-            <div class="former-member-name">Nico Yannik Fuchs</div>
+            <img
+              src="https://maomaohu.net/img/former_member_Nico.jpg"
+              alt="Nico Yannik Fuchs"
+            >
+            <div class="former-member-name">
+              Nico Yannik Fuchs
+            </div>
           </div>
         </td>
-        <td class="former-member-role">Visiting student, RWTH Aachen University</td>
-        <td class="former-member-period">Jan 2025 – Apr 2025</td>
+        <td class="former-member-role">
+          Visiting student, RWTH Aachen University
+        </td>
+        <td class="former-member-period">
+          Jan 2025 – Apr 2025
+        </td>
         <td class="former-member-contact">
-          <a href="https://www.linkedin.com/in/nico-fuchs-4175431b8/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <a
+            href="https://www.linkedin.com/in/nico-fuchs-4175431b8/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Nico Yannik Fuchs's LinkedIn profile"
+          >
             <i class="fab fa-linkedin-in"></i>
           </a>
         </td>
       </tr>
-      <tr>
+      <tr class="former-member-extra">
         <td>
           <div class="former-member-profile">
-            <img src="https://maomaohu.net/img/former_member_Hongyu.jpg" alt="Hongyu Wang">
-            <div class="former-member-name">Hongyu Wang</div>
+            <img
+              src="https://maomaohu.net/img/former_member_Hongyu.jpg"
+              alt="Hongyu Wang"
+            >
+            <div class="former-member-name">
+              Hongyu Wang
+            </div>
           </div>
         </td>
-        <td class="former-member-role">Visiting student, Southeast University</td>
-        <td class="former-member-period">Aug 2024 – Dec 2024</td>
+        <td class="former-member-role">
+          Visiting student, Southeast University
+        </td>
+        <td class="former-member-period">
+          Aug 2024 – Dec 2024
+        </td>
         <td class="former-member-contact">
-          <a href="https://www.linkedin.com/in/hongyu-wang-14b379309" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <a
+            href="https://www.linkedin.com/in/hongyu-wang-14b379309"
+            target="_blank"
+            rel="noopener"
+            aria-label="Hongyu Wang's LinkedIn profile"
+          >
             <i class="fab fa-linkedin-in"></i>
           </a>
         </td>
       </tr>
     </tbody>
+    <!--
+      When collapsed, this arrow appears after the third member.
+      When expanded, it automatically moves below the final member.
+    -->
+    <tfoot>
+      <tr>
+        <td colspan="4">
+          <button
+            class="former-members-expand"
+            type="button"
+            aria-expanded="false"
+            aria-label="Show all former lab members"
+          >
+            <span
+              class="former-members-arrow"
+              aria-hidden="true"
+            ></span>
+          </button>
+        </td>
+      </tr>
+    </tfoot>
   </table>
 </div>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const tables = document.querySelectorAll(
+    ".former-members-table"
+  );
+
+  tables.forEach(function (table) {
+    const button = table.querySelector(
+      ".former-members-expand"
+    );
+
+    if (!button) {
+      return;
+    }
+
+    button.addEventListener("click", function () {
+      const isExpanded =
+        button.getAttribute("aria-expanded") === "true";
+
+      table.classList.toggle(
+        "is-expanded",
+        !isExpanded
+      );
+
+      button.setAttribute(
+        "aria-expanded",
+        String(!isExpanded)
+      );
+
+      button.setAttribute(
+        "aria-label",
+        isExpanded
+          ? "Show all former lab members"
+          : "Show fewer former lab members"
+      );
+    });
+  });
+});
+</script><blockquote>
+</blockquote>
+
     </div>
   
 </div>
@@ -2403,7 +2710,7 @@
   
   
 
-  <section id="people_8_Group_Photos" class="home-section wg-blank   "  >
+  <section id="people_9_Group_Photos" class="home-section wg-blank   "  >
     <div class="container">
       
 
