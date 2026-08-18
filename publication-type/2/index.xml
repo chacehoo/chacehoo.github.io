@@ -5,12 +5,28 @@
     <link>https://maomaohu.net/publication-type/2/</link>
       <atom:link href="https://maomaohu.net/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2026 BIOR Lab</copyright><lastBuildDate>Tue, 14 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2026 BIOR Lab</copyright><lastBuildDate>Fri, 14 Aug 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maomaohu.net/images/logo.svg</url>
       <title>2</title>
       <link>https://maomaohu.net/publication-type/2/</link>
     </image>
+    
+    <item>
+      <title>Delivering building demand flexibility for grid-interactive operation: from perception and cognition to decision, execution, and verification</title>
+      <link></link>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Temporal graph convolutional networks with morphological adjacency matrix: microclimate prediction for building energy modeling</title>
+      <link></link>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A hybrid physics-based and data-driven framework for spatiotemporal prediction of urban microclimate across climate zones</title>
