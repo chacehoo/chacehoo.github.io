@@ -2381,13 +2381,13 @@
 
 /* Hide all members after the first three */
 
-.former-member-extra {
+.former-members-table > tbody > tr:nth-child(n + 4) {
   display: none;
 }
 
 /* Show additional members after clicking the arrow */
 
-.former-members-table.is-expanded .former-member-extra {
+.former-members-table.is-expanded > tbody > tr:nth-child(n + 4) {
   display: table-row;
   animation: show-former-member 0.25s ease-out;
 }
@@ -2484,7 +2484,36 @@
       </tr>
     </thead>
     <tbody>
-      <!-- Member 1: visible by default -->
+      <!-- Add new members here, newest first. Only the first three rows are visible until expanded. -->
+<tr>
+        <td>
+          <div class="former-member-profile">
+            <img
+              src="https://maomaohu.net/img/former_member_pengyu.jpg"
+              alt="Pengyu Jie"
+            >
+            <div class="former-member-name">
+              Pengyu Jie
+            </div>
+          </div>
+        </td>
+        <td class="former-member-role">
+          Visiting student, Tongji University
+        </td>
+        <td class="former-member-period">
+          Sep 2025 – Sep 2026
+        </td>
+        <td class="former-member-contact">
+          <a
+            href="https://www.linkedin.com/in/pengyu-jie-12b7b036a"
+            target="_blank"
+            rel="noopener"
+            aria-label="Pengyu's Linkedin"
+          >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </td>
+      </tr>
       <tr>
         <td>
           <div class="former-member-profile">
@@ -2514,7 +2543,6 @@
           </a>
         </td>
       </tr>
-      <!-- Member 2: visible by default -->
       <tr>
         <td>
           <div class="former-member-profile">
@@ -2544,7 +2572,6 @@
           </a>
         </td>
       </tr>
-      <!-- Member 3: visible by default -->
       <tr>
         <td>
           <div class="former-member-profile">
@@ -2574,8 +2601,7 @@
           </a>
         </td>
       </tr>
-      <!-- Additional members: hidden by default -->
-      <tr class="former-member-extra">
+      <tr>
         <td>
           <div class="former-member-profile">
             <img
@@ -2604,7 +2630,7 @@
           </a>
         </td>
       </tr>
-      <tr class="former-member-extra">
+      <tr>
         <td>
           <div class="former-member-profile">
             <img
@@ -2633,7 +2659,7 @@
           </a>
         </td>
       </tr>
-      <tr class="former-member-extra">
+      <tr>
         <td>
           <div class="former-member-profile">
             <img
@@ -2662,7 +2688,7 @@
           </a>
         </td>
       </tr>
-      <tr class="former-member-extra">
+      <tr>
         <td>
           <div class="former-member-profile">
             <img
@@ -2727,6 +2753,12 @@ document.addEventListener("DOMContentLoaded", function () {
     );
 
     if (!button) {
+      return;
+    }
+
+    // No expand control is needed when all members already fit.
+    if (table.tBodies[0].rows.length <= 3) {
+      table.tFoot.hidden = true;
       return;
     }
 
