@@ -944,6 +944,36 @@ body {
   text-decoration: underline !important;
 }
 
+.research-figure figcaption.dt-links {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  padding: 20px 0 0;
+}
+
+.research-figure .dt-links a {
+  justify-self: center;
+  margin: 0;
+  padding: 8px 0;
+  font-size: 0.85rem;
+  font-weight: 600;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
+.research-figure .dt-links a:focus-visible {
+  outline: 2px solid #003D7C;
+  outline-offset: 4px;
+}
+
+@media (max-width: 575px) {
+  .research-figure figcaption.dt-links {
+    grid-template-columns: 1fr;
+    gap: 4px;
+    padding-top: 12px;
+  }
+}
+
 .access-note {
   display: block;
   margin-top: 4px;
@@ -1140,11 +1170,10 @@ We employ a multifaceted approach that encompasses data analytics & machine lear
 <div class="research-media">
 <img src="https://maomaohu.net/img/omni_dt.png" alt="Omni Digital Twins">
 </div>
-<figcaption>
-Omni Digital Twins
-<a href="https://urbandt.org/" target="_blank" rel="noopener">[Visit Urban DT]</a>
-<a href="https://campusdt.org/" target="_blank" rel="noopener">[Visit District DT]</a>
-<a href="https://www.buildingdt.org/" target="_blank" rel="noopener">[Visit Building DT]</a>
+<figcaption class="dt-links">
+<a href="https://urbandt.org/" target="_blank" rel="noopener">Explore Urban DT <span aria-hidden="true">↗</span></a>
+<a href="https://campusdt.org/" target="_blank" rel="noopener">Explore District DT <span aria-hidden="true">↗</span></a>
+<a href="https://www.buildingdt.org/" target="_blank" rel="noopener">Explore Building DT <span aria-hidden="true">↗</span></a>
 </figcaption>
 </figure>
 <!-- <figure class="research-figure">
@@ -1397,8 +1426,7 @@ navLinks.forEach(link => {
 window.addEventListener("scroll", setActiveLink);
 window.addEventListener("load", setActiveLink);
 window.addEventListener("resize", setActiveLink);
-</script><blockquote>
-</blockquote>
+</script>
 
     </div>
   
