@@ -881,7 +881,7 @@ body {
   font-weight: 800;
 }
 
-.research-card-grid {
+.research-figures {
   display: grid;
   grid-template-columns: 1fr;
   gap: 24px;
@@ -890,75 +890,56 @@ body {
   margin: 24px auto 48px auto;
 }
 
-.research-card-grid.three-cards {
-  grid-template-columns: 1fr;
-  width: 80%;
-  max-width: 1050px;
-  gap: 24px;
-}
-
-.research-card {
+.research-figure {
   margin: 0;
-  background: #ffffff;
-  border-radius: 18px;
-  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.07);
-  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
   text-align: center;
 }
 
-.research-card-image-wrap {
+.research-media {
   width: 100%;
-  background: #ffffff;
 }
 
-.research-card-grid.three-cards .research-card-image-wrap {
-  aspect-ratio: 16 / 9;
-  overflow: hidden;
-}
-
-.research-card img {
+.research-figure img {
   width: 100%;
   height: auto;
   display: block;
 }
 
-.research-card-grid.three-cards .research-card img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.research-card iframe {
+.research-figure iframe {
   width: 100%;
   aspect-ratio: 16 / 9;
   border: 0;
   display: block;
 }
 
-.research-card figcaption {
-  padding: 14px 18px 18px 18px;
+.research-figure figcaption {
+  padding: 14px 0 0;
   line-height: 1.45;
   font-size: 0.98rem;
-  background: #ffffff;
+  background: transparent;
   color: #5f6876;
   text-align: center;
 }
 
-.research-card figcaption.left-caption {
+.research-figure figcaption.left-caption {
   text-align: left;
   line-height: 1.65;
   font-size: 1.02rem;
 }
 
-/* All card links in NUS yellow */
-.research-card figcaption a {
+/* Figure links in NUS yellow */
+.research-figure figcaption a {
   color: #EF7C00 !important;
   font-weight: 500;
   text-decoration: none !important;
   margin-left: 6px;
 }
 
-.research-card figcaption a:hover {
+.research-figure figcaption a:hover {
   color: #003D7C !important;
   text-decoration: underline !important;
 }
@@ -1040,13 +1021,7 @@ code {
     font-size: clamp(0.95rem, 4vw, 1.05rem);
   }
 
-  .research-card-grid {
-    width: 100%;
-    max-width: 100%;
-  }
-
-  .research-card-grid.three-cards {
-    grid-template-columns: 1fr;
+  .research-figures {
     width: 100%;
     max-width: 100%;
   }
@@ -1127,9 +1102,9 @@ We employ a multifaceted approach that encompasses data analytics & machine lear
     Flexible, Resilient, Efficient, and Equitable (FREE) multi-scale building-integrated energy systems with distributed energy resources (DERs)
   </span>
 </h3>
-<div class="research-card-grid">
-<figure class="research-card">
-<div class="research-card-image-wrap">
+<div class="research-figures">
+<figure class="research-figure">
+<div class="research-media">
 <img src="https://maomaohu.net/img/thrust_1_0.jpg" alt="Complex Cyber-Physical District Energy System">
 </div>
 <figcaption>
@@ -1140,8 +1115,8 @@ We employ a multifaceted approach that encompasses data analytics & machine lear
 </div>
 </figcaption>
 </figure>
-<figure class="research-card">
-<div class="research-card-image-wrap">
+<figure class="research-figure">
+<div class="research-media">
 <img src="https://maomaohu.net/img/thrust_1_1.jpg" alt="Coordination and Negotiation in a Cyber-Physical Multi-Entity Residential Microgrid">
 </div>
 <figcaption>
@@ -1160,9 +1135,9 @@ We employ a multifaceted approach that encompasses data analytics & machine lear
     Multi-scale digital twins (DT) and energy management information system (EMIS)
   </span>
 </h3>
-<div class="research-card-grid three-cards">
-<figure class="research-card">
-<div class="research-card-image-wrap">
+<div class="research-figures">
+<figure class="research-figure">
+<div class="research-media">
 <img src="https://maomaohu.net/img/omni_dt.png" alt="Omni Digital Twins">
 </div>
 <figcaption>
@@ -1172,8 +1147,8 @@ Omni Digital Twins
 <a href="https://www.buildingdt.org/" target="_blank" rel="noopener">[Visit Building DT]</a>
 </figcaption>
 </figure>
-<!-- <figure class="research-card">
-<div class="research-card-image-wrap">
+<!-- <figure class="research-figure">
+<div class="research-media">
 <img src="https://maomaohu.net/img/Urban_DT.png" alt="Urban Digital Twin">
 </div>
 <figcaption>
@@ -1182,8 +1157,8 @@ Urban Microclimate-Informed Digital Twins
 </figcaption>
 </figure>
 
-<figure class="research-card">
-<div class="research-card-image-wrap">
+<figure class="research-figure">
+<div class="research-media">
 <img src="https://maomaohu.net/img/Campus%20EMIS.png" alt="NUS campus Energy Management Information System">
 </div>
 <figcaption>
@@ -1193,8 +1168,8 @@ NUS Campus EMIS
 </figcaption>
 </figure>
 
-<figure class="research-card">
-<div class="research-card-image-wrap">
+<figure class="research-figure">
+<div class="research-media">
 <img src="https://maomaohu.net/img/Building_Room_DT.png" alt="Building Digital Twin">
 </div>
 <figcaption>
@@ -1212,9 +1187,9 @@ Building Digital Twins
     Model-based and learning-based optimal control
   </span>
 </h3>
-<div class="research-card-grid">
-<figure class="research-card">
-<div class="research-card-image-wrap">
+<div class="research-figures">
+<figure class="research-figure">
+<div class="research-media">
 <img src="https://maomaohu.net/img/thrust_2.jpg" alt="Schematic diagram of MPC for building energy systems">
 </div>
 <figcaption>
@@ -1232,9 +1207,9 @@ Schematic diagram of MPC for building energy systems
     AI for building and urban science and engineering (AI4BUSE)
   </span>
 </h3>
-<div class="research-card-grid">
-<figure class="research-card">
-<div class="research-card-image-wrap">
+<div class="research-figures">
+<figure class="research-figure">
+<div class="research-media">
 <img src="https://maomaohu.net/img/thrust_3_0.jpg" alt="Explainable Machine Learning using Large-Scale Smart Meter Data">
 </div>
 <figcaption>
@@ -1249,12 +1224,12 @@ Explainable machine learning using large-scale smart meter data
 <h3 class="research-subtitle">
   <span class="title-line">Center for Digital Building Technology</span>
 </h3>
-<div class="research-card-grid">
-<figure class="research-card">
-<div class="research-card-image-wrap">
+<div class="research-figures">
+<figure class="research-figure">
+<div class="research-media">
 <img src="https://maomaohu.net/img/center_for_digital_building_tech.jpg" alt="Center for Digital Building Technology">
 </div>
-<div class="research-card-image-wrap">
+<div class="research-media">
 <iframe
 src="https://www.youtube.com/embed/gY_YT0Vc8EA?si=YctpIQsh5_LxP-xr"
 title="Centre for Digital Building Technology"
@@ -1274,9 +1249,9 @@ since 2025. The center's primary mission is to enhance quality and productivity 
 <h3 class="research-subtitle">
   <span class="title-line">SDE 4, a net-zero energy building</span>
 </h3>
-<div class="research-card-grid">
-<figure class="research-card">
-<div class="research-card-image-wrap">
+<div class="research-figures">
+<figure class="research-figure">
+<div class="research-media">
 <img src="https://maomaohu.net/img/PV_2.png" alt="SDE 4, a net-zero energy building">
 </div>
 <figcaption class="left-caption">
@@ -1287,9 +1262,9 @@ SDE4 is Singapore’s first new-build net-zero energy building, designed to exem
 <h3 class="research-subtitle">
   <span class="title-line">Smart Green Home</span>
 </h3>
-<div class="research-card-grid">
-<figure class="research-card">
-<div class="research-card-image-wrap">
+<div class="research-figures">
+<figure class="research-figure">
+<div class="research-media">
 <img src="https://maomaohu.net/img/smart_green_home.jpg" alt="Smart Green Home">
 </div>
 <figcaption class="left-caption">
@@ -1300,9 +1275,9 @@ The Smart Green Home is a cutting-edge indoor test-bed dedicated to advancing re
 <h3 class="research-subtitle">
   <span class="title-line">District cooling systems on campus</span>
 </h3>
-<div class="research-card-grid">
-<figure class="research-card">
-<div class="research-card-image-wrap">
+<div class="research-figures">
+<figure class="research-figure">
+<div class="research-media">
 <img src="https://maomaohu.net/img/district_cooling_systems.png" alt="District Cooling Systems on Campus">
 </div>
 <figcaption class="left-caption">
