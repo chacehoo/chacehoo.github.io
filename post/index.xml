@@ -5,12 +5,28 @@
     <link>https://maomaohu.net/post/</link>
       <atom:link href="https://maomaohu.net/post/index.xml" rel="self" type="application/rss+xml" />
     <description>News and Updates</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2026 BIOR Lab</copyright><lastBuildDate>Fri, 02 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2026 BIOR Lab</copyright><lastBuildDate>Mon, 12 Oct 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maomaohu.net/images/logo.svg</url>
       <title>News and Updates</title>
       <link>https://maomaohu.net/post/</link>
     </image>
+    
+    <item>
+      <title>Oct 2026 | BIOR Lab Attended ICDIES 2026, and Dr. Hu Received an Outstanding Young Scholar Award</title>
+      <link>https://maomaohu.net/post/post_70_conference/</link>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/post/post_70_conference/</guid>
+      <description>&lt;p&gt;Our BIOR Lab members, Dr. Hu and Gaoyuan, had a fruitful time attending the 
+&lt;a href=&#34;https://conference.uow.edu.au/digital-intelligence-for-energy-systems/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Second International Conference on Digital Intelligence for Energy Systems (ICDIES 2026)&lt;/a&gt;, held in Wollongong, Australia, from 7–9 October 2026.&lt;/p&gt;
+&lt;p&gt;Extremely proud of Gaoyuan for presenting his work on &lt;em&gt;“Multi-scale Thermal Dynamics Modelling of Air-cooled Data Centres for Efficient Thermal Management.”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Dr. Hu also received an &lt;strong&gt;Outstanding Young Scholar Award&lt;/strong&gt;, recognising his research achievements, impact, and leadership potential in digital intelligence and energy systems.&lt;/p&gt;
+&lt;p&gt;It was a wonderful opportunity to share our latest research, connect with colleagues, and exchange ideas with the digital intelligence and energy systems community.&lt;/p&gt;
+&lt;figure style=&#34;text-align: center;&#34;&gt;
+  &lt;img src=&#34;https://maomaohu.net/img/conference_icdies2026.jpg&#34;&gt;
+&lt;/figure&gt;
+</description>
+    </item>
     
     <item>
       <title>Oct 2026 | Great to host Assistant Professor Hussain Kazmi from KU Leuven, Belgium.</title>
@@ -89,22 +105,6 @@
 &lt;p&gt;It was a wonderful opportunity to share our latest research, meet colleagues, and exchange ideas with the building simulation community.&lt;/p&gt;
 &lt;figure style=&#34;text-align: center;&#34;&gt;
   &lt;img src=&#34;https://maomaohu.net/img/BAS2026.jpg&#34;&gt;
-&lt;/figure&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>June 2026 | BIOR Lab at BAS 2026 in Hong Kong</title>
-      <link>https://maomaohu.net/post/post_70_conference/</link>
-      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://maomaohu.net/post/post_70_conference/</guid>
-      <description>&lt;p&gt;Our BIOR Lab members, Dr. Hu and Gaoyuan, had a fruitful time attending the 
-&lt;a href=&#34;https://conference.uow.edu.au/digital-intelligence-for-energy-systems/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Second International Conference on Digital Intelligence for Energy Systems (ICDIES 2026)&lt;/a&gt;, held in Wollongong, Australia, from 7–9 October 2026.&lt;/p&gt;
-&lt;p&gt;Extremely proud of Gaoyuan for presenting his work on &lt;em&gt;“Multi-scale Thermal Dynamics Modelling of Air-cooled Data Centres for Efficient Thermal Management.”&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Dr. Hu also received an &lt;strong&gt;Outstanding Young Scholar Award&lt;/strong&gt;, recognising his research achievements, impact, and leadership potential in digital intelligence and energy systems.&lt;/p&gt;
-&lt;p&gt;It was a wonderful opportunity to share our latest research, connect with colleagues, and exchange ideas with the digital intelligence and energy systems community.&lt;/p&gt;
-&lt;figure style=&#34;text-align: center;&#34;&gt;
-  &lt;img src=&#34;https://maomaohu.net/img/conference_icdies2026.jpg&#34;&gt;
 &lt;/figure&gt;
 </description>
     </item>
