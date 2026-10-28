@@ -5,12 +5,52 @@
     <link>https://maomaohu.net/post/</link>
       <atom:link href="https://maomaohu.net/post/index.xml" rel="self" type="application/rss+xml" />
     <description>News and Updates</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2026 BIOR Lab</copyright><lastBuildDate>Mon, 26 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2026 BIOR Lab</copyright><lastBuildDate>Wed, 28 Oct 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://maomaohu.net/images/logo.svg</url>
       <title>News and Updates</title>
       <link>https://maomaohu.net/post/</link>
     </image>
+    
+    <item>
+      <title>Oct 2026 | We are recruiting two postdoctoral research fellows on flexible and resilient energy systems.</title>
+      <link>https://maomaohu.net/post/post_72_recruitment/</link>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://maomaohu.net/post/post_72_recruitment/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Position&lt;/strong&gt;: Postdoctoral Research Fellow (Flexible and Resilient Energy Systems)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Job Description&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;The Building Informatics and Operations Research (BIOR) Lab at the National University of Singapore (NUS) is looking for two outstanding and highly motivated Postdoctoral Research Fellows to work on the modeling, aggregation, and advanced control of distributed energy resources (DERs) for energy flexibility and grid resilience. The postdoctoral research fellows will be advised by Assistant Professor Maomao Hu from the Department of the Built Environment, College of Design and Engineering, NUS.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;With minimum supervision, conduct independent research on flexibility characterization of DERs, including PV systems, EVs, battery energy storage systems, and flexible building loads.&lt;/li&gt;
+&lt;li&gt;Develop scalable methods for aggregating heterogeneous DER flexibility into flexibility envelopes.&lt;/li&gt;
+&lt;li&gt;Formulate optimization problems and develop scalable coordination algorithms for DER scheduling and dispatch.&lt;/li&gt;
+&lt;li&gt;Develop and integrate computational models into a high-fidelity simulation and digital twin platform, and validate flexibility models and optimization algorithms using operational data and field test results.&lt;/li&gt;
+&lt;li&gt;Publish scientific papers in high-impact journals and present findings at seminars and conferences.&lt;/li&gt;
+&lt;li&gt;Work closely with Postdocs, PhD students, and Research Assistants within the research group and the Centre for Digital Building Technology.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Required Qualifications and Skills&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PhD in Electrical, Mechanical, Civil, Architectural Engineering, or other related fields with sufficient training in optimization, control, and learning.&lt;/li&gt;
+&lt;li&gt;Demonstrated experience in modeling and analysis of power systems, building energy systems, or other DERs such as PV systems, EVs, and battery storage.&lt;/li&gt;
+&lt;li&gt;A demonstrated track record in applying optimization, control, and learning to large-scale energy systems.&lt;/li&gt;
+&lt;li&gt;Proficiency in statistical fundamentals and programming languages (e.g., Python, R, or MATLAB).&lt;/li&gt;
+&lt;li&gt;Strong oral and written communication skills, including the ability to efficiently organize technical information for publication and presentation.&lt;/li&gt;
+&lt;li&gt;Demonstrated interpersonal skills, including experience collaborating with a diverse interdisciplinary research team.&lt;/li&gt;
+&lt;li&gt;Experience with distribution network simulation, large-scale mixed-integer optimization, and digital twins is advantageous. Familiarity with hybrid quantum-classical optimization is also desirable.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;How to Apply&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;For first consideration, please submit the following application materials online 
+&lt;a href=&#34;https://careers.nus.edu.sg/job/Postdoctoral-Research-Fellow-%28Flexible-and-Resilient-Energy-Systems%29/34796-en_GB/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; or 
+&lt;a href=&#34;https://careers.nus.edu.sg/job/Postdoctoral-Research-Fellow-%28Flexible-and-Resilient-Energy-Systems%29/34793-en_GB/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Curriculum Vitae&lt;/li&gt;
+&lt;li&gt;Cover Letter describing your research interests and the relevance of your background&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Applications will receive full consideration until the positions are filled and only shortlisted applicants will be contacted. For enquiries, please contact Assistant Professor Maomao Hu at 
+&lt;a href=&#34;mailto:maomaohu@nus.edu.sg&#34;&gt;maomaohu@nus.edu.sg&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Oct 2026 | Welcoming Xiaofang and Shuyi to join our group.</title>
